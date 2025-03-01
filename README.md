@@ -61,6 +61,1826 @@ if __name__ == "__main__":
 ```
 
 With authentication it can be extended to also e.G. filter by language, add the repo README content up to line x or whatever. But for now and 5 minutes effort I'm happy with this :-)
+- [NtCreateUserProcessBOF](https://github.com/dmcxblue/NtCreateUserProcessBOF): An Aggressor Script that utilizes NtCreateUserProcess to run binaries
+- [NtCreateUserProcess](https://github.com/Cerbersec/NtCreateUserProcess): None
+- [NtCreateUserProcess](https://github.com/capt-meelo/NtCreateUserProcess): Minimal PoC developed as discuss in https://captmeelo.com/redteam/maldev/2022/05/10/ntcreateuserprocess.html
+- [DailyTaskScheduler](https://github.com/JohnAliyetti/DailyTaskScheduler): a small C++ (Windows) application that uses COM to talk to and create a scheduled task with the task scheduler.
+- [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad): Load .net assemblies from memory while having them appear to be loaded from an on-disk location.
+- [subtrace](https://github.com/subtrace/subtrace): Wireshark for Docker containers
+- [PoolProxy](https://github.com/nbaertsch/PoolProxy): Proxy function calls through the thread pool with ease
+- [EternalTerminal](https://github.com/MisterTea/EternalTerminal): Re-Connectable secure remote shell
+- [SuperMega](https://github.com/dobin/SuperMega): Stealthily inject shellcode into an executable
+- [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings.
+- [Windows-SignedBinary](https://github.com/Mr-Un1k0d3r/Windows-SignedBinary): None
+- [SigFlip](https://github.com/med0x2e/SigFlip): SigFlip is a tool for patching authenticode signed PE files (exe, dll, sys ..etc) without invalidating or breaking the existing signature.
+- [LayeredSyscall](https://github.com/WKL-Sec/LayeredSyscall): Generating legitimate call stack frame along with indirect syscalls by abusing Vectored Exception Handling (VEH) to bypass User-Land EDR hooks in Windows.
+- [gscript](https://github.com/gen0cide/gscript):  framework to rapidly implement custom droppers for all three major operating systems
+- [ZenLdr](https://github.com/Mav3rick33/ZenLdr): Basic implementation of Cobalt Strikes - User Defined Reflective Loader feature
+- [gemini-web-navigator](https://github.com/byt3bl33d3r/gemini-web-navigator): Experiments with Google Gemini's Vision capabilities for LLM driven/aided web navigation and desktop manipulation
+- [pci-segtest](https://github.com/nullenc0de/pci-segtest): A network segmentation and egress control testing tool for PCI DSS v4.0 compliance. Automatically discovers network segments, validates isolation between environments, and identifies potential data exfiltration channels. Designed for security teams to perform thorough and efficient compliance validation of cardholder data environments.
+- [SignalKeyBOF](https://github.com/0xRedpoll/SignalKeyBOF): BOF to decrypt Signal Desktop chat logs
+- [WhoYouCalling](https://github.com/H4NM/WhoYouCalling): Records an executable's network activity into a Full Packet Capture file (.pcap) and much more.
+- [ADIDNS_Parser](https://github.com/EspressoCake/ADIDNS_Parser): Parser and reconciliation tooling for large Active Directory environments.
+- [DitExplorer](https://github.com/trustedsec/DitExplorer): Tool for viewing NTDS.dit
+- [keycred](https://github.com/RedTeamPentesting/keycred): Generate and Manage KeyCredentialLinks
+- [tools](https://github.com/ThreatLabz/tools): Tools developed by the Zscaler ThreatLabz Threat Intelligence team
+- [delete-self-poc](https://github.com/LloydLabs/delete-self-poc): A way to delete a locked file, or current running executable, on disk.
+- [WinVisor](https://github.com/x86matthew/WinVisor): WinVisor - A hypervisor-based emulator for Windows x64 user-mode executables using Windows Hypervisor Platform API
+- [MCP-PoC](https://github.com/alfarom256/MCP-PoC): Minifilter Callback Patching Proof-of-Concept
+- [EarlyCascade](https://github.com/0xNinjaCyclone/EarlyCascade): A PoC for Early Cascade process injection technique.
+- [pafish](https://github.com/a0rtega/pafish): Pafish is a testing tool that uses different techniques to detect virtual machines and malware analysis environments in the same way that malware families do
+- [No_X_BOF](https://github.com/HackerCalico/No_X_BOF): Loading BOF & ShellCode without executable permission memory.
+- [AWS-malware-lab](https://github.com/adanalvarez/AWS-malware-lab): Creation of a laboratory for malware analysis in AWS
+- [HVNC](https://github.com/Meltedd/HVNC): Standalone HVNC Client & Server | Coded in C++ (Modified Tinynuke)
+- [implant.js](https://github.com/captainGeech42/implant.js): Proof-of-concept modular implant platform leveraging v8
+- [ReflectiveLoader](https://github.com/pwardle/ReflectiveLoader): A Reflective Loader for macOS
+- [Draugr](https://github.com/NtDallas/Draugr): BOF with Synthetic Stackframe
+- [PowerChell](https://github.com/scrt/PowerChell): A PowerShell console in C/C++ with all the security features disabled
+- [MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode): Collection of malware source code for a variety of platforms in an array of different programming languages.
+- [aardwolf](https://github.com/skelsec/aardwolf): Asynchronous RDP client for Python (headless)
+- [adiskreader-secretsdump](https://github.com/skelsec/adiskreader-secretsdump): Extract registry and NTDS secrets from local or remote disk images
+- [kovid-obfuscation-passes](https://github.com/djolertrk/kovid-obfuscation-passes): A set of LLVM and GCC based plugins that perform code obfuscation.
+- [WID_LoadLibrary](https://github.com/paskalian/WID_LoadLibrary): Reverse engineering winapi function loadlibrary.
+- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules): 📄 A curated list of awesome .cursorrules files
+- [TraceConnections](https://github.com/zodiacon/TraceConnections): Simple example for getting started with eBPF for Windows
+- [trivy](https://github.com/aquasecurity/trivy): Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+- [exploitguard](https://github.com/palantir/exploitguard): Documentation and supporting script sample for Windows Exploit Guard
+- [SMBAT](https://github.com/oldboy21/SMBAT): SMB Audit Tool you were looking for
+- [RoastInTheMiddle](https://github.com/0xe7/RoastInTheMiddle): None
+- [tscheduler](https://github.com/Tw1sm/tscheduler): Use Impacket's MS-TSCH implementation to remotely manage scheduled tasks
+- [impacket](https://github.com/fortra/impacket): Impacket is a collection of Python classes for working with network protocols.
+- [MimiMisc](https://github.com/S3cur3Th1sSh1t/MimiMisc): None
+- [redelk-ansible](https://github.com/fastlorenzo/redelk-ansible): Ansible roles to deploy RedELK
+- [windows-command-line-obfuscation](https://github.com/wietze/windows-command-line-obfuscation): Project for identifying executables that have command-line options that can be obfuscated, possibly bypassing detection rules.
+- [Invoke-ArgFuscator](https://github.com/wietze/Invoke-ArgFuscator): Invoke-ArgFuscator is an open-source, cross-platform PowerShell module that helps generate obfuscated command-lines for common system-native executables.
+- [orpheus](https://github.com/trustedsec/orpheus): Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
+- [creddump](https://github.com/moyix/creddump): Automatically exported from code.google.com/p/creddump
+- [SACL_Scanner](https://github.com/ToweringDragoon/SACL_Scanner): SACL Scanner is a tool designed to scan and analyze SACLs.
+- [humble_chameleon](https://github.com/claissg/humble_chameleon): Eating 2FA for Breakfast
+- [GitAccess](https://github.com/ajm4n/GitAccess): Automated GitHub Device Code Smshing 
+- [phishmarket](https://github.com/fkasler/phishmarket): A scenario repository for Phishmonger
+- [phishmonger](https://github.com/fkasler/phishmonger): Phishing Framework for Pentesters
+- [cuddlephish](https://github.com/fkasler/cuddlephish): Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
+- [snapback](https://github.com/fkasler/snapback): HTTP(s) Screenshots for Pen Testers Who Value Their Time
+- [scope_creep](https://github.com/fkasler/scope_creep): Mass target enumeration
+- [red-book](https://github.com/v4resk/red-book): The Red-book: The  Art of Offensive CyberSecurity
+- [SoaPy](https://github.com/xforcered/SoaPy): SoaPy is a Proof of Concept (PoC) tool for conducting offensive interaction with Active Directory Web Services (ADWS) from Linux hosts.
+- [SharpWnfSuite](https://github.com/daem0nc0re/SharpWnfSuite): C# Utilities for Windows Notification Facility
+- [wnfun](https://github.com/ionescu007/wnfun): WNF Utilities 4 Newbies (WNFUN)
+- [CasperStager](https://github.com/ustayready/CasperStager): PoC for persisting .NET payloads in Windows Notification Facility (WNF) state names using low-level Windows Kernel API calls.
+- [msftrecon](https://github.com/Arcanum-Sec/msftrecon): None
+- [Krueger](https://github.com/logangoins/Krueger): Proof of Concept (PoC) .NET tool for remotely killing EDR with WDAC
+- [MurmurHash3_Constexpr](https://github.com/Uri3n/MurmurHash3_Constexpr): C++ Constexpr Implementation Of MurmurHash3.
+- [SigGen](https://github.com/davidljohnson/SigGen): None
+- [cme-nxc-cheat-sheet](https://github.com/seriotonctf/cme-nxc-cheat-sheet): A cheatsheet for NetExec
+- [cent](https://github.com/xm1k3/cent): Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place
+- [tango](https://github.com/2ptr/tango): Find NTLM relay targets in a world of SMB signing
+- [Nuclei-AI-Prompts](https://github.com/reewardius/Nuclei-AI-Prompts): Nuclei-AI-Prompts
+- [deoptimizer](https://github.com/EgeBalci/deoptimizer): Evasion by machine code de-optimization.
+- [MentalTi](https://github.com/mannyfred/MentalTi): Mentally ill EtwTi parser
+- [whos_up](https://github.com/2ptr/whos_up): tiny script for finding alive web hosts
+- [BRC4-BOF-Artillery](https://github.com/paranoidninja/BRC4-BOF-Artillery): None
+- [SharpOxidResolver](https://github.com/S3cur3Th1sSh1t/SharpOxidResolver): IOXIDResolver from AirBus Security/PingCastle
+- [GPU-Malware](https://github.com/IceCoaled/GPU-Malware): This is a PoC using native windows API directx, to hide and decrypt shellcode via compute shader
+- [SkyFall-Pack](https://github.com/nickvourd/SkyFall-Pack): Your Skyfall Infrastructure Pack
+- [SC_DEMO](https://github.com/rbmm/SC_DEMO): None
+- [repomix](https://github.com/yamadashy/repomix): 📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
+- [ldrgen](https://github.com/gatariee/ldrgen): Template-based generation of shellcode loaders
+- [FaceDancer](https://github.com/Tylous/FaceDancer): FaceDancer is an exploitation tool aimed at creating hijackable, proxy-based DLLs by taking advantage of COM-based system DLL image loading
+- [minrm](https://github.com/gatariee/minrm): a minimalistic winrm client written in python
+- [atomic-red-team](https://github.com/redcanaryco/atomic-red-team): Small and highly portable detection tests based on MITRE's ATT&CK.
+- [malware-course-public](https://github.com/kbsec/malware-course-public): None
+- [susinternals](https://github.com/sensepost/susinternals): psexecsvc - a python implementation of PSExec's native service implementation
+- [ScreenshotBOF](https://github.com/CodeXTF2/ScreenshotBOF): An alternative screenshot capability for Cobalt Strike that uses WinAPI and does not perform a fork & run. Screenshot downloaded in memory.
+- [raccoon](https://github.com/nettitude/raccoon): None
+- [lolc2.github.io](https://github.com/lolc2/lolc2.github.io): lolC2 is a collection of C2 frameworks that leverage legitimate services to evade detection
+- [orbit](https://github.com/orbitscanner/orbit): Orbit Scanning Software
+- [DescribeNTSecurityDescriptor](https://github.com/p0dalirius/DescribeNTSecurityDescriptor): A cross-platform tool to parse and describe the contents of a raw ntSecurityDescriptor structure. 
+- [Stifle](https://github.com/logangoins/Stifle): .NET Post-Exploitation Utility for Abusing Explicit Certificate Mappings in ADCS
+- [EntraTokenAid](https://github.com/zh54321/EntraTokenAid): A pure PowerShell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens
+- [GraphPreConsentExplorer](https://github.com/zh54321/GraphPreConsentExplorer): A comprehensive list of usable Entra ID first-party clients with pre-consented Microsoft Graph scopes, in a simple YAML-file explorable with a simple HTML GUI.
+- [StringReaper](https://github.com/boku7/StringReaper): Reaping treasures from strings in remote processes memory 
+- [NES-Emulator](https://github.com/x86matthew/NES-Emulator): NES emulator written in C/C++ using pure WinAPI
+- [awesome-detection-engineer](https://github.com/st0pp3r/awesome-detection-engineer):  Online resources related to Detection Engineering. Detection rules, detection logic, attack samples, detection tests and emulation tools, logging configuration and best practices, event log references, resources, labs, data manipulation online tools, blogs, newsletters, good reads, books, trainings, podcasts, videos and twitter/x accounts.
+- [VSSCopy](https://github.com/Wh04m1001/VSSCopy): Small and dirty PoC for CVE-2021-36934
+- [XenoStealer](https://github.com/moom825/XenoStealer): None
+- [fileless-elf-exec](https://github.com/nnsee/fileless-elf-exec): Execute ELF files without dropping them on disk
+- [bloudstrike](https://github.com/redr0nin/bloudstrike): Linux CS bypass technique
+- [Sublime-persistence](https://github.com/rootd4ddy/Sublime-persistence): Windows persistence method that abuses sublime packages.
+- [Signal-DLL-Hijacking](https://github.com/redr0nin/Signal-DLL-Hijacking): DLL Malware for Signal Desktop. Now utilizes missing dbghelp.dll since Signal patched cryptbase.
+- [needle](https://github.com/blurbdust/needle): None
+- [AzureRedirector](https://github.com/dmcxblue/AzureRedirector): A C# project that builds a Web Applciation which redirects all HTTPS
+- [Stuxnet](https://github.com/pulpocaminante/Stuxnet): WMI virus, because funny
+- [Nuages](https://github.com/p3nt4/Nuages): A modular C2 framework
+- [DragonBot](https://github.com/fin3ss3g0d/DragonBot): Dragon NaturallySpeaking extension
+- [open-webui](https://github.com/open-webui/open-webui): User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [slinger](https://github.com/ghost-ng/slinger): An impacket-lite cli tool that combines many useful impacket functions using a single session.
+- [OCRMe](https://github.com/vxunderground/OCRMe): Tool designed to exfiltrate OneDrive Business OCR Data
+- [AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2): None
+- [OdinLdr](https://github.com/NtDallas/OdinLdr): Cobaltstrike Reflective Loader with Synthetic Stackframe
+- [Detect.Remote.ShadowSnapshot.Dump](https://github.com/I3IT/Detect.Remote.ShadowSnapshot.Dump): Detect Remote Local Credentials Dumping using a Shadow Snapshot
+- [devops](https://github.com/zolderio/devops): collection of scripts used for our devops blog
+- [notte](https://github.com/nottelabs/notte): The agentic internet
+- [bof-winrm-plugin-jump](https://github.com/FalconForceTeam/bof-winrm-plugin-jump): None
+- [BetterNetLoader](https://github.com/racoten/BetterNetLoader): A version of NetLoader, Execute Assemblies and Bypass ETW and AMSI using Hardware Breakpoints
+- [injectly](https://github.com/lklynet/injectly): Injectly is a simple, self-hosted code injector app designed to streamline the process of managing and injecting scripts across multiple websites.
+- [Being-A-Good-CLR-Host](https://github.com/xforcered/Being-A-Good-CLR-Host): None
+- [Windows-API-Hashing](https://github.com/LloydLabs/Windows-API-Hashing): This is a simple example and explanation of obfuscating API resolution via hashing
+- [Zeus](https://github.com/zeustrojancode/Zeus): NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. This repository is for study purposes only, do not message me about your lame hacking attempts. 
+- [FileRenameJunctionsEDRDisable](https://github.com/rad9800/FileRenameJunctionsEDRDisable): None
+- [fireprox](https://github.com/ustayready/fireprox): AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation
+- [people_researcher_pydanticai](https://github.com/t94j0/people_researcher_pydanticai): A rewrite of https://github.com/langchain-ai/people-researcher in PydanticAI. Education purposes only
+- [Patronusx](https://github.com/Michaeladsl/Patronusx): None
+- [ekkoProtect](https://github.com/nbaertsch/ekkoProtect): Nim ekko sleep implementation that persists original memory protections.
+- [StoneKeeper](https://github.com/fin3ss3g0d/StoneKeeper): StoneKeeper C2, an experimental EDR evasion framework for research purposes
+- [hummingbot](https://github.com/hummingbot/hummingbot): Open source software that helps you create and deploy high-frequency crypto trading bots
+- [emulator](https://github.com/momo5502/emulator): 🪅 Windows User Space Emulator 
+- [RustScan](https://github.com/RustScan/RustScan): 🤖 The Modern Port Scanner 🤖
+- [RustScan](https://github.com/spacialsec/RustScan): 🤖 The Modern, Blazing Fast Port Scanner 🤖
+- [solana-py](https://github.com/michaelhly/solana-py): Solana Python SDK
+- [LitterBox](https://github.com/BlackSnufkin/LitterBox): sandbox approach  for malware developers and red teamers to test payloads against detection mechanisms before deployment
+- [TokenSmith](https://github.com/JumpsecLabs/TokenSmith): TokenSmith generates Entra ID access & refresh tokens on offensive engagements. It is suitable for both covert adversary simulations and penetration tests with the tokens generated working out of the box with many popular Azure post exploitation tools.
+- [minegrief](https://github.com/blackmassgroup/minegrief): Self-spreading Java malware targeting Minecraft servers. Infected servers are capable of scanning for other vulnerable servers, encrypting Minecraft worlds, and phishing players who connect.
+- [Evilginx-Phishing-Infra-Setup](https://github.com/An0nUD4Y/Evilginx-Phishing-Infra-Setup): Evilginx Phishing Infrastructure Setup Guide - Securing Evilginx and Gophish Infrastructure, Removing IOCs, Phishing TTPs
+- [neur-app](https://github.com/NeurProjects/neur-app): The Intelligent Copilot for Solana
+- [my-ludus-roles](https://github.com/frack113/my-ludus-roles): Ansible Roles for Ludus
+- [BreadManModuleStomping](https://github.com/Allevon412/BreadManModuleStomping): None
+- [RPC-Backdoor](https://github.com/eladshamir/RPC-Backdoor): A basic emulation of an "RPC Backdoor"
+- [ModTask](https://github.com/jsecu/ModTask): None
+- [HellBunny](https://github.com/voidvxvt/HellBunny): Malleable shellcode loader written in C and Assembly utilizing direct or indirect syscalls for evading EDR hooks
+- [eliza](https://github.com/elizaOS/eliza): Autonomous agents for everyone
+- [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump): Active Directory information dumper via LDAP
+- [rustlualoader](https://github.com/djackreuter/rustlualoader): Shellcode loader that executes embedded Lua from Rust.
+- [Svartalfheim](https://github.com/NtDallas/Svartalfheim): Stage 0
+- [KrakenMask](https://github.com/NtDallas/KrakenMask): Sleep obfuscation
+- [RustSoliloquy](https://github.com/safedv/RustSoliloquy): A Rust implementation of Internal-Monologue — retrieving NetNTLM hashes without touching LSASS, leveraging SSPI for NTLM negotiation and indirect NTAPIs for core operations.
+- [Sickle](https://github.com/wetw0rk/Sickle): Payload development framework
+- [Impersonator-Shell](https://github.com/AleksaZatezalo/Impersonator-Shell): None
+- [AD-CS-Forest-Exploiter](https://github.com/MWR-CyberSec/AD-CS-Forest-Exploiter): Exploit AD CS misconfiguration allowing privilege escalation and persistence from any child domain to full forest compromise
+- [eidolon](https://github.com/eidolon-ai/eidolon): The first AI Agent Server, Eidolon is a pluggable Agent SDK and enterprise ready, deployment server for Agentic applications
+- [zods-llm-web-scrapper](https://github.com/ZODs-Labs/zods-llm-web-scrapper): Intelligent web scraping service powered by leading embedding models for automated content relevancy analysis and selective data extraction. Optimizes web scraping by identifying and retrieving the most valuable content.
+- [rig](https://github.com/0xPlaygrounds/rig): ⚙️🦀 Build portable, modular & lightweight Fullstack Agents
+- [openpilot](https://github.com/commaai/openpilot): openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 275+ supported cars.
+- [DCOMUploadExec](https://github.com/deepinstinct/DCOMUploadExec): DCOM Lateral movement POC abusing the IMsiServer interface - uploads and executes a payload remotely 
+- [PIC-Library](https://github.com/silentwarble/PIC-Library): A collection of position independent coding resources
+- [SilentLoad](https://github.com/ioncodes/SilentLoad): "Service-less" driver loading
+- [NiceDayPhishing](https://github.com/dmcxblue/NiceDayPhishing): None
+- [Eclipse](https://github.com/Kudaes/Eclipse): Activation Context Hijack
+- [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey): AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.
+- [Ulfberht](https://github.com/NtDallas/Ulfberht): Shellcode loader
+- [Mythic_NimSyscallPacker_Wrapper](https://github.com/som3canadian/Mythic_NimSyscallPacker_Wrapper): Mythic C2 wrapper for NimSyscallPacker
+- [Hannibal](https://github.com/MythicAgents/Hannibal): A Mythic Agent written in PIC C.
+- [json](https://github.com/nlohmann/json): JSON for Modern C++
+- [HiddenDesktop](https://github.com/kyleavery/HiddenDesktop): HVNC for Cobalt Strike
+- [PanGP_Extractor](https://github.com/t3hbb/PanGP_Extractor): Tool to extract username and password of current user from PanGPA in plaintext
+- [Exploit-Street](https://github.com/MzHmO/Exploit-Street): Complete list of LPE exploits for Windows (starting from 2023)
+- [TermHound](https://github.com/ajm4n/TermHound): None
+- [graphinder](https://github.com/Escape-Technologies/graphinder): 🕸️ Blazing fast GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce. 🕸️
+- [linux_bof_template](https://github.com/outflanknl/linux_bof_template): ELF Beacon Object File (BOF) Template
+- [linux_bof](https://github.com/chryzsh/linux_bof): ELF Beacon Object File (BOF) Template
+- [kali-soc-terraform](https://github.com/tayontech/kali-soc-terraform): This project is a Terraform-based implementation for deploying a Security Operations Center (SOC) using Kali Linux in AWS. It provides an Infrastructure as Code (IaC) solution that allows users to easily replicate and manage a complete SOC environment using the Kali Purple suite.
+- [malware](https://github.com/m4ul3r/malware): malware written for educational purposes
+- [earlycascade-injection](https://github.com/Whitecat18/earlycascade-injection): Early cascade injection PoC based on Outflanks blog post written in Rust
+- [TokenCert](https://github.com/nettitude/TokenCert): TokenCert
+- [tiny-json](https://github.com/rafagafe/tiny-json): The tiny-json is a versatile and easy to use json parser in C suitable for embedded systems. It is fast, robust and portable.
+- [Garen](https://github.com/lap1nou/Garen): Small Havoc agent made for fun
+- [anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts): A collection of projects designed to help developers quickly get started with building deployable applications using the Anthropic API
+- [ActiveDirectory-Tiering](https://github.com/Spicy-Toaster/ActiveDirectory-Tiering): Scripts and a short guide for using them to tier an Active Directory. Made for BSides Copenhagen 2024
+- [KexecDDPlus](https://github.com/scrt/KexecDDPlus): Exploiting the KsecDD Windows driver through Server Silos
+- [NtCreateUserProcess_rs](https://github.com/Teach2Breach/NtCreateUserProcess_rs): example using NtCreateUserProcess in rust
+- [tivan](https://github.com/irtimmer/tivan): Event Collector
+- [Carseat](https://github.com/0xthirteen/Carseat): Python implementation of GhostPack's Seatbelt situational awareness tool
+- [Citrix-Virtual-Apps-XEN-Exploit](https://github.com/watchtowrlabs/Citrix-Virtual-Apps-XEN-Exploit): Citrix Virtual Apps and Desktops (XEN) Unauthenticated RCE
+- [convoC2](https://github.com/cxnturi0n/convoC2): C2 infrastructure that allows Red Teamers to execute system commands on compromised hosts through Microsoft Teams. 
+- [LSA_reg2PDF](https://github.com/Cobaltlad/LSA_reg2PDF): Dumping LSA secrets: a story about task decorrelation
+- [flare-on-2024-writeups](https://github.com/stong/flare-on-2024-writeups): Solutions and writeups for the Flare-On 11 (2024) reverse engineering challenge
+- [ShadowDumper](https://github.com/Offensive-Panda/ShadowDumper): Shadow Dumper is a powerful tool used to dump LSASS memory, often needed in penetration testing and red teaming. It uses multiple advanced techniques to dump memory, allowing to access sensitive data in LSASS memory. 
+- [PolyDrop](https://github.com/MalwareSupportGroup/PolyDrop): A BYOSI (Bring-Your-Own-Script-Interpreter) Rapid Payload Deployment Toolkit
+- [AV-EDR-Lab-Environment-Setup](https://github.com/An0nUD4Y/AV-EDR-Lab-Environment-Setup): AV/EDR Lab environment setup references to help in Malware development
+- [OctoC2t](https://github.com/deletehead/OctoC2t): Simple C2 using GitHub repository as comms channel.
+- [mini-rv32ima](https://github.com/cnlohr/mini-rv32ima): A tiny C header-only risc-v emulator.
+- [rust-experiments](https://github.com/imflikk/rust-experiments): Various projects to practice using Rust
+- [Rocabella](https://github.com/nickvourd/Rocabella): Sniffing files generator
+- [earlycascade-injection](https://github.com/Cracked5pider/earlycascade-injection): early cascade injection PoC based on Outflanks blog post
+- [early_cascade_inj_rs](https://github.com/Teach2Breach/early_cascade_inj_rs): early cascade injection PoC based on Outflanks blog post, in rust
+- [CVE-2024-46538](https://github.com/EQSTLab/CVE-2024-46538): PfSense Stored XSS lead to Arbitrary Code Execution exploit
+- [OpenHashAPI](https://github.com/Scorpion-Security-Labs/OpenHashAPI): OpenHashAPI provides a secure method of communicating hashes and enables lightweight workflows for security practitioners and enthusiasts.
+- [sastsweep](https://github.com/chebuya/sastsweep): tool designed for identifying vulnerabilities in open source codebases at scale. It can gather and filter on key repository metrics such as popularity and project size
+- [rustclr](https://github.com/joaoviictorti/rustclr): Host CLR and run .NET binaries using Rust
+- [Cable](https://github.com/logangoins/Cable): .NET post-exploitation toolkit for Active Directory reconnaissance and exploitation
+- [detections](https://github.com/delivr-to/detections): A home for detection content developed by the delivr.to team
+- [p0wnedLoader](https://github.com/Cn33liz/p0wnedLoader): None
+- [godap](https://github.com/Macmod/godap): A complete terminal user interface (TUI) for LDAP.
+- [awesome-entra](https://github.com/merill/awesome-entra): 😎 Awesome list of all things related to Microsoft Entra
+- [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF): 🔥 Web-application firewalls (WAFs) from security standpoint.
+- [nifo](https://github.com/lkarlslund/nifo): Nuke It From Orbit - remove AV/EDR with physical access
+- [zizmor](https://github.com/woodruffw/zizmor): A static analysis tool for GitHub Actions
+- [T-70](https://github.com/0xTriboulet/T-70): A proof-of-concept shellcode loader that leverages AI/ML face recognition models to verify the identity of a user on a target system 
+- [T-1](https://github.com/0xTriboulet/T-1): T-1 is a shellcode loader that leverages ML techniques to detect VM environments
+- [awesome-email-security](https://github.com/0xAnalyst/awesome-email-security): A curated list of awesome resources related to enhancing your enterprise Email Security
+- [reg_snake](https://github.com/0xthirteen/reg_snake): Python tool to interact with WMI StdRegProv
+- [offensive-groovy](https://github.com/mez-0/offensive-groovy): Groovy Post Exploitation
+- [KernelCallbackTable-Injection-PoC](https://github.com/0xHossam/KernelCallbackTable-Injection-PoC): Proof of Concept for manipulating the Kernel Callback Table in the Process Environment Block (PEB) to perform process injection and hijack execution flow
+- [AuthStager](https://github.com/HulkOperator/AuthStager): None
+- [TypeLibWalker](https://github.com/CICADA8-Research/TypeLibWalker): TypeLib persistence technique
+- [ShareFouine](https://github.com/OtterHacker/ShareFouine): None
+- [EmbedPayloadInPng](https://github.com/Maldev-Academy/EmbedPayloadInPng): Embed a payload inside a PNG file
+- [ExecutePeFromPngViaLNK](https://github.com/Maldev-Academy/ExecutePeFromPngViaLNK): Extract and execute a PE embedded within a PNG file using an LNK file.
+- [NamelessC2](https://github.com/trickster0/NamelessC2): Nameless C2 - A C2 with all its components written in Rust
+- [Chrome-App-Bound-Encryption-Decryption](https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption): Tool to decrypt App-Bound encrypted keys in Chrome 127+, using the IElevator COM interface with path validation and encryption protections.
+- [Ghost](https://github.com/cpu0x00/Ghost): Evasive shellcode loader
+- [Rustic64](https://github.com/safedv/Rustic64): 64-bit, position-independent implant template for Windows in Rust.
+- [LECmd](https://github.com/EricZimmerman/LECmd): Lnk Explorer Command line edition!!
+- [dll-universal-patcher](https://github.com/namazso/dll-universal-patcher): A universal binary patching dll.
+- [dll-proxy-generator](https://github.com/namazso/dll-proxy-generator): Generate a proxy dll for arbitrary dll
+- [pwnlook](https://github.com/amjcyber/pwnlook): An offensive postexploitation tool that will give you complete control over the Outlook desktop application and therefore to the emails configured in it.
+- [bof-modules](https://github.com/mr-r3bot/bof-modules): BOF for C2 framework
+- [noldr](https://github.com/Teach2Breach/noldr): Dynamically resolve API function addresses at runtime in a secure manner.
+- [KrbRelay-SMBServer](https://github.com/decoder-it/KrbRelay-SMBServer): None
+- [RustiveDump](https://github.com/safedv/RustiveDump): LSASS memory dumper using only NTAPIs, creating a minimal minidump. It can be compiled as shellcode (PIC), supports XOR encryption, and remote file transmission.
+- [cred1py](https://github.com/SpecterOps/cred1py): A Python POC for CRED1 over SOCKS5
+- [IllusiveFog](https://github.com/ChaitanyaHaritash/IllusiveFog): Windows Administrator level Implant.
+- [SharpExclusionFinder](https://github.com/Friends-Security/SharpExclusionFinder): Tool designed to find folder exclusions using Windows Defender using command line utility MpCmdRun.exe as a low privileged user, without relying on event logs
+- [EDRenum-BOF](https://github.com/mlcsec/EDRenum-BOF): Identify common EDR processes, directories, and services. Simple BOF of Invoke-EDRChecker.
+- [ProvisionAppx](https://github.com/CCob/ProvisionAppx): None
+- [GoRedOps](https://github.com/EvilBytecode/GoRedOps): 🦫  | GoRedOps is a repository dedicated to gathering and sharing advanced techniques and offensive malware for Red Team, with a specific focus on the Go programming language, all is made for educational purpoeses only.
+- [Recursive-Loader](https://github.com/Evi1Grey5/Recursive-Loader): Recursive Loader
+- [awesome-tesla](https://github.com/teslahunt/awesome-tesla): A curated list of awesome resources related with Tesla Motors.
+- [createdump](https://github.com/rweijnen/createdump): Leverage WindowsApp createdump tool to obtain an lsass dump
+- [Open-Windows-Exec-Check](https://github.com/Freakazoidile/Open-Windows-Exec-Check): Takes known Windows credentials to determine which services on which hosts can be used for RCE. Current Checks: RDP, SMBexec, PSexec, Task Schedule (atexec), DCOM, WMI
+- [CheeseTools](https://github.com/klezVirus/CheeseTools): Self-developed tools for Lateral Movement/Code Execution
+- [kerberos_aes_key](https://github.com/seriotonctf/kerberos_aes_key): Generate AES128 and AES256 Kerberos keys from a given username, password, and realm
+- [JarPlant](https://github.com/w1th4d/JarPlant): Java archive implant toolkit.
+- [NyxInvoke](https://github.com/BlackSnufkin/NyxInvoke): NyxInvoke is a Rust CLI tool for running .NET assemblies, PowerShell, and BOFs with Patchless AMSI and ETW bypass features. with Dual-build support
+- [project-layout](https://github.com/golang-standards/project-layout): Standard Go Project Layout
+- [NetExec-Lab](https://github.com/Pennyw0rth/NetExec-Lab): Lab used for workshop and CTF
+- [ProcessInjectionTechniques](https://github.com/Offensive-Panda/ProcessInjectionTechniques): This comprehensive process injection series is crafted for cybersecurity enthusiasts, researchers, and professionals who aim to stay at the forefront of the field. It serves as a central repository of knowledge, offering in-depth exploration of various process injection techniques and methods used by adversaries. 
+- [recaptcha-phish](https://github.com/JohnHammond/recaptcha-phish): Phishing with a fake reCAPTCHA
+- [BlackLotus](https://github.com/ldpreload/BlackLotus): BlackLotus UEFI Windows Bootkit
+- [msiscan](https://github.com/sec-consult/msiscan): Scanning tool for identifying local privilege escalation issues in vulnerable MSI installers
+- [EXE-or-DLL-or-ShellCode](https://github.com/Dump-GUY/EXE-or-DLL-or-ShellCode): Just a simple silly PoC demonstrating executable "exe" file that can be used like exe, dll or shellcode...
+- [Bytecode_Jiu-Jitsu](https://github.com/ntt-zerolab/Bytecode_Jiu-Jitsu): PoC tools of Bytecode Jiu-Jitsu presented at Black Hat USA 2024 Briefings
+- [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump): Create a minidump of the LSASS process from memory
+- [kcmdump](https://github.com/synacktiv/kcmdump): Dump Kerberos tickets from the KCM database of SSSD
+- [ace-firefist](https://github.com/dobin/ace-firefist): Attack chain emulator. Write recipes for initial access easily
+- [gost](https://github.com/go-gost/gost): GO Simple Tunnel - a simple tunnel written in golang
+- [CodemerxDecompile](https://github.com/codemerx/CodemerxDecompile): The first standalone .NET decompiler for Mac, Linux and Windows
+- [magickey](https://github.com/gfek/magickey): None
+- [selfhash](https://github.com/snowytoxa/selfhash): SysCon14 release
+- [BypassUAC](https://github.com/0xlane/BypassUAC): Use ICMLuaUtil to Bypass UAC!
+- [SeamlessPass](https://github.com/Malcrove/SeamlessPass): A tool leveraging Kerberos tickets to get Microsoft 365 access tokens using Seamless SSO
+- [COMThanasia](https://github.com/CICADA8-Research/COMThanasia): A set of programs for analyzing common vulnerabilities in COM 
+- [tiny11builder](https://github.com/ntdevlabs/tiny11builder): Scripts to build a trimmed-down Windows 11 image.
+- [remote_wrapper](https://github.com/Flangvik/remote_wrapper): Extensible Mythic Wrapper that allows payload wrapping to occur on a remote host
+- [lair](https://github.com/lair-framework/lair): Lair is a reactive attack collaboration framework and web application built with meteor.
+- [lair-docker](https://github.com/lair-framework/lair-docker): Lair Framework dockerized.
+- [Nessus_Map](https://github.com/Ebryx/Nessus_Map): Parse .nessus file(s) and shows output in interactive UI
+- [Rust-for-Malware-Development](https://github.com/Whitecat18/Rust-for-Malware-Development): This repository contains my complete resources and coding practices for malware development using Rust 🦀. 
+- [GlobalUnProtect](https://github.com/rotarydrone/GlobalUnProtect): Decrypt GlobalProtect configuration and cookie files.
+- [wsgidav](https://github.com/mar10/wsgidav): A generic and extendable WebDAV server based on WSGI
+- [Detect-Hooks](https://github.com/anthemtotheego/Detect-Hooks): Proof of concept Beacon Object File (BOF) that attempts to detect userland hooks in place by AV/EDR
+- [HookFinder](https://github.com/fin3ss3g0d/HookFinder): Simple PoC to locate hooked functions by EDR in ntdll.dll
+- [quasar](https://github.com/mttaggart/quasar): quASAR: ASAR manipulation made easy
+- [obfusheader.h](https://github.com/ac3ss0r/obfusheader.h): Obfusheader.h is a portable header file for C++14 compile-time obfuscation.
+- [node-ffi-rs](https://github.com/zhangyuang/node-ffi-rs): Implement ffi in Node.js by Rust and NAPI
+- [node-rcedit](https://github.com/electron/node-rcedit): Node module to edit resources of exe
+- [FlavorTown](https://github.com/Wra7h/FlavorTown): Various ways to execute shellcode 
+- [webdav-client-python-3](https://github.com/ezhov-evgeny/webdav-client-python-3): Easy to use WebDAV Client for Python 3.x
+- [evil-electron](https://github.com/parsiya/evil-electron): Backdoored Electron app.asar
+- [PowerZure](https://github.com/hausec/PowerZure): PowerShell framework to assess Azure security
+- [beemka](https://github.com/ctxis/beemka): Basic Electron Exploitation
+- [discord-enable-devtools](https://github.com/brunos3d/discord-enable-devtools): 🚀 zx - Bring your Discord's devtools back to life (again)
+- [OSCP-Priv-Esc](https://github.com/C0nd4/OSCP-Priv-Esc): Mind maps / flow charts to help with privilege escalation on the OSCP. 
+- [chlonium](https://github.com/rxwx/chlonium): Chromium Cookie import / export tool
+- [SharpNBTScan](https://github.com/BronzeTicket/SharpNBTScan): NetBIOS scanning tool written in c#
+- [macho-loader](https://github.com/outflanknl/macho-loader): None
+- [wildPwn](https://github.com/hlldz/wildPwn): Brute forcer and shell deployer for WildFly
+- [phnt-single-header](https://github.com/mrexodia/phnt-single-header): Single header version of System Informer's phnt library.
+- [DelayedMove](https://github.com/katahiromz/DelayedMove): Move files on reboot
+- [w32_mutex](https://github.com/katahiromz/w32_mutex): std::mutex and std::recursive_mutex for old C++/Win32 compilers
+- [smalldll](https://github.com/katahiromz/smalldll): The empty smallest DLL file
+- [firepwd](https://github.com/lclevy/firepwd): firepwd.py, an open source tool to decrypt Mozilla protected passwords
+- [goffloader](https://github.com/praetorian-inc/goffloader): A Go implementation of Cobalt Strike style BOF/COFF loaders.
+- [WASSUP-WASM](https://github.com/kartikdurg/WASSUP-WASM): "WASSUP-WASM" is a tiny application that can be used to download and execute the WebAssembly binary using Node.JS.
+- [packer](https://github.com/evanw/packer): Simple port of /packer/ by Dean Edwards to node.js
+- [LinkerMod](https://github.com/Nukem9/LinkerMod): Enhancements for Black Ops' modtools
+- [QuickDllProxy](https://github.com/Nukem9/QuickDllProxy): A header-only DLL proxy stub generation library built with C++20.
+- [.NET-Profiler-DLL-Hijack](https://github.com/djhohnstein/.NET-Profiler-DLL-Hijack): Implementation of the .NET Profiler DLL hijack in C#
+- [enumhandles_BOF](https://github.com/Octoberfest7/enumhandles_BOF): None
+- [limoncello](https://github.com/jonpalmisc/limoncello): Yet another LLVM-based obfuscator
+- [hackshell](https://github.com/hackerschoice/hackshell): Make BASH stealthy and hacker friendly with lots of bash functions
+- [VerifierDLL](https://github.com/zodiacon/VerifierDLL): Example of building an application verifer DLL
+- [wush](https://github.com/coder/wush): simplest & fastest way to transfer files between computers via WireGuard
+- [PPLSystem](https://github.com/Slowerzs/PPLSystem): None
+- [Sliver-CPPImplant2](https://github.com/MrAle98/Sliver-CPPImplant2): Sliver agent rewritten in C++
+- [CodeInjection](https://github.com/11philip22/CodeInjection): Collection of shellcode injection and execution techniques
+- [GhostStrike](https://github.com/stivenhacker/GhostStrike): Deploy stealthy reverse shells using advanced process hollowing with GhostStrike – a C++ tool for ethical hacking and Red Team operations.
+- [wsb-detect](https://github.com/LloydLabs/wsb-detect): wsb-detect enables you to detect if you are running in Windows Sandbox ("WSB")
+- [EPI](https://github.com/Kudaes/EPI): Threadless Process Injection through entry point hijacking
+- [rust_tips_and_tricks](https://github.com/Kudaes/rust_tips_and_tricks): Rust For Windows Cheatsheet
+- [ntlmrelayx.py_to_exe](https://github.com/LuemmelSec/ntlmrelayx.py_to_exe): None
+- [RemotePotato0](https://github.com/antonioCoco/RemotePotato0): Windows Privilege Escalation from User to Domain Admin.
+- [MyMSIAnalyzer](https://github.com/CICADA8-Research/MyMSIAnalyzer): Analyse MSI files for vulnerabilities
+- [C3](https://github.com/WithSecureLabs/C3): Custom Command and Control (C3). A framework for rapid prototyping of custom C2 channels, while still providing integration with existing offensive toolkits.
+- [BlackMarlinExec](https://github.com/byt3n33dl3/BlackMarlinExec): Seven Degrees of Domain Admin
+- [ExecuteVBAwithRtlMoveMemory](https://github.com/mobdk/ExecuteVBAwithRtlMoveMemory): Execute your VBA macro with RtlMoveMemory only
+- [SneakCalls](https://github.com/bytesundso/SneakCalls): direct systemcalls with a modern c++20 interface.
+- [PeHelper](https://github.com/bytesundso/PeHelper): None
+- [PE-parser](https://github.com/AlionGreen/PE-parser): A Simple PE parser.
+- [BasicLDR](https://github.com/AlionGreen/BasicLDR): BasicLDR: A Reflective DLL Loader
+- [apc-injection](https://github.com/AlionGreen/apc-injection): Process Injection: APC Injection
+- [VectoredExceptionHandling](https://github.com/passthehashbrowns/VectoredExceptionHandling): None
+- [AADOutsider-py](https://github.com/synacktiv/AADOutsider-py): Python3 rewrite of AsOutsider features of AADInternals
+- [code-rag-bench](https://github.com/code-rag-bench/code-rag-bench): CodeRAG-Bench: Can Retrieval Augment Code Generation?
+- [MLE-agent](https://github.com/MLSysOps/MLE-agent): 🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Ollama, etc supported. :fireworks: Code RAG
+- [Useful-COM-WMI](https://github.com/itaymigdal/Useful-COM-WMI): Some Nim and Powershell snippets for (ab)using COM and WMI for various useful purposes.
+- [NtDumpBOF](https://github.com/deh00ni/NtDumpBOF): None
+- [BOAZ_beta](https://github.com/thomasxm/BOAZ_beta): Multilayered AV/EDR Evasion Framework
+- [processhacker](https://github.com/mirror/processhacker): svn://svn.code.sf.net/p/processhacker/code
+- [process_doppelganging](https://github.com/hasherezade/process_doppelganging): My implementation of enSilo's Process Doppelganging (PE injection technique)
+- [NtCreateUserProcess](https://github.com/BlackOfWorld/NtCreateUserProcess): A small NtCreateUserProcess PoC that spawns a Command prompt.
+- [win-exec-calc-shellcode](https://github.com/peterferrie/win-exec-calc-shellcode): A small, null-free Windows shellcode that executes calc.exe (x86/x64, all OS/SPs)
+- [TamperingSyscalls](https://github.com/rad9800/TamperingSyscalls): None
+- [Dropper](https://github.com/marcusbotacin/Dropper): Embed an executable as a PE resource, drops and launches it in runtime.
+- [WinSpoof](https://github.com/mobdk/WinSpoof): Use TpAllocWork, TpPostWork and TpReleaseWork to execute machine code
+- [smbcrawler](https://github.com/SySS-Research/smbcrawler): smbcrawler is no-nonsense tool that takes credentials and a list of hosts and 'crawls' (or 'spiders') through those shares
+- [Handle-Hijacking-Anti-Cheat-Bypass](https://github.com/Apxaey/Handle-Hijacking-Anti-Cheat-Bypass): This is a Anti-Cheat bypass written in c++ by Apxaey, and makes use of Microsoft's undocumented Native API. I tested this specifically on VAC, however it should bypass any other usermode anticheats. This is by no means a complete 'bypass'; rather it should be used in conjunction with other bypass techniques. Using this with unique code, should ensure you stay undetected by user-mode anti-cheats such as VAC.. I have provided a YouTube tutorial on how to make this software which i highly recommend you watch. If you like my stuff, feel free to join my discord server https://discord.gg/GVyENvk
+- [Microsoft-Kerberos](https://github.com/thalpius/Microsoft-Kerberos): I have created a small C# project that requests a Ticket Granting Service (TGS) ticket using KerberosSecurityTokenProvider to use for Kerberoasting and an option to request an Azure AD SSO TGS.
+- [EvilnoVNC](https://github.com/JoelGMSec/EvilnoVNC): Ready to go Phishing Platform
+- [AggressorScripts](https://github.com/harleyQu1nn/AggressorScripts): Collection of Aggressor scripts for Cobalt Strike 3.0+ pulled from multiple sources
+- [SharpWMI](https://github.com/GhostPack/SharpWMI): SharpWMI is a C# implementation of various WMI functionality.
+- [Shellcode-Hide](https://github.com/SaadAhla/Shellcode-Hide): This repo contains : simple shellcode Loader , Encoders (base64 - custom - UUID - IPv4 - MAC), Encryptors (AES), Fileless Loader (Winhttp, socket)
+- [NetshHelperBeacon](https://github.com/outflanknl/NetshHelperBeacon): Example DLL to load from Windows NetShell
+- [OST-C2-Spec](https://github.com/rasta-mouse/OST-C2-Spec): Open Source C&C Specification
+- [injection-for-dummies](https://github.com/whokilleddb/injection-for-dummies): A collection of PoCs for different injection techniques on Windows!
+- [FunctionStomping](https://github.com/Idov31/FunctionStomping): Shellcode injection technique. Given as C++ header, standalone Rust program or library.
+- [GadgetToJScript](https://github.com/med0x2e/GadgetToJScript): A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA based scripts.
+- [AddressOfEntryPoint-injection](https://github.com/timwhitez/AddressOfEntryPoint-injection): x64 version
+- [Thread-Pool-Injection-PoC](https://github.com/Uri3n/Thread-Pool-Injection-PoC): Proof of concept code for thread pool based process injection in Windows.
+- [maldocs](https://github.com/Mayyhem/maldocs): None
+- [pafishmacro](https://github.com/alessiodallapiazza/pafishmacro): Pafish Macro is a Macro enabled Office Document to detect malware analysis systems and sandboxes. It uses evasion & detection techniques implemented by malicious documents.
+- [PersonalTools](https://github.com/DeFlanko/PersonalTools): My repository of Power Tools that i have created or found useful. 
+- [Deep-Drop](https://github.com/HackingLZ/Deep-Drop): Machine learning enabled dropper
+- [MalDocs](https://github.com/ChristianWeiler/MalDocs): None
+- [stdVBA](https://github.com/sancarn/stdVBA): VBA Standard Library - A Collection of libraries to form a common standard layer for modern VBA applications.
+- [excelrat](https://github.com/ed6767/excelrat): Horrible Proof Of Concept Remote Access Trojan made in VBA for Excel
+- [powershell-reverse-shell](https://github.com/op7ic/powershell-reverse-shell): Simple Powershell Reverse Shell with handling server in python
+- [FunWithMacros](https://github.com/aut0m8r/FunWithMacros): Companion content for my 'Fun with Office Macros' webcast.
+- [Offensive-SysAdmin-Security-Utilities](https://github.com/maxamin/Offensive-SysAdmin-Security-Utilities): Tools and scripts for offensive sysadmin and security tasks, enhancing penetration testing and system administration with a focus on security testing and resilience.
+- [getgit](https://github.com/stufus/getgit): This is a quick script to clone an entire organisation's gitlab from a low privileged user's perspective
+- [vba-obfuscator](https://github.com/bonnetn/vba-obfuscator): 2018 School project - PoC of malware code obfuscation in Word macros
+- [VBA](https://github.com/MrAnde7son/VBA): Offensive VBA 
+- [Offensive-VBA-and-XLS-Entanglement](https://github.com/BC-SECURITY/Offensive-VBA-and-XLS-Entanglement): None
+- [SpotifyC2](https://github.com/JohnWoodman/SpotifyC2): Command and Control using Spotify acrostics and descriptions
+- [VBA-Macro-Reverse-Shell](https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell): Fully functioning reverse shell written entirely in VBA.
+- [CustomXMLPart](https://github.com/mgeeky/CustomXMLPart): A PoC weaponising CustomXMLPart for hiding malware code inside of Office document structures.
+- [RobustPentestMacro](https://github.com/mgeeky/RobustPentestMacro): This is a rich-featured Visual Basic macro code for use during Penetration Testing assignments, implementing various advanced post-exploitation techniques.
+- [VBA-Macro-Projects](https://github.com/JohnWoodman/VBA-Macro-Projects): This repository is a collection of my malicious VBA projects.
+- [VBA-macro-experiments](https://github.com/Adepts-Of-0xCC/VBA-macro-experiments): Collection of VBA macro published in our twitter / blog
+- [stego-playground](https://github.com/xpn/stego-playground): None
+- [HWSyscalls](https://github.com/Dec0ne/HWSyscalls): HWSyscalls is a new method to execute indirect syscalls using HWBP, HalosGate and a synthetic trampoline on kernel32 with HWBP.
+- [SharpAzToken](https://github.com/HackmichNet/SharpAzToken): None
+- [com_inject](https://github.com/mdsecactivebreach/com_inject): None
+- [Priv2Admin](https://github.com/gtworek/Priv2Admin): Exploitation paths allowing you to (mis)use the Windows Privileges to elevate your rights within the OS.
+- [sepriv](https://github.com/TarlogicSecurity/sepriv): Tool to manage user privileges
+- [MirrorDump](https://github.com/CCob/MirrorDump): Another LSASS dumping tool that uses a dynamically compiled  LSA plugin to grab an lsass handle and API hooking for capturing the dump in memory
+- [DuplicateDump](https://github.com/Hagrid29/DuplicateDump): Dumping LSASS with a duplicated handle from custom LSA plugin
+- [ScriptBlock-Smuggling](https://github.com/BC-SECURITY/ScriptBlock-Smuggling): Example code samples from our ScriptBlock Smuggling Blog post
+- [AMSI_VEH](https://github.com/vxCrypt0r/AMSI_VEH): A Powershell AMSI Bypass technique via Vectored Exception Handler (VEH). This technique does not perform assembly instruction patching, function hooking or Import Address Table (IAT) modification.
+- [RedTeaming-Tactics-and-Techniques](https://github.com/mantvydasb/RedTeaming-Tactics-and-Techniques): Red Teaming Tactics and Techniques
+- [RTImplant](https://github.com/pwn1sher/RTImplant): Just another casual shellcode native loader
+- [rep-research](https://github.com/joe-desimone/rep-research): None
+- [MSBuildShell](https://github.com/Cn33liz/MSBuildShell): MSBuildShell, a Powershell Host running within MSBuild.exe
+- [BAADTokenBroker](https://github.com/secureworks/BAADTokenBroker): None
+- [GreatSCT](https://github.com/GreatSCT/GreatSCT): The project is called Great SCT (Great Scott). Great SCT is an open source project to generate application white list bypasses. This tool is intended for  BOTH red and blue team.
+- [rust-windows-shellcode](https://github.com/b1tg/rust-windows-shellcode): Windows shellcode development in Rust
+- [CScriptShell](https://github.com/Cn33liz/CScriptShell): CScriptShell, a Powershell Host running within cscript.exe 
+- [ShellLink](https://github.com/securifybv/ShellLink): A .NET Class Library for processing ShellLink (LNK) files
+- [SSHClient](https://github.com/skahwah/SSHClient): A C# SSH client
+- [SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker): Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services and each service binaries metadata, installed drivers and each drivers metadata, all for the presence of known defensive products such as AV's, EDR's and logging tools.
+- [SMUC](https://github.com/karemfaisal/SMUC): Simplified MITRE Use Cases, it describes the Attack and Detection
+- [PentestDB](https://github.com/safe6Sec/PentestDB): 各种数据库的利用姿势
+- [VectoredExceptionHandling](https://github.com/xforcered/VectoredExceptionHandling): None
+- [Coeus](https://github.com/Gr1mmie/Coeus): ADSI based SA tool
+- [WMEye](https://github.com/pwn1sher/WMEye): WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
+- [WMIEnum](https://github.com/Gr1mmie/WMIEnum): WMI SA stuffs
+- [SharpShooter](https://github.com/mdsecactivebreach/SharpShooter): Payload Generation Framework
+- [DotNetToJScript](https://github.com/tyranid/DotNetToJScript): A tool to create a JScript file which loads a .NET v2 assembly from memory.
+- [SharpC2](https://github.com/rasta-mouse/SharpC2): Command and Control Framework written in C#
+- [WebSafeCompiler](https://github.com/DosX-dev/WebSafeCompiler): A powerfull websites compiler/obfuscator for optimization or intellectual property protection purposes.
+- [HellHall](https://github.com/Maldev-Academy/HellHall): Performing Indirect Clean Syscalls
+- [Venoma](https://github.com/ProcessusT/Venoma): Yet another C++ Cobalt Strike beacon dropper with Compile-Time API hashing and custom indirect syscalls execution
+- [DLL-To-Shellcode](https://github.com/Uri3n/DLL-To-Shellcode): Yet Another Shellcode Conversion Tool
+- [PigScheduleTask](https://github.com/evilashz/PigScheduleTask): 添加计划任务方法集合
+- [ProxyAPICall](https://github.com/evilashz/ProxyAPICall): Just another version of the custom stack call from Proxy-Function-Calls-For-ETwTI
+- [PigSyscall](https://github.com/evilashz/PigSyscall): An implementation of an indirect system call
+- [ModuleStomping](https://github.com/WithSecureLabs/ModuleStomping): https://blog.f-secure.com/hiding-malicious-code-with-module-stomping/
+- [DLL-Hollow-PoC](https://github.com/SECFORCE/DLL-Hollow-PoC): DLL Hollowing PoC - Remote and Self shellcode injection
+- [neuvik-terraform-workshop](https://github.com/Neuvik/neuvik-terraform-workshop): Neuviks Terraform Red Team Workshop
+- [inProc_Evade_Get-InjectedThread](https://github.com/trustedsec/inProc_Evade_Get-InjectedThread): PoC code from blog
+- [merlin](https://github.com/MythicAgents/merlin): Cross-platform post-exploitation HTTP Command & Control agent written in golang
+- [Graphpython](https://github.com/mlcsec/Graphpython): Modular cross-platform Microsoft Graph API (Entra, o365, and Intune) enumeration and exploitation toolkit
+- [TrickDump](https://github.com/ricardojoserf/TrickDump): Dump lsass using only NTAPI functions creating 3 JSON and 1 ZIP file... and generate the MiniDump file later!
+- [apeman](https://github.com/hotnops/apeman): AWS Attack Path Management Tool - Walking on the Moon
+- [DeadPotato](https://github.com/lypd0/DeadPotato): DeadPotato is a windows privilege escalation utility from the Potato family of exploits, leveraging the SeImpersonate right to obtain SYSTEM privileges.        This script has been customized from the original GodPotato source code by BeichenDream.
+- [SCCMSecrets](https://github.com/synacktiv/SCCMSecrets): SCCMSecrets.py aims at exploiting SCCM policies distribution for credentials harvesting, initial access and lateral movement.
+- [BOF_NativeAPI_Definitions-VSCode](https://github.com/EspressoCake/BOF_NativeAPI_Definitions-VSCode): A VSCode plugin to assist with BOF development.
+- [PyRIT](https://github.com/Azure/PyRIT): The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
+- [.NET_PROFILER_DLL_LOADING](https://github.com/Offensive-Panda/.NET_PROFILER_DLL_LOADING): .NET profiler DLL loading can be abused to make a legit .NET application load a malicious DLL using environment variables. This exploit is loading a malicious DLL using Task Scheduler (MMC) to bypass UAC and getting admin privileges.
+- [tldfinder](https://github.com/projectdiscovery/tldfinder): A streamlined tool for discovering private TLDs for security research.
+- [koppeling-p](https://github.com/klezVirus/koppeling-p): Adaptive DLL hijacking / dynamic export forwarding - EAT preserve
+- [LeakedWallpaper](https://github.com/MzHmO/LeakedWallpaper): Leak of any user's NetNTLM hash. Fixed in KB5040434
+- [xllpoc](https://github.com/moohax/xllpoc): Code Exec via Excel
+- [VBA-RunPE](https://github.com/itm4n/VBA-RunPE): A VBA implementation of the RunPE technique or how to bypass application whitelisting.
+- [RunPE](https://github.com/Zer0Mem0ry/RunPE): Code that allows running another windows PE in the same address space as the host process.
+- [EtwTi-FluctuationMonitor](https://github.com/jdu2600/EtwTi-FluctuationMonitor): Uses Threat-Intelligence ETW events to identify shellcode regions being hidden by fluctuating memory protections
+- [lil-pwny](https://github.com/PaperMtn/lil-pwny): Fast offline auditing of Active Directory passwords using Python.
+- [OfficePurge](https://github.com/mandiant/OfficePurge): None
+- [EvilClippy](https://github.com/outflanknl/EvilClippy): A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools. Runs on Linux, OSX and Windows.
+- [ASRepCatcher](https://github.com/Yaxxine7/ASRepCatcher): Make everyone in your VLAN ASRep roastable
+- [Gato-X](https://github.com/AdnaneKhan/Gato-X): GitHub Attack Toolkit - Extreme Edition - A static analysis and exploit toolkit for GitHub Actions.
+- [Maestro](https://github.com/Mayyhem/Maestro): Abusing Intune for Lateral Movement over C2
+- [Invoke-Maldaptive](https://github.com/MaLDAPtive/Invoke-Maldaptive): MaLDAPtive is a framework for LDAP SearchFilter parsing, obfuscation, deobfuscation and detection.
+- [Developer.Handbook](https://github.com/JumpsecLabs/Developer.Handbook): None
+- [SharpSocks](https://github.com/nettitude/SharpSocks): Tunnellable HTTP/HTTPS socks4a proxy written in C# and deployable via PowerShell
+- [smbtakeover](https://github.com/zyn3rgy/smbtakeover): BOF and Python3 implementation of technique to unbind 445/tcp on Windows via SCM interactions 
+- [edr_blocker](https://github.com/TierZeroSecurity/edr_blocker): Blocks EDR Telemetry by performing Person-in-the-Middle attack where network filtering is applied using iptables. The blocked destination IP addresses are parsed based on the server name in TLS Client Hello packet and the provided blocked server name (or blocked string) list in the file.
+- [thread_namecalling](https://github.com/hasherezade/thread_namecalling): Process Injection using Thread Name
+- [SyscallTempering](https://github.com/Allevon412/SyscallTempering): None
+- [SharpLdapRelayScan](https://github.com/klezVirus/SharpLdapRelayScan): C# Port of LdapRelayScan
+- [SessionExec](https://github.com/Leo4j/SessionExec): Execute commands in other Sessions
+- [adexplorersnapshot-rs](https://github.com/t94j0/adexplorersnapshot-rs): None
+- [crux](https://github.com/mttaggart/crux): A proof-of-concept malicious Chrome extension
+- [ChromeStealer](https://github.com/BernKing/ChromeStealer): ChromeStealer is a tool for educational purposes to demonstrate how to extract and decrypt stored passwords from Google Chrome on a Windows system using C/C++. 
+- [ADSearch](https://github.com/tomcarver16/ADSearch): A tool to help query AD via the LDAP protocol
+- [SecurePreferencesFile](https://github.com/Pica4x6/SecurePreferencesFile): None
+- [RemoteSessionEnum](https://github.com/0xv1n/RemoteSessionEnum): Remotely Enumerate sessions using undocumented Windows Station APIs
+- [IHxExec](https://github.com/CICADA8-Research/IHxExec): Process injection alternative
+- [azurehound-queries](https://github.com/emiliensocchi/azurehound-queries): 🌩️ Collection of BloodHound queries for Azure
+- [mailgoose](https://github.com/CERT-Polska/mailgoose): A web application that allows the users to check whether their SPF, DMARC and DKIM configuration is set up correctly.
+- [ETWListicle](https://github.com/whokilleddb/ETWListicle): List the ETW provider(s) in the registration table of a process.
+- [runpe-x64](https://github.com/fern89/runpe-x64): RunPE adapted for x64 and written in C, does not use RWX
+- [MemFiles](https://github.com/Octoberfest7/MemFiles): A CobaltStrike toolkit to write files produced by Beacon to memory instead of disk
+- [DevOps-The-Hard-Way-AWS](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS): This repository contains free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS
+- [EDRPrison](https://github.com/senzee1984/EDRPrison): Leverage a legitimate WFP callout driver to prevent EDR agents from sending telemetry
+- [DojoLoader](https://github.com/naksyn/DojoLoader): Generic PE loader for fast prototyping evasion techniques
+- [frp](https://github.com/fatedier/frp): A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [riscv-vm](https://github.com/bit-hack/riscv-vm): A Small RISC-V Virtual Machine
+- [CodeBERT](https://github.com/microsoft/CodeBERT): CodeBERT
+- [themida-unmutate](https://github.com/ergrelet/themida-unmutate): Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.
+- [Packer_Development](https://github.com/rtecCyberSec/Packer_Development): Slides & Code snippets for a workshop held @ x33fcon 2024
+- [riscy-business](https://github.com/thesecretclub/riscy-business): RISC-V Virtual Machine
+- [RemoteKrbRelay](https://github.com/CICADA8-Research/RemoteKrbRelay): Remote Kerberos Relay made easy! Advanced Kerberos Relay Framework
+- [xstd](https://github.com/can1357/xstd): A portable header only library extending the C++20 STL.
+- [ApexLdr](https://github.com/Cipher7/ApexLdr): ApexLdr is a DLL Payload Loader written in C
+- [Ares](https://github.com/Cerbersec/Ares): Project Ares is a Proof of Concept (PoC) loader written in C/C++ based on the Transacted Hollowing technique
+- [SK8RAT](https://github.com/slyd0g/SK8RAT): C++ implant that interfaces with a SK8PARK server
+- [Throwback](https://github.com/silentbreaksec/Throwback): HTTP/S Beaconing Implant
+- [dearg-thread-ipc-stealth](https://github.com/LloydLabs/dearg-thread-ipc-stealth): A novel technique to communicate between threads using the standard ETHREAD structure
+- [ntqueueapcthreadex-ntdll-gadget-injection](https://github.com/LloydLabs/ntqueueapcthreadex-ntdll-gadget-injection): This novel way of using NtQueueApcThreadEx by abusing the ApcRoutine and SystemArgument[0-3] parameters by passing a random pop r32; ret gadget can be used for stealthy code injection. 
+- [process-enumeration-stealth](https://github.com/LloydLabs/process-enumeration-stealth): None
+- [shellcode-plain-sight](https://github.com/LloydLabs/shellcode-plain-sight): Hiding shellcode in plain sight within a large memory region. Inspired by technique used by Raspberry Robin's Roshtyak
+- [Empress](https://github.com/pygrum/Empress): A POC agent for the Monarch C2 Framework.
+- [gimmick](https://github.com/pygrum/gimmick): Section-based payload obfuscation technique for x64
+- [AtlasC2](https://github.com/Gr1mmie/AtlasC2): C# C2 Framework centered around Stage 1 operations
+- [COFFInjector](https://github.com/0xpat/COFFInjector): PoC MSVC COFF Object file loader/injector.
+- [COFFI](https://github.com/serge1/COFFI): A header-only C++ library for accessing files in COFF binary format. (Including Windows PE/PE+ formats)
+- [aes_dust](https://github.com/odzhan/aes_dust): Unlicensed tiny / small portable implementation of 128/256-bit AES encryption in C, x86, AMD64, ARM32 and ARM64 assembly
+- [pendulum](https://github.com/kyleavery/pendulum): Linux Sleep Obfuscation
+- [BOF-Exec](https://github.com/Uri3n/BOF-Exec): Tool That Loads and Executes a Beacon Object File With Arguments
+- [GhostInjector](https://github.com/li4321/GhostInjector): None
+- [impacket-dcom](https://github.com/sud0Ru/impacket-dcom): Adjusted version of the impacket-dcomexec script to work against Windows 10
+- [ClrGuard](https://github.com/endgameinc/ClrGuard): None
+- [profiler-lateral-movement](https://github.com/MayerDaniel/profiler-lateral-movement): Lateral Movement via the .NET Profiler
+- [MalwareAdventurez](https://github.com/eversinc33/MalwareAdventurez): My adventures in learning about different userland malware techniques, such as syscalls, injection, unhooking or sandbox evasion.
+- [HostingCLR](https://github.com/etormadiv/HostingCLR): Executing a .NET Assembly from C++ in Memory (CLR Hosting)
+- [OffSecDevOps](https://github.com/omaidf/OffSecDevOps): Offensive Security + DevOps = Fun. Not Safe For AWS.
+- [jenkins-psp](https://github.com/ChoiSG/jenkins-psp): PoC jenkins files for generating PowerSharpPack payloads
+- [MemoryModulePP](https://github.com/bb107/MemoryModulePP): MemoryModule which compatible with Win32 API and support exception handling
+- [SlackEnum](https://github.com/Wh1t3Rh1n0/SlackEnum): A user enumeration tool for Slack.
+- [CSharpWinRM](https://github.com/mez-0/CSharpWinRM): .NET 4.0 WinRM API Command Execution
+- [InlineExecute-Assembly](https://github.com/xforcered/InlineExecute-Assembly): InlineExecute-Assembly is a proof of concept Beacon Object File (BOF) that allows security professionals to perform in process .NET assembly execution as an alternative to Cobalt Strikes traditional fork and run execute-assembly module
+- [Cycotic](https://github.com/0xTriboulet/Cycotic): A python polymorphic engine for C programs
+- [ExampleContainers](https://github.com/MythicMeta/ExampleContainers): Examples of various container types for Python and Golang
+- [sliver](https://github.com/MythicAgents/sliver): Sliver agents for Mythic
+- [Process-Hollowing](https://github.com/m0n0ph1/Process-Hollowing): Great explanation of Process Hollowing (a Technique often used in Malware)
+- [RtlClone](https://github.com/rbmm/RtlClone): None
+- [RelabelAbuse](https://github.com/decoder-it/RelabelAbuse): None
+- [goLAPS](https://github.com/felmoltor/goLAPS): Retrieve LAPS passwords from a domain. The tools is inspired in pyLAPS.
+- [flightsim](https://github.com/alphasoc/flightsim): A utility to safely generate malicious network traffic patterns and evaluate controls.
+- [silkwasm](https://github.com/NetSPI/silkwasm): HTML Smuggling with Web Assembly
+- [WALK_WebAssembly_Lure_Krafter](https://github.com/JumpsecLabs/WALK_WebAssembly_Lure_Krafter): A web assembly (WASM) phishing lure generator based on pre-built templates and written in Rust with some GenAI assistance. W.A.L.K. aims at aiding with initial access during red teams and phishing exercises leveraging WASM smuggling techniques.
+- [edr-internals](https://github.com/outflanknl/edr-internals): Tools for analyzing EDR agents
+- [gh-hijack-runner](https://github.com/synacktiv/gh-hijack-runner): A python script to create a fake GitHub runner and hijack pipeline jobs to leak CI/CD secrets.
+- [AzureSnake](https://github.com/Abacus-Group-RTO/AzureSnake): A suite of PowerShell scripts to automate portions of Azure Risk Assessments and Penetration Tests
+- [TotalRecall](https://github.com/xaitax/TotalRecall): This tool extracts and displays data from the Recall feature in Windows 11, providing an easy way to access information about your PC's activity snapshots.
+- [ludus_sccm](https://github.com/Synzack/ludus_sccm): An Ansible collection that installs an SCCM deployment with optional configurations.
+- [GetProcAddressCaseStudies](https://github.com/ph4s3tw0/GetProcAddressCaseStudies): Six cases demonstrating methods of optimizing GetProcAddress
+- [Vibe](https://github.com/Tylous/Vibe): A framework for stealthy domain reconnaissance
+- [sliver_extension_uac_bypass_cmstp](https://github.com/0xb11a1/sliver_extension_uac_bypass_cmstp): Sliver extension to bypass UAC via cmstp written in rust
+- [The_Shelf](https://github.com/trustedsec/The_Shelf): Retired TrustedSec Capabilities
+- [rspe](https://github.com/Thoxy67/rspe): Simple Native Rust Reflective PE loader library
+- [clroxide](https://github.com/yamakadi/clroxide): A rust library that allows you to host the CLR and execute dotnet binaries.
+- [ADVobfuscator](https://github.com/andrivet/ADVobfuscator): Obfuscation library based on C++11/14 and metaprogramming
+- [GraphShell](https://github.com/dazzyddos/GraphShell): None
+- [DayBird](https://github.com/G0ldenGunSec/DayBird): Extension functionality for the NightHawk operator client
+- [mystique-self-injection](https://github.com/thiagopeixoto/mystique-self-injection): An improvement and a different approach to Mockingjay Self-Injection.
+- [nmap-did-what](https://github.com/hackertarget/nmap-did-what): Nmap Dashboard Mini Project
+- [AceLdr](https://github.com/susMdT/AceLdr): Cobalt Strike UDRL for memory scanner evasion.
+- [FuncAddressPro](https://github.com/WKL-Sec/FuncAddressPro): A stealthy, assembly-based tool for secure function address resolution, offering a robust alternative to GetProcAddress.
+- [nim_for_hackers2](https://github.com/us-cyber-team/nim_for_hackers2): slides for talk given during uscg 2023 combine
+- [writing_nimless](https://github.com/m4ul3r/writing_nimless): Writing Nimless Nim - Slides and source for BSIDESKC 2024 talk.
+- [ShadowClone](https://github.com/fyoorer/ShadowClone): Unleash the power of cloud
+- [gstrike](https://github.com/y0k4i-1337/gstrike): Google Workspace password sprayer with anti-captcha
+- [pwntools](https://github.com/Gallopsled/pwntools): CTF framework and exploit development library
+- [TaskSchedulerMisc](https://github.com/zcgonvh/TaskSchedulerMisc): Misc TaskScheduler Plays
+- [DigDug](https://github.com/RedSiege/DigDug): None
+- [skweez](https://github.com/edermi/skweez): Fast website scraper and wordlist generator
+- [pywerview](https://github.com/the-useless-one/pywerview): A (partial) Python rewriting of PowerSploit's PowerView
+- [GhostlyHollowingViaTamperedSyscalls](https://github.com/Maldev-Academy/GhostlyHollowingViaTamperedSyscalls): Implementing the ghostly hollowing PE injection technique using tampered syscalls. 
+- [PingCastle-Notify](https://github.com/LuccaSA/PingCastle-Notify): Monitor your PingCastle scans to highlight the rule diff between two scans
+- [IconJector](https://github.com/0xda568/IconJector): Unorthodox and stealthy way to inject a DLL into the explorer using icons
+- [TrollDump](https://github.com/cybersectroll/TrollDump): None
+- [ETWInspector](https://github.com/jsecurity101/ETWInspector): None
+- [NetWrapper](https://github.com/Edd13Mora/NetWrapper): Simple netexec wraper with html repport
+- [no-defender](https://github.com/es3n1n/no-defender): A slightly more fun way to disable windows defender + firewall. (through the WSC api)
+- [EDRaser](https://github.com/SafeBreach-Labs/EDRaser): EDRaser is a powerful tool for remotely deleting access logs, Windows event logs, databases, and other files on remote machines. It offers two modes of operation: automated and manual.
+- [extractResponderHashes](https://github.com/litsnarf/extractResponderHashes): Parse Responder-Session.log and extract all the hashes for easy cracking
+- [ceos](https://github.com/Red-Team-SNCF/ceos): None
+- [MFade](https://github.com/ibaiC/MFade): A python port of @dafthack's MFAsweep with some added OPSEC functionality. MFAde can be used to find single-factor authentication failure points in Mircrosoft Services.
+- [tryharder](https://github.com/tehstoni/tryharder): C++ Staged Shellcode Loader with Evasion capabilities.
+- [microsoft-login-spoof](https://github.com/JoniRinta-Kahila/microsoft-login-spoof): An example of a spoofing page
+- [decode-spam-headers](https://github.com/mgeeky/decode-spam-headers): A script that helps you understand why your E-Mail ended up in Spam
+- [awesome-password-spraying](https://github.com/puzzlepeaches/awesome-password-spraying): Everything and anything related to password spraying
+- [Warmer](https://github.com/WKL-Sec/Warmer): Selenium-based Python script to automate sending emails to warm up your sender reputation and improve email deliverability 
+- [IIS-ShortName-Scanner](https://github.com/irsdl/IIS-ShortName-Scanner): latest version of scanners for IIS short filename (8.3) disclosure vulnerability
+- [unKover](https://github.com/eversinc33/unKover): PoC Anti-Rootkit/Anti-Cheat Driver.
+- [AHHHZURE](https://github.com/gladstomych/AHHHZURE): AHHHZURE is an automated deployment script that creates a vulnerable Azure cloud lab for offensive security practitioners and enthusiasts to brush up their cloud sec skills.
+- [fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen): Fake Windows logon screen to steal passwords
+- [bsprishtina-2024-maldev-workshop](https://github.com/cocomelonc/bsprishtina-2024-maldev-workshop): BSides Prishtina 2024 Malware Development and Persistence workshop
+- [ADOKit](https://github.com/h4wkst3r/ADOKit): Azure DevOps Services Attack Toolkit
+- [SharpGraphView](https://github.com/mlcsec/SharpGraphView): Microsoft Graph API post-exploitation toolkit
+- [roadtools_hybrid](https://github.com/dirkjanm/roadtools_hybrid): Hybrid AD utilities for ROADtools
+- [gophish-notifier](https://github.com/t94j0/gophish-notifier): Notification webhook for GoPhish
+- [ImmoralFiber](https://github.com/JanielDary/ImmoralFiber): Two new offensive techniques using Windows Fibers:  PoisonFiber (The first remote enumeration & Fiber injection capability POC tool) PhantomThread (An evolved callstack-masking implementation)
+- [Invoke-RunAsWithCert](https://github.com/synacktiv/Invoke-RunAsWithCert): A PowerShell script to perform PKINIT authentication with the Windows API from a non domain-joined machine.
+- [NiceKatz](https://github.com/0xDeku/NiceKatz):  A nice process dumping tool
+- [RelayX](https://github.com/Ridter/RelayX): NTLM relay test.
+- [okta-terrify](https://github.com/CCob/okta-terrify): Okta Verify and Okta FastPass Abuse Tool
+- [evilginx2-TTPs](https://github.com/aalex954/evilginx2-TTPs): Reverse engineered to remove IOCs, added Exchange Online Protection IP blacklist and bing-bot user-agent blocking, DNS configuration and notes on usage.
+- [WAMBam](https://github.com/Flangvik/WAMBam): Tooling related to the WAM Bam - Recovering Web Tokens From Office blog post
+- [nuclei-scan-sort](https://github.com/DingyShark/nuclei-scan-sort): Simple Python script to sort nuclei scans by severity and URL
+- [RecycledGate](https://github.com/thefLink/RecycledGate): Hellsgate + Halosgate/Tartarosgate. Ensures that all systemcalls go through ntdll.dll
+- [CrimsonEDR](https://github.com/Helixo32/CrimsonEDR): Simulate the behavior of AV/EDR for malware development training.
+- [cathack](https://github.com/notfell/cathack): An external cheat base on assault cube that uses d2d.
+- [pandore](https://github.com/notfell/pandore): A shellcode loader powered by a web panel.
+- [TokenTormentor](https://github.com/CompassSecurity/TokenTormentor): None
+- [TokenPhisher](https://github.com/CompassSecurity/TokenPhisher): None
+- [evilgophish-custom](https://github.com/vnhacker1337/evilgophish-custom): evilginx2 + gophish
+- [sneaky_gophish](https://github.com/puzzlepeaches/sneaky_gophish): Hiding GoPhish from the boys in blue
+- [Evilginx2-Phishlets](https://github.com/An0nUD4Y/Evilginx2-Phishlets): Evilginx3 Phishlets version (0.2.3 & above) Only For Testing/Learning Purposes
+- [Evilginx3-Phishlets](https://github.com/simplerhacking/Evilginx3-Phishlets): This repository provides penetration testers and red teams with an extensive collection of dynamic phishing templates designed specifically for use with Evilginx3. May be updated periodically.
+- [MonitoRSS](https://github.com/synzen/MonitoRSS): MonitoRSS RSS bot (formerly known as Discord.RSS) with customizable feeds. https://monitorss.xyz
+- [PartyLoader](https://github.com/itaymigdal/PartyLoader): Threadless shellcode injection tool
+- [AutoAppDomainHijack](https://github.com/nbaertsch/AutoAppDomainHijack): Automated .NET AppDomain hijack payload generation
+- [macos_security](https://github.com/usnistgov/macos_security): macOS Security Compliance Project
+- [DetectionLab](https://github.com/clong/DetectionLab): Automate the creation of a lab environment complete with security tooling and logging best practices
+- [Microsoft-Sentinel2Go](https://github.com/OTRF/Microsoft-Sentinel2Go): Microsoft Sentinel2Go is an open source project developed to expedite the deployment of a Microsoft Sentinel research lab. 
+- [UserEnum](https://github.com/sensepost/UserEnum): Domain user enumeration tool
+- [Ludus-Lab-Auto-Deployment](https://github.com/aleemladha/Ludus-Lab-Auto-Deployment): None
+- [pyautoaws](https://github.com/optiv/pyautoaws): Simple Python wrapper for Terraform/Ansible to build AWS resources
+- [MagicDot](https://github.com/SafeBreach-Labs/MagicDot): A set of rootkit-like abilities for unprivileged users, and vulnerabilities based on the DOT-to-NT path conversion known issue
+- [HSC24RedTeamInfra](https://github.com/dazzyddos/HSC24RedTeamInfra): Slides and Codes used for the workshop Red Team Infrastructure Automation
+- [azurenum](https://github.com/SySS-Research/azurenum): Enumerate Microsoft Entra ID (Azure AD) fast
+- [CelestialSpark](https://github.com/Karkas66/CelestialSpark): A modern 64-bit position independent meterpreter and Sliver compatible reverse_TCP Staging Shellcode based on Cracked5piders Stardust
+- [KExecDD](https://github.com/floesen/KExecDD): Admin to Kernel code execution using the KSecDD driver
+- [cpp-implant](https://github.com/JLospinoso/cpp-implant): A simple implant showcasing modern C++
+- [gargoyle](https://github.com/JLospinoso/gargoyle): A memory scanning evasion technique
+- [UserManagerEoP](https://github.com/Wh04m1001/UserManagerEoP): None
+- [docker-hashcat](https://github.com/dizcza/docker-hashcat): Latest hashcat docker for CUDA, OpenCL, and POCL. Deployed on Vast.ai
+- [lsa-whisperer](https://github.com/EvanMcBroom/lsa-whisperer): Tools for interacting with authentication packages using their individual message protocols
+- [transacted-minidump](https://github.com/EvanMcBroom/transacted-minidump): A fileless MiniDump utility.
+- [LetMeowIn](https://github.com/Meowmycks/LetMeowIn): A sophisticated, covert Windows-based credential dumper using C++ and MASM x64.
+- [TeamsUserEnum](https://github.com/MitchellDStein/TeamsUserEnum): User enumeration with Microsoft Teams API - multithreaded
+- [sliver](https://github.com/spenceradolph/sliver): Moved to https://github.com/MythicAgents/sliver
+- [PwnedPasswordsDownloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader): A tool to download all Pwned Passwords hash ranges and save them offline so they can be used without a dependency on the k-anonymity API
+- [burp-pac-server](https://github.com/honoki/burp-pac-server): Generate a dynamic PAC script that will route traffic to your Burp proxy only if it matches the scope defined in your Burp target.
+- [pwned-by-passgpt](https://github.com/sean-t-smith/pwned-by-passgpt): Password cracking research using the Have I Been Pwned (HIBP) dataset to evaluate the effectiveness of the PassGPT Large Language Model (LLM).
+- [SoraHub_CS2_Public](https://github.com/SoraAurora/SoraHub_CS2_Public): None
+- [Havij](https://github.com/rezaJOY/Havij): Automated SQL Injection tool
+- [phpbash](https://github.com/Arrexel/phpbash): A semi-interactive PHP shell compressed into a single file.
+- [metatwin](https://github.com/threatexpress/metatwin): The project is designed as a file resource cloner.  Metadata, including digital signature, is extracted from one file and injected into another.
+- [BadShares](https://github.com/techspence/BadShares): A tool to create randomly insecure file shares that also contain unsecured credential files
+- [GraphSpy](https://github.com/RedByte1337/GraphSpy): Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
+- [PassTester](https://github.com/Elymaro/PassTester): Identify the accounts most vulnerable to dictionary attacks
+- [SuperSharpShooter](https://github.com/SYANiDE-/SuperSharpShooter): Payload Generation Framework
+- [DumpSMBShare](https://github.com/p0dalirius/DumpSMBShare): A python script to dump files and folders remotely from a Windows SMB share.
+- [NativeDump](https://github.com/ricardojoserf/NativeDump): Dump lsass using only NTAPI functions by hand-crafting Minidump files (without MiniDumpWriteDump!!!)
+- [hwbp4mw](https://github.com/rad9800/hwbp4mw): None
+- [WTSRM](https://github.com/rad9800/WTSRM): WTSRM
+- [LDAPmonitor](https://github.com/p0dalirius/LDAPmonitor): Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration! 
+- [DCOMPotato](https://github.com/zcgonvh/DCOMPotato): Some Service DCOM Object and SeImpersonatePrivilege abuse.
+- [Sentinel-Queries](https://github.com/reprise99/Sentinel-Queries): Collection of KQL queries
+- [Beacon_Source](https://github.com/kyxiaxiang/Beacon_Source): not a reverse-engineered version of the Cobalt Strike Beacon
+- [DDexec](https://github.com/arget13/DDexec): A technique to run binaries filelessly and stealthily on Linux by "overwriting" the shell's process with another.
+- [NTLMCrack](https://github.com/Adamkadaban/NTLMCrack): Use ntlm.pw to quickly and automatically convert hash dumps to credentials
+- [atexec-pro](https://github.com/Ridter/atexec-pro): Fileless atexec, no more need for port 445
+- [SharpHound](https://github.com/SpecterOps/SharpHound): C# Data Collector for BloodHound
+- [DPAT](https://github.com/clr2of8/DPAT): Domain Password Audit Tool for Pentesters
+- [secretsdump.py](https://github.com/fin3ss3g0d/secretsdump.py): Enhanced version of secretsdump.py from Impacket. Adds multi-threading and accepts an input file with a list of target hosts for simultaneous secrets extraction.
+- [Advanced-TLS-Injection](https://github.com/Uri3n/Advanced-TLS-Injection): Threadless injection via TLS callbacks
+- [sccmwtf](https://github.com/xpn/sccmwtf): None
+- [SQL-BOF](https://github.com/Tw1sm/SQL-BOF): Library of BOFs to interact with SQL servers
+- [spraygen](https://github.com/3ndG4me/spraygen): Password list generator for password spraying - prebaked with goodies
+- [ChaiLdr](https://github.com/Cipher7/ChaiLdr): AV bypass while you sip your Chai!
+- [TeamsNTLMLeak](https://github.com/soufianetahiri/TeamsNTLMLeak): Leak NTLM via Website tab in teams via MS Office
+- [ccmpwn](https://github.com/mandiant/ccmpwn): None
+- [Indirect-Staging](https://github.com/C6appybara/Indirect-Staging): None
+- [BARK](https://github.com/BloodHoundAD/BARK): BloodHound Attack Research Kit
+- [ludus_vulhub](https://github.com/badsectorlabs/ludus_vulhub): An Ansible role that runs Vulhub environments on a Linux system.
+- [havoc-PoolParty](https://github.com/Cipher7/havoc-PoolParty): Windows Thread Pool Injection Havoc Implementation
+- [LiquidSnake](https://github.com/RiccardoAncarani/LiquidSnake): LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript
+- [IoDllProxyLoad](https://github.com/fin3ss3g0d/IoDllProxyLoad): DLL proxy load example using the Windows thread pool API, I/O completion callback with named pipes, and C++/assembly
+- [flower](https://github.com/xrombar/flower): a modified CONTEXT based ropchain to circumvent CFG-FindHiddenShellcode and EtwTi-FluctuationMonitor
+- [WhoIsWho](https://github.com/MzHmO/WhoIsWho): Amazing whoami alternatives
+- [RedCloud-OS](https://github.com/RedTeamOperations/RedCloud-OS): RedCloudOS is a Cloud Adversary Simulation Operating System for Red Teams to assess the Cloud Security of Leading Cloud Service Providers (CSPs)
+- [DynamicMSBuilder](https://github.com/ZephrFish/DynamicMSBuilder): A Dynamic MSBuild task to help with minor obfuscation of C# Binaries to evade static signatures on each compilation
+- [perfect-dll-proxy](https://github.com/mrexodia/perfect-dll-proxy): Perfect DLL Proxying using forwards with absolute paths.
+- [pretender](https://github.com/RedTeamPentesting/pretender): Your MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
+- [bqm](https://github.com/Acceis/bqm): Deduplicate custom BloudHound queries from different datasets and merge them in one customqueries.json file.
+- [nimvoke](https://github.com/nbaertsch/nimvoke): Indirect syscalls + DInvoke made simple.
+- [ADPT](https://github.com/Kudaes/ADPT): DLL proxying for lazy people
+- [WELA](https://github.com/Yamato-Security/WELA): WELA (Windows Event Log Analyzer): The Swiss Army knife for Windows Event Logs! ゑ羅（ウェラ）
+- [Cobalt-Strike](https://github.com/RedefiningReality/Cobalt-Strike): Various resources to enhance Cobalt Strike's functionality and its ability to evade antivirus/EDR detection
+- [fierce](https://github.com/mschwager/fierce): A DNS reconnaissance tool for locating non-contiguous IP space.
+- [EagleVM](https://github.com/notpidgey/EagleVM): Native code virtualizer for x64 binaries
+- [miaow](https://github.com/SecureHats/miaow): Project Miaow is a prove of concept to escalate privileges in Microsoft Azure using an ARM template deployment
+- [FindMeAccess](https://github.com/absolomb/FindMeAccess): None
+- [Nimbo-C2](https://github.com/itaymigdal/Nimbo-C2): Nimbo-C2 is yet another (simple and lightweight) C2 framework
+- [IndicatorOfCanary](https://github.com/HackingLZ/IndicatorOfCanary): Canary Detection
+- [Jigsaw](https://github.com/RedSiege/Jigsaw): Hide shellcode by shuffling bytes into a random array and reconstruct at runtime
+- [git-rotate](https://github.com/dunderhay/git-rotate): Leveraging GitHub Actions to rotate IP addresses during password spraying attacks to bypass IP-Based blocking
+- [nt-apiset](https://github.com/ColinFinck/nt-apiset): A parser for API Set Map files of Windows 10 and later
+- [Hunt-Weird-ImageLoads](https://github.com/thefLink/Hunt-Weird-ImageLoads): Small tool to play with IOCs caused by Imageload events
+- [SharpShares](https://github.com/mitchmoser/SharpShares): Multithreaded C# .NET Assembly to enumerate accessible network shares in a domain
+- [SymProcAddress](https://github.com/MzHmO/SymProcAddress): Zero EAT touch way to retrieve function addresses (GetProcAddress on steroids)
+- [SymProcSleuth](https://github.com/a7t0fwa7/SymProcSleuth): A pure C version of SymProcAddress
+- [CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP): None
+- [SharpStrike](https://github.com/iomoath/SharpStrike): A Post exploitation tool written in C# uses either CIM or WMI to query remote systems.
+- [nanodump](https://github.com/fortra/nanodump): The swiss army knife of LSASS dumping
+- [StandIn](https://github.com/FuzzySecurity/StandIn): StandIn is a small .NET35/45 AD post-exploitation toolkit
+- [NetExec](https://github.com/Pennyw0rth/NetExec): The Network Execution Tool
+- [ADeleginator](https://github.com/techspence/ADeleginator): A companion tool that uses ADeleg to find insecure trustee and resource delegations in Active Directory
+- [RAGnarok](https://github.com/GhostPack/RAGnarok): A Nemesis powered Retrieval-Augmented Generation (RAG) chatbot proof-of-concept.
+- [nemesis](https://github.com/MythicAgents/nemesis): Nemesis agent for Mythic
+- [GamingServiceEoP](https://github.com/Wh04m1001/GamingServiceEoP): None
+- [Misconfiguration-Manager](https://github.com/subat0mik/Misconfiguration-Manager): Misconfiguration Manager is a central knowledge base for all known Microsoft Configuration Manager tradecraft and associated defensive and hardening guidance.
+- [HTTPScrapers](https://github.com/NetSPI/HTTPScrapers): NetSPI HTTP Scrapers
+- [zoomgrab](https://github.com/malpais/zoomgrab): An OSINT tool designed to scrape employee data from zoominfo.com
+- [NameSpi](https://github.com/waffl3ss/NameSpi): An OSINT employee/username enumeration tool
+- [peasant](https://github.com/ImpostorKeanu/peasant): LinkedIn reconnaissance tool
+- [dehashed-parser](https://github.com/JPG0mez/dehashed-parser): Python tool to grab leaked creds from a specific domain using Dehashed
+- [ludus_ansible_roles](https://github.com/ChoiSG/ludus_ansible_roles): scuffed ansible roles for ludus that "hey it works on my ludus setup" 
+- [xeno-rat](https://github.com/moom825/xeno-rat): Xeno-RAT is an open-source remote access tool (RAT) developed in C#, providing a comprehensive set of features for remote system management. Has features such as HVNC, live microphone, reverse proxy, and much much more!
+- [godropit](https://github.com/kopp0ut/godropit): Purple Team Dropper generator using open source templates.
+- [MsGraphFunzy](https://github.com/Mr-Un1k0d3r/MsGraphFunzy): Scripts to interact with Microsoft Graph APIs
+- [Helpful-Scripts](https://github.com/assume-breach/Helpful-Scripts): A repo of scripts I find helpful for daily tasks.
+- [Nemesis-Download-Watcher](https://github.com/vysecurity/Nemesis-Download-Watcher): Watches the Downloads folder for any new files and inserts it into Nemesis for analysis.
+- [SharpLansweeperDecrypt](https://github.com/Yeeb1/SharpLansweeperDecrypt): Automatically extract and decrypt all configured scanning credentials of a Lansweeper instance.
+- [Invoke-TrimarcADChecks](https://github.com/Trimarc/Invoke-TrimarcADChecks): The Invoke-TrimarcADChecks.ps1 PowerShell script is designed to gather data from a single domain AD forest based on our similar checks performed during Trimarc’s Active Directory Security Assessment (ADSA) engagement.
+- [OSEPAutoEnum](https://github.com/tehstoni/OSEPAutoEnum): A c# version of jayesther's OSEP enumeration script with a few additions and tweaks.
+- [shad0w](https://github.com/bats3c/shad0w): A post exploitation framework designed to operate covertly on heavily monitored environments
+- [365Inspect](https://github.com/soteria-security/365Inspect): A PowerShell script that automates the security assessment of Microsoft 365 environments.
+- [AzureAssess](https://github.com/SureStacks/AzureAssess): Assess Azure Security State
+- [ADCSCoercePotato](https://github.com/decoder-it/ADCSCoercePotato): None
+- [WMIReg](https://github.com/airzero24/WMIReg): PoC to interact with local/remote registry hives through WMI
+- [RestrictedAdmin](https://github.com/GhostPack/RestrictedAdmin): Remotely enables Restricted Admin Mode
+- [muddy-waters](https://github.com/orph3usLyre/muddy-waters): A literal string obfuscation library for rust projects
+- [RequestAADRefreshToken](https://github.com/leechristensen/RequestAADRefreshToken): None
+- [aad_prt_bof](https://github.com/wotwot563/aad_prt_bof): None
+- [RflDllOb](https://github.com/oldboy21/RflDllOb): Reflective DLL Injection Made Bella
+- [ldr](https://github.com/yamakadi/ldr): A work in progress BOF/COFF loader in Rust
+- [coffee](https://github.com/hakaioffsec/coffee): A COFF loader made in Rust
+- [Hiado](https://github.com/oldboy21/Hiado): Cross-projects Repository permissions enumeration Tool for Azure DevOps
+- [go-shellcode](https://github.com/Ne0nd0g/go-shellcode): A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
+- [best-leetcode-resources](https://github.com/armankhondker/best-leetcode-resources): Learn LeetCode and prepare for coding interviews with free resources. 
+- [winpspy](https://github.com/xct/winpspy): CLI monitor for windows process- & file activity
+- [BHCEupload](https://github.com/olafhartong/BHCEupload): A small go tool to upload JSON files to the BloodHound community edition API
+- [github-secrets](https://github.com/neodyme-labs/github-secrets): This tool analyzes a given Github repository and searches for dangling or force-pushed commits containing potential secret or interesting information.
+- [delete2SYSTEM](https://github.com/sailay1996/delete2SYSTEM): Weaponizing for Arbitrary Files/Directories Delete bugs to Get NT AUTHORITY\SYSTEM
+- [Folder-Deletion-to-System-Shell](https://github.com/bugzzzhunter/Folder-Deletion-to-System-Shell): None
+- [EntryPointInjection](https://github.com/kr0tt/EntryPointInjection): Re-implementation of Kudaes's threadless process injection in C.
+- [FormThief](https://github.com/mlcsec/FormThief): Spoofing desktop login applications with WinForms and WPF
+- [WonkaVision](https://github.com/0xe7/WonkaVision): None
+- [SDD2](https://github.com/rbmm/SDD2): Self delete DLL (2)
+- [Embedder](https://github.com/naksyn/Embedder): Embedder is a collection of sources in different languages to embed Python interpreter with minimal dependencies
+- [CLRInjector](https://github.com/bananabr/CLRInjector): A PoC .NET-specific process injection tool
+- [CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability): Microsoft-Outlook-Remote-Code-Execution-Vulnerability
+- [PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190): POC CVE-2022-30190 : CVE 0-day MS Offic RCE aka msdt follina
+- [email2whatsapp](https://github.com/dsonbaker/email2whatsapp): Email2WhatsApp is a GoLang project aimed at OSINT. It enables the discovery of WhatsApp numbers from email addresses, providing a valuable tool for digital investigations.
+- [bloodhound-automation](https://github.com/Tanguy-Boisset/bloodhound-automation): Automatically run and populate a new instance of BH CE
+- [FullBypass](https://github.com/Sh3lldon/FullBypass): A tool which bypasses AMSI (AntiMalware Scan Interface) and PowerShell CLM (Constrained Language Mode) and gives you a FullLanguage PowerShell reverse shell.
+- [parley](https://github.com/dreadnode/parley): Tree of Attacks (TAP) Jailbreaking Implementation
+- [devolutions-labs](https://github.com/Devolutions/devolutions-labs): Self-contained Hyper-V Active Directory Lab Environment
+- [awesome-injection](https://github.com/itaymigdal/awesome-injection): Centralized resource for listing and organizing known injection techniques and POCs
+- [CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413): Microsoft Outlook Information Disclosure Vulnerability (leak password hash) - Expect Script POC
+- [InflativeLoading](https://github.com/senzee1984/InflativeLoading): Dynamically convert an unmanaged EXE or DLL file to PIC shellcode by prepending a shellcode stub.
+- [Empire-C2-RCE-PoC](https://github.com/ACE-Responder/Empire-C2-RCE-PoC): RCE PoC for Empire C2 framework <5.9.3
+- [UAC-BOF-Bonanza](https://github.com/icyguider/UAC-BOF-Bonanza): Collection of UAC Bypass Techniques Weaponized as BOFs
+- [SDD](https://github.com/rbmm/SDD): Self Delete DLL
+- [xc](https://github.com/xct/xc): A small reverse shell for Linux & Windows
+- [BloodHound_CustomQueries_Toolset](https://github.com/som3canadian/BloodHound_CustomQueries_Toolset): Tool to import your custom queries from BloodHound "Legacy" to BloodHound "Community"
+- [RID-Hijacking](https://github.com/r4wd3r/RID-Hijacking): Windows RID Hijacking persistence technique
+- [RIDHijackingProofofConceptKJ](https://github.com/Stealthbits/RIDHijackingProofofConceptKJ): RID Hijacking Proof of Concept script by Kevin Joyce
+- [redteam-arsenal](https://github.com/ferreirasc/redteam-arsenal): Some binaries/scripts that may be useful in red team/pentest exercises
+- [ILSpy](https://github.com/icsharpcode/ILSpy): .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!
+- [SharpADWS](https://github.com/wh0amitz/SharpADWS): Active Directory reconnaissance and exploitation for Red Teams via the Active Directory Web Services (ADWS).
+- [NegoExRelay](https://github.com/morRubin/NegoExRelay): None
+- [EDR-Preloader](https://github.com/MalwareTech/EDR-Preloader): An EDR bypass that prevents EDRs from hooking or loading DLLs into our process by hijacking the AppVerifier layer
+- [doppelganger](https://github.com/tweathers-sec/doppelganger): Doppelgänger is firmware that runs on ESP32 devices that can be embedded within commercially available RFID readers with the intent of capturing access control card data while performing physical security assessments. Doppelgänger keeps the operator's ease of access, maintenance, and operational communications in mind.
+- [ChromeKatz](https://github.com/Meckazin/ChromeKatz): Dump cookies and credentials directly from Chrome/Edge process memory
+- [OSEP_OSED_TOOLS](https://github.com/jayesther/OSEP_OSED_TOOLS): Tooling for the OffSec Experienced Pentester (OSEP) and OffSec Exploit Developer (OSED) course
+- [lolcerts](https://github.com/WithSecureLabs/lolcerts): A repository of code signing certificates known to have been leaked or stolen, then abused by threat actors
+- [NativeThreadpool](https://github.com/fin3ss3g0d/NativeThreadpool): Work, timer, and wait callback example using solely Native Windows APIs.
+- [tuoni](https://github.com/shell-dot/tuoni): Tuoni
+- [NtCreateUserProcess-Post](https://github.com/je5442804/NtCreateUserProcess-Post): NtCreateUserProcess with CsrClientCallServer for mainstream Windows x64 version
+- [Above](https://github.com/casterbyte/Above): Invisible network protocol sniffer
+- [CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698): Analysis of the vulnerability
+- [zkbitcoin](https://github.com/CharmsDev/zkbitcoin): zkBitcoin: zero-knowledge proofs on Bitcoin!
+- [c_std](https://github.com/KaisenAmin/c_std): Implementation of C++ standard libraries in C
+- [vulhub](https://github.com/vulhub/vulhub): Pre-Built Vulnerable Environments Based on Docker-Compose
+- [PoiEx](https://github.com/doyensec/PoiEx): 🌐 Visualize and explore IaC ✒️ Create and share notes in VS Code 🤝 Sync notes and findings in real-time with friends
+- [PurpleLab](https://github.com/Krook9d/PurpleLab):  PurpleLab is an efficient and readily deployable lab solution, providing a swift setup for cybersecurity professionals to test detection rules, simulate logs, and undertake various security tasks, all accessible through a user-friendly web interface
+- [TeamsBreaker](https://github.com/ASOT-LABS/TeamsBreaker): None
+- [smugglefuzz](https://github.com/Moopinger/smugglefuzz): A rapid HTTP downgrade smuggling scanner written in Go.
+- [i-am-a-bot](https://github.com/AashiqRamachandran/i-am-a-bot): An Multi-Modal LLM Powered Agent to automatically solve Captchas
+- [DeepFaceLive](https://github.com/iperov/DeepFaceLive): Real-time face swap for PC streaming or video calls
+- [Disable-Windows-Defender-](https://github.com/EvilGreys/Disable-Windows-Defender-): Disable Windows Defender (+ UAC Bypass, + Upgrade to SYSTEM)
+- [SMShell](https://github.com/persistent-security/SMShell): PoC for a SMS-based shell. Send commands and receive responses over SMS from mobile broadband capable computers
+- [BadExclusions](https://github.com/iamagarre/BadExclusions): BadExclusions is a tool to identify folder custom or undocumented exclusions on AV/EDR 
+- [pwn_jenkins](https://github.com/gquere/pwn_jenkins): Notes about attacking Jenkins servers
+- [SigFinder](https://github.com/mlcsec/SigFinder):  Identify binaries with Authenticode digital signatures signed to an internal CA/domain
+- [proctools](https://github.com/mlcsec/proctools): Small toolkit for extracting information and dumping sensitive strings from Windows processes
+- [pphack](https://github.com/edoardottt/pphack): The Most Advanced Client-Side Prototype Pollution Scanner
+- [ulexecve](https://github.com/anvilsecure/ulexecve): ulexecve is a userland execve() implementation which helps you execute arbitrary ELF binaries on Linux from userland without the binaries ever having to touch storage. This is useful for red-teaming and anti-forensics purposes.
+- [de4py](https://github.com/Fadi002/de4py): toolkit for python reverse engineering
+- [http-garden](https://github.com/narfindustries/http-garden): Differential fuzzing REPL for HTTP implementations.
+- [MHDDoS](https://github.com/MatrixTM/MHDDoS): Best DDoS Attack Script  Python3, (Cyber / DDos) Attack With 56 Methods
+- [MultiDump](https://github.com/Xre0uS/MultiDump): MultiDump is a post-exploitation tool for dumping and extracting LSASS memory discreetly.
+- [gocheck](https://github.com/gatariee/gocheck): Because AV evasion should be easy.
+- [Somerset](https://github.com/casterbyte/Somerset): Offensive Router for Windows Pivoting
+- [ntlm_relay_gat](https://github.com/ad0nis/ntlm_relay_gat): None
+- [sddl_py](https://github.com/t94j0/sddl_py): Parse SDDL strings
+- [ReverseRDP_RCE](https://github.com/vysecurity/ReverseRDP_RCE): None
+- [unmanaged-dotnet-patch](https://github.com/outflanknl/unmanaged-dotnet-patch): Modify managed functions from unmanaged code
+- [ThievingFox](https://github.com/Slowerzs/ThievingFox): None
+- [llvm-yx-callobfuscator](https://github.com/janoglezcampos/llvm-yx-callobfuscator): LLVM plugin to transparently apply stack spoofing and indirect syscalls to Windows x64 native calls at compile time.
+- [frameless-bitb](https://github.com/waelmas/frameless-bitb): A new approach to Browser In The Browser (BITB) without the use of iframes, allowing the bypass of traditional framebusters implemented by login pages like Microsoft and the use with Evilginx.
+- [mydumbedr](https://github.com/sensepost/mydumbedr): None
+- [msmailprobe2](https://github.com/vysecurity/msmailprobe2): Office 365 and Exchange Enumeration Version 2
+- [napalm](https://github.com/ConsenSysDiligence/napalm): None
+- [PurpleKeep](https://github.com/Retrospected/PurpleKeep): Providing Azure pipelines to create an infrastructure and run Atomic tests. 
+- [bofhound](https://github.com/coffeegist/bofhound): Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+- [CsWhispers](https://github.com/rasta-mouse/CsWhispers): Source generator to add D/Invoke and indirect syscall methods to a C# project.
+- [ExecIT](https://github.com/florylsk/ExecIT): Execute shellcode files with rundll32
+- [raven](https://github.com/CycodeLabs/raven): CI/CD Security Analyzer
+- [UninstallMinidumpLsass](https://github.com/calebsargent/UninstallMinidumpLsass): Performs a Minidump of the LSASS process when passed as the program to uninstall using Windows InstallUtil.exe
+- [Stardust](https://github.com/Cracked5pider/Stardust): A modern 64-bit position independent implant template 
+- [SOAPHound](https://github.com/FalconForceTeam/SOAPHound): SOAPHound is a custom-developed .NET data collector tool which can be used to enumerate Active Directory environments via the Active Directory Web Services (ADWS) protocol.
+- [RemoteRegSave](https://github.com/snovvcrash/RemoteRegSave): A .NET implementation to dump SAM, SYSTEM, SECURITY registry hives from a remote host
+- [1.6-C2](https://github.com/eversinc33/1.6-C2): Using the Counter Strike 1.6 RCON protocol as a C2 Channel. 
+- [SeaShell](https://github.com/EntySec/SeaShell): SeaShell Framework is an iOS post-exploitation framework that enables you to access the device remotely, control it and extract sensitive information.
+- [etwunhook](https://github.com/Meowmycks/etwunhook): Simple ETW unhook PoC. Overwrites NtTraceEvent opcode to disable ETW at Nt-function level.
+- [EventLogCrasher](https://github.com/floesen/EventLogCrasher): None
+- [InjectKit](https://github.com/REDMED-X/InjectKit): Modified versions of the Cobalt Strike Process Injection Kit
+- [ligolo-mp](https://github.com/ttpreport/ligolo-mp): Multiplayer pivoting solution
+- [TLS-callback-injection](https://github.com/xalicex/TLS-callback-injection): None
+- [RemoteTLSCallbackInjection](https://github.com/Maldev-Academy/RemoteTLSCallbackInjection): Utilizing TLS callbacks to execute a payload without spawning any threads in a remote process
+- [SpREaD](https://github.com/froyo75/SpREaD): A collection of Terraform projects, Ansible playbooks, and roles designed to build a Red Team infrastructure.
+- [realm](https://github.com/spellshift/realm): Realm is a cross platform Red Team engagement platform with a focus on automation and reliability.
+- [LOLSpoof](https://github.com/itaymigdal/LOLSpoof): An interactive shell to spoof some LOLBins command line
+- [Cobalt-Strike-Profiles-for-EDR-Evasion](https://github.com/EvilGreys/Cobalt-Strike-Profiles-for-EDR-Evasion): Cobalt Strike Profiles for EDR Evasion
+- [havoc-ligolo](https://github.com/p4p1/havoc-ligolo): A Havoc UI tool to pivot onto a machine using ligolo-ng
+- [MDEtester](https://github.com/LearningKijo/MDEtester): MDE Tester is designed to help testing various features in Microsoft Defender for Endpoint.
+- [MutationGate](https://github.com/senzee1984/MutationGate): Use hardware breakpoint to dynamically change SSN in run-time
+- [adiskreader](https://github.com/skelsec/adiskreader): Async Python library to parse local and remote disk images.
+- [CanaryTokenScanner](https://github.com/0xNslabs/CanaryTokenScanner): Detects CanaryTokens in Office docs and PDFs (docx, xlsx, pptx, pdf) without triggering alerts.
+- [TokenStealer](https://github.com/decoder-it/TokenStealer): None
+- [CS-Aggressor-Scripts](https://github.com/secgroundzero/CS-Aggressor-Scripts): Aggressor Scripts for Cobalt Strike
+- [BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler): "Bob the Smuggler": A tool that leverages HTML Smuggling Attack and allows you to create HTML files with embedded 7z/zip archives. The tool would compress your binary (EXE/DLL) into 7z/zip file format, then XOR encrypt the archive and then hides inside PNG/GIF image file format (Image Polyglots). 
+- [SuperSharpShares](https://github.com/LaresLLC/SuperSharpShares): SuperSharpShares is a tool designed to automate enumerating domain shares, allowing for quick verification of accessible shares by your associated domain account.
+- [uploadserver](https://github.com/Densaugeo/uploadserver): Python's http.server extended to include a file upload page
+- [DFSCoerce-exe-2](https://github.com/decoder-it/DFSCoerce-exe-2): DFSCoerce exe revisited version with custom authentication
+- [xCommunityKit](https://github.com/EvilGreys/xCommunityKit): Cobaltstrike xCommunityKit
+- [AQUARMOURY](https://github.com/reveng007/AQUARMOURY): My musings in C and offensive tooling
+- [Evasive-Loader](https://github.com/Ethicalrat/Evasive-Loader): Evasive loader to bypass static detection
+- [CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028): This repository presents a proof-of-concept of CVE-2023-7028
+- [raddebugger](https://github.com/EpicGamesExt/raddebugger): A native, user-mode, multi-process, graphical debugger.
+- [EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings): Documentation and scripts to properly enable Windows event logs.
+- [FindIngressEmail](https://github.com/rvrsh3ll/FindIngressEmail): Find Inbound Email Domains
+- [COFF-Loader](https://github.com/Ap3x/COFF-Loader): A reimplementation of Cobalt Strike's Beacon Object File (BOF) Loader
+- [HardenAD](https://github.com/LoicVeirman/HardenAD): Hardening Active Directory version 2
+- [Hide-CobaltStrike](https://github.com/EvilGreys/Hide-CobaltStrike): Hide your CobaltStrike PRO
+- [pamspy](https://github.com/citronneur/pamspy): Credentials Dumper for Linux using eBPF
+- [Moriarty](https://github.com/BC-SECURITY/Moriarty): Moriarty is designed to enumerate missing KBs, detect various vulnerabilities, and suggest potential exploits for Privilege Escalation in Windows environments. 
+- [TokenTacticsV2](https://github.com/f-bader/TokenTacticsV2): A fork of the great TokenTactics with support for CAE and token endpoint v2
+- [SharpEventPersist](https://github.com/improsec/SharpEventPersist): Persistence by writing/reading shellcode from Event Log
+- [Discord-Embed-Bot](https://github.com/enzo0525/Discord-Embed-Bot): Fixes embed links for various platforms on Discord (Twitter/X, Instagram, Reddit, TikTok).
+- [clr-thing](https://github.com/susMdT/clr-thing): rust clr heap encryption (https://github.com/lap1nou/CLR_Heap_encryption), but no heap encryption.
+- [ClipboardHistoryThief](https://github.com/netero1010/ClipboardHistoryThief): POC tool to extract all persistent clipboard history data from clipboard service process memory
+- [SharpGhostTask](https://github.com/dmcxblue/SharpGhostTask): A C# port from Invoke-GhostTask
+- [EDRNoiseMaker](https://github.com/amjcyber/EDRNoiseMaker): Detect WFP filters blocking EDR communications
+- [GodPotato-Aggressor-Script](https://github.com/weaselsec/GodPotato-Aggressor-Script): None
+- [Handly](https://github.com/blackarrowsec/Handly): Abuse leaked token handles.
+- [WSUSpendu](https://github.com/alex-dengx/WSUSpendu): Implement WSUSpendu attack
+- [SharpWSUS](https://github.com/nettitude/SharpWSUS): None
+- [saas-attacks](https://github.com/pushsecurity/saas-attacks): Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
+- [ROADTools-Analyser](https://github.com/FlyingPhish/ROADTools-Analyser): This python script performs a number of sqlite queries (mainly password metadata) against sqlite databases (Created by ROADtools) to provide analysis of account password hygene based on metadata.
+- [A-Red-Teamer-diaries](https://github.com/ihebski/A-Red-Teamer-diaries): RedTeam/Pentest notes and experiments tested on several infrastructures related to professional engagements.
+- [MITMonster](https://github.com/casterbyte/MITMonster): A monster cheatsheet on MITM attacks
+- [newtmux](https://github.com/mrdanielvelez/newtmux): Optimizes Tmux for session creation & logging
+- [LogonTracer](https://github.com/JPCERTCC/LogonTracer): Investigate malicious Windows logon by visualizing and analyzing Windows event log
+- [ForensicMiner](https://github.com/securityjoes/ForensicMiner): A really good DFIR automation for collecting and analyzing evidence designed for cybersecurity professionals.
+- [Christmas](https://github.com/Maldev-Academy/Christmas): None
+- [shutter](https://github.com/dsnezhkov/shutter): None
+- [EDRSilencer](https://github.com/netero1010/EDRSilencer): A tool uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server.
+- [EDRception](https://github.com/MalwareTech/EDRception): A proof of concept for abusing exception handlers to hook and bypass user mode EDR hooks.
+- [CLR_Heap_encryption](https://github.com/lap1nou/CLR_Heap_encryption): None
+- [smbsocks](https://github.com/zimnyaa/smbsocks): A simple rpc2socks alternative in pure Go.
+- [ExceptionOrientedProgramming](https://github.com/D4stiny/ExceptionOrientedProgramming): Abusing exceptions for code execution.
+- [hayabusa](https://github.com/Yamato-Security/hayabusa): Hayabusa (隼) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.
+- [god-mode-rules](https://github.com/Neo23x0/god-mode-rules): God Mode Detection Rules
+- [catdumper](https://github.com/Meowmycks/catdumper): LSASS Credential Dumper that utilizes the Windows API, in-memory RC4 encryption and Base64 encoding, and HTTPS exfiltration.
+- [ThreadlessInject-C-Implementation](https://github.com/lsecqt/ThreadlessInject-C-Implementation): This repository implements Threadless Injection in C
+- [mortar](https://github.com/0xsp-SRD/mortar): evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
+- [CoffeeLdr](https://github.com/Cracked5pider/CoffeeLdr): Beacon Object File Loader
+- [ETWHash](https://github.com/nettitude/ETWHash): C# POC to extract NetNTLMv1/v2 hashes from ETW provider
+- [AutomatedBadLab](https://github.com/spyr0-sec/AutomatedBadLab): PowerShell scripts to create sandboxed or vulnerable environments using HyperV and AutomatedLab
+- [hashgrab](https://github.com/xct/hashgrab): generate payloads that force authentication against an attacker machine
+- [AtlasLdr](https://github.com/Krypteria/AtlasLdr): Reflective x64 PE/DLL Loader implemented using Dynamic Indirect Syscalls
+- [node-shellcode](https://github.com/wabzsy/node-shellcode): Run shellcode in memory of node.exe (or electron app)
+- [SharpSQLTools](https://github.com/uknowsec/SharpSQLTools): SharpSQLTools 和@Rcoil一起写的小工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作。
+- [PySQLTools](https://github.com/Ridter/PySQLTools): Mssql利用工具
+- [PowerParse](https://github.com/jsecurity101/PowerParse): PowerShell PE Parser
+- [RDPInception](https://github.com/mdsecactivebreach/RDPInception): A proof of concept for the RDP Inception Attack
+- [GOADvSphere](https://github.com/maliciousgroup/GOADvSphere): A vSphere deployment of GOADv2 BETA Testing (v0.1)
+- [sj](https://github.com/BishopFox/sj): A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+- [operating-system-design-review](https://github.com/ElliotKillick/operating-system-design-review): Operating System Design Review: A systemic analysis of modern systems architecture
+- [DirtyCLR](https://github.com/ipSlav/DirtyCLR): An App Domain Manager Injection DLL PoC on steroids
+- [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation): A User Impersonation tool - via Token or Shellcode injection
+- [obfuscator](https://github.com/es3n1n/obfuscator): PE bin2bin obfuscator
+- [SSH-Harvester](https://github.com/jm33-m0/SSH-Harvester): Harvest passwords automatically from OpenSSH server
+- [attack_range](https://github.com/splunk/attack_range): A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk 
+- [NucleiFuzzer](https://github.com/0xKayala/NucleiFuzzer): NucleiFuzzer is a robust automation tool that efficiently detects web application vulnerabilities, including XSS, SQLi, SSRF, and Open Redirects, leveraging advanced scanning and URL enumeration techniques
+- [IoctlHunter](https://github.com/Z4kSec/IoctlHunter): IoctlHunter is a command-line tool designed to simplify the analysis of IOCTL calls made by userland software targeting Windows drivers.
+- [PipeViewer](https://github.com/cyberark/PipeViewer): A tool that shows detailed information about named pipes in Windows
+- [PoolParty](https://github.com/SafeBreach-Labs/PoolParty): A set of fully-undetectable process injection techniques abusing Windows Thread Pools
+- [adconnectdump](https://github.com/dirkjanm/adconnectdump): Dump Azure AD Connect credentials for Azure AD and Active Directory
+- [retype](https://github.com/retypeapp/retype): Retype is an ✨ ultra-high-performance✨ static site generator that builds a website based on simple text files.
+- [SharpTokenFinder](https://github.com/HuskyHacks/SharpTokenFinder): C# implementation of TokenFinder. Steal M365 access tokens from Office Desktop apps
+- [WhiteChocolateMacademiaNut](https://github.com/slyd0g/WhiteChocolateMacademiaNut): Interact with Chromium-based browsers' debug port to view open tabs, installed extensions, and cookies
+- [ADOKit](https://github.com/xforcered/ADOKit): Azure DevOps Services Attack Toolkit
+- [HEKATOMB](https://github.com/ProcessusT/HEKATOMB): Hekatomb is a python script that connects to LDAP directory to retrieve all computers and users informations. Then it will download all DPAPI blob of all users from all computers and uses Domain backup keys to decrypt them.
+- [MemoryModule](https://github.com/fancycode/MemoryModule): Library to load a DLL from memory.
+- [dot-files](https://github.com/lefayjey/dot-files): None
+- [ClickOnce-AppDomain-Manager-Injection](https://github.com/weaselsec/ClickOnce-AppDomain-Manager-Injection): Click Once + App Domain
+- [gMSADumper](https://github.com/micahvandeusen/gMSADumper): Lists who can read any gMSA password blobs and parses them if the current user has access.
+- [Ubuntu-NewLife](https://github.com/zAbuQasem/Ubuntu-NewLife): Installing and configuring tools i need.
+- [evilrdp](https://github.com/skelsec/evilrdp): None
+- [Invoke-Bof](https://github.com/airbus-cert/Invoke-Bof): Load any Beacon Object File using Powershell!
+- [CoffLoader](https://github.com/OtterHacker/CoffLoader): None
+- [teams_dump](https://github.com/byinarie/teams_dump): PoC for dumping and decrypting cookies in the latest version of Microsoft Teams
+- [StinkyLoader](https://github.com/alfarom256/StinkyLoader): It stinks
+- [bluffy](https://github.com/preemptdev/bluffy): Convert shellcode into :sparkles: different :sparkles: formats!
+- [Proxy-DLL-Loads](https://github.com/paranoidninja/Proxy-DLL-Loads): The code is a pingback to the Dark Vortex blog: 
+- [Sigma-Rules](https://github.com/mbabinski/Sigma-Rules): A repository of my own Sigma detection rules.
+- [CTI](https://github.com/Sam0x90/CTI): Repo containing various intel-based resources such as threat research, adversary emulation/simulation plan and so on
+- [Unwinder](https://github.com/Kudaes/Unwinder): Call stack spoofing for Rust
+- [Tartarus-TpAllocInject](https://github.com/nettitude/Tartarus-TpAllocInject): None
+- [TakeMyRDP](https://github.com/SaadAhla/TakeMyRDP): A keystroke logger targeting the Remote Desktop Protocol (RDP) related processes, It utilizes a low-level keyboard input hook, allowing it to record keystrokes in certain contexts (like in mstsc.exe and CredentialUIBroker.exe)
+- [AutomatedEmulation](https://github.com/iknowjason/AutomatedEmulation): An automated Breach and Attack Simulation lab with terraform.  Built for IaC stability, consistency, and speed.
+- [Quser-BOF](https://github.com/netero1010/Quser-BOF): Cobalt Strike BOF for quser.exe implementation using Windows API
+- [EvilTwin](https://github.com/cpu0x00/EvilTwin): dumping lsass with process cloning, aes encryption, syscalls and without touching Disk entirely
+- [GPPDeception](https://github.com/RedSiege/GPPDeception): This script generates a groups.xml file that mimics a real GPP to create a new user on domain-joined computers
+- [EvilSlackbot](https://github.com/Drew-Sec/EvilSlackbot): A Slack bot phishing framework for Red Teaming exercises
+- [bofhound](https://github.com/fortalice/bofhound): Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+- [linkedin2username](https://github.com/initstring/linkedin2username): OSINT Tool: Generate username lists for companies on LinkedIn
+- [ShellcodeStdio](https://github.com/jackullrich/ShellcodeStdio): An extensible framework for easily writing compiler optimized position independent x86 / x64 shellcode for windows platforms.
+- [AD-Canaries](https://github.com/AirbusProtect/AD-Canaries): The purpose of this project is to publish and maintain the deployment PowerShell script that automates deployments for Active Directory Canary objects.
+- [merlin-cli](https://github.com/Ne0nd0g/merlin-cli): gRPC client for the Merlin Server
+- [merlin](https://github.com/Ne0nd0g/merlin): Merlin is a cross-platform post-exploitation HTTP/2 Command & Control  server and agent written in golang.
+- [NtlmThief](https://github.com/MzHmO/NtlmThief): Extracting NetNTLM without touching lsass.exe
+- [PPEnum](https://github.com/rasta-mouse/PPEnum): Simple BOF to read the protection level of a process
+- [LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner): Exploit tool for CVE-2023-4911, targeting the 'Looney Tunables' glibc vulnerability in various Linux distributions.
+- [Invoke-SessionHunter](https://github.com/Leo4j/Invoke-SessionHunter): Retrieve and display information about active user sessions on remote computers. No admin privileges required.
+- [IMDSpoof](https://github.com/grahamhelton/IMDSpoof): IMDSPOOF is a cyber deception tool that spoofs the AWS IMDS service to return HoneyTokens that can be alerted on.
+- [gift](https://github.com/dtmsecurity/gift): None
+- [redirect.rules](https://github.com/0xZDH/redirect.rules): Quick and dirty dynamic redirect.rules generator
+- [Poetry-Template](https://github.com/Tw1sm/Poetry-Template): Template Repo for Future Projects
+- [metasploit-execute-assembly](https://github.com/b4rtik/metasploit-execute-assembly): Custom Metasploit post module to executing a .NET Assembly from Meterpreter session
+- [HackTheBox-Reporting](https://github.com/Syslifters/HackTheBox-Reporting): Hack The Box CPTS, CBBH Exam and Lab Reporting / Note-Taking Tool
+- [evilginx3](https://github.com/BakkerJan/evilginx3): sturdy-chainsaw
+- [Lockless](https://github.com/GhostPack/Lockless): Lockless allows for the copying of locked files.
+- [LocklessBof](https://github.com/antroguy/LocklessBof): Lockless BOF
+- [CoercedPotatoRDLL](https://github.com/sokaRepo/CoercedPotatoRDLL): Reflective DLL to privesc from NT Service to SYSTEM using SeImpersonateToken privilege
+- [WinDbg-JS](https://github.com/trailofbits/WinDbg-JS): None
+- [EarlyBird-EdgeCase](https://github.com/caueb/EarlyBird-EdgeCase): Early Bird injection retrieving the version of MS Edge from the registry.
+- [ThreadlessC](https://github.com/caueb/ThreadlessC): Threadless Injection (originally from CCob) ported to C
+- [ThreadlessStompingKann](https://github.com/caueb/ThreadlessStompingKann): Combining 3 techniques (Threadless Injection + DLL Stomping + Caro-Kann) together to evade MDE.
+- [SQLC2](https://github.com/NetSPI/SQLC2): SQLC2 is a PowerShell script for deploying and managing a command and control system that uses SQL Server as both the control server and the agent. 
+- [Mindmaps](https://github.com/synacktiv/Mindmaps): Azure mindmap for penetration tests
+- [exportstoc](https://github.com/michaellandi/exportstoc): Used to create wrappers and proxy libraries for Windows binaries.
+- [DumpKernel-S1](https://github.com/D4rthMaulCop/DumpKernel-S1): A C# port of https://gist.github.com/adamsvoboda/8f29e09d74b73e1dec3f9049c4358e80 
+- [BestEdrOfTheMarket](https://github.com/Xacone/BestEdrOfTheMarket): AV/EDR Evasion Lab for Training & Learning Purposes
+- [ProcessStomping](https://github.com/naksyn/ProcessStomping): A variation of ProcessOverwriting to execute shellcode on an executable's section
+- [OktaPostExToolkit](https://github.com/xpn/OktaPostExToolkit): None
+- [pysnaffler](https://github.com/skelsec/pysnaffler): pysnaffler
+- [SharpPrinter](https://github.com/rvrsh3ll/SharpPrinter): Discover Printers
+- [BucketHoarder](https://github.com/Neuvik/BucketHoarder): None
+- [Doge-Gabh](https://github.com/timwhitez/Doge-Gabh): GetProcAddressByHash/remap/full dll unhooking/Tartaru's Gate/Spoofing Gate/universal/Perun's Fart/Spoofing-Gate/EGG/RecycledGate/syswhisper/RefleXXion golang implementation
+- [HashKitty](https://github.com/brandonscholet/HashKitty): HashKitty is a user-friendly cross-platform Python wrapper for Hashcat designed to provide an easy password cracking experience for both beginners and experienced users. It additonally can produce reports for select hash types
+- [aesKrbKeyGen](https://github.com/Tw1sm/aesKrbKeyGen): Generate AES128/256 Kerberos keys for an AD account using a plaintext password and Python3
+- [macos-image-templates](https://github.com/cirruslabs/macos-image-templates): None
+- [evilgophish](https://github.com/fin3ss3g0d/evilgophish): evilginx3 + gophish
+- [wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro): New generation of wmiexec.py
+- [bin2sideload](https://github.com/ChoiSG/bin2sideload): None
+- [visualstudio-suo-exploit](https://github.com/moom825/visualstudio-suo-exploit): This repository is a tool to create a .suo that when run by visual studio's will achieve code execution
+- [Night_Walker](https://github.com/b4rth0v5k1/Night_Walker): None
+- [EarlyBirdNTDLL](https://github.com/b4rth0v5k1/EarlyBirdNTDLL): None
+- [ligolo-ng](https://github.com/nicocha30/ligolo-ng): An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.
+- [SharpReflectivePEInjection](https://github.com/cpu0x00/SharpReflectivePEInjection): reflectively load and execute PEs locally and remotely bypassing EDR hooks
+- [pablodraw](https://github.com/cwensley/pablodraw): PabloDraw is an Ansi/Ascii text and RIPscrip vector graphic art editor/viewer with multi-user capabilities.
+- [ScriptSentry](https://github.com/techspence/ScriptSentry): ScriptSentry finds misconfigured and dangerous logon scripts.
+- [VM-Packages](https://github.com/mandiant/VM-Packages): Chocolatey packages supporting the analysis environment projects FLARE-VM & Commando VM.
+- [commando-vm](https://github.com/mandiant/commando-vm): Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com
+- [WhoamiAlternatives](https://github.com/ricardojoserf/WhoamiAlternatives): Different methods to get current username without using whoami
+- [lofl](https://github.com/bitsadmin/lofl): Living Off the Foreign Land setup scripts
+- [most-average-c2-ever](https://github.com/nickvangilder/most-average-c2-ever): The most average C2 ever (MACE)
+- [.NetConfigLoader](https://github.com/Mr-Un1k0d3r/.NetConfigLoader): .net config loader
+- [SharpLateral](https://github.com/mertdas/SharpLateral): Lateral Movement
+- [MAAS](https://github.com/yoda66/MAAS): Malware As A Service
+- [CallstackSpoofingPOC](https://github.com/pard0p/CallstackSpoofingPOC): C++ self-Injecting dropper based on various EDR evasion techniques.
+- [Bobber](https://github.com/Flangvik/Bobber): Bounces when a fish bites - Evilginx database monitoring with exfiltration automation
+- [SharpVeeamDecryptor](https://github.com/S3cur3Th1sSh1t/SharpVeeamDecryptor): Decrypt Veeam database passwords
+- [LdrLibraryEx](https://github.com/Cracked5pider/LdrLibraryEx): A small x64 library to load dll's into memory.
+- [NerfDefender](https://github.com/HaydoW/NerfDefender): BOF and C++ implementation of the Windows Defender sandboxing technique described by Elastic Security Labs/Gabriel Landau.
+- [Defender-Exclusions-Creator-BOF](https://github.com/EspressoCake/Defender-Exclusions-Creator-BOF): None
+- [Inline-Execute-PE](https://github.com/Octoberfest7/Inline-Execute-PE): Execute unmanaged Windows executables in CobaltStrike Beacons 
+- [No-Consolation](https://github.com/fortra/No-Consolation):  A BOF that runs unmanaged PEs inline 
+- [legba](https://github.com/evilsocket/legba): A multiprotocol credentials bruteforcer / password sprayer and enumerator.  🥷
+- [Telemetry](https://github.com/Imanfeng/Telemetry): ABUSING WINDOWS TELEMETRY FOR PERSISTENCE
+- [PoisonHandler](https://github.com/Mr-Un1k0d3r/PoisonHandler): lateral movement techniques that can be used during red team exercises
+- [terry-the-terraformer](https://github.com/ezra-buckingham/terry-the-terraformer): A CLI for deploying red team infrastructure across mutliple cloud providers, all integrated with a virtual Nebula network, and full ELK integration
+- [sally-the-sliver-siren](https://github.com/ezra-buckingham/sally-the-sliver-siren): A custom sliver client that will send slack notifications upon new beacons / sessions that check in
+- [kerberoast](https://github.com/skelsec/kerberoast): Kerberoast attack -pure python-
+- [SharpDllProxy](https://github.com/Flangvik/SharpDllProxy): Retrieves exported functions from a legitimate DLL and generates a proxy DLL source code/template for DLL proxy loading or sideloading
+- [SharpStay](https://github.com/0xthirteen/SharpStay): .NET project for installing Persistence
+- [sliver](https://github.com/BishopFox/sliver): Adversary Emulation Framework
+- [MDE-DFIR-Resources](https://github.com/cyb3rmik3/MDE-DFIR-Resources): A curated list of resources for DFIR through Microsoft Defender for Endpoint leveraging kusto queries, powershell scripts, tools such as KAPE and THOR Cloud and more.
+- [adeleg](https://github.com/mtth-bfft/adeleg): Active Directory delegation management tool
+- [AntiCheat-Testing-Framework](https://github.com/niemand-sec/AntiCheat-Testing-Framework): Framework to test any Anti-Cheat
+- [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim): My experiments in weaponizing Nim (https://nim-lang.org/)
+- [OffensiveGo](https://github.com/Enelg52/OffensiveGo): Golang weaponization for red teamers.
+- [SharpShares](https://github.com/Hackcraft-Labs/SharpShares): Multithreaded C# .NET Assembly to enumerate accessible network shares in a domain
+- [CSharpServiceShellcodeRunner](https://github.com/airzero24/CSharpServiceShellcodeRunner): Windows Service assembly to inject Shellcode into local process without using RWX permissions
+- [Callidus](https://github.com/3xpl01tc0d3r/Callidus): None
+- [grpc-ssh-socks](https://github.com/zimnyaa/grpc-ssh-socks): A minimal reverse proxy implementation over gRPC
+- [rstager](https://github.com/LivingInSyn/rstager): a rust stager
+- [RTI-Toolkit](https://github.com/nickvourd/RTI-Toolkit): Remote Template Injection Toolkit
+- [ldap3](https://github.com/ThePirateWhoSmellsOfSunflowers/ldap3): a strictly RFC 4510 conforming LDAP V3 pure Python client. The same codebase works with Python 2. Python 3, PyPy and PyPy3
+- [autoNTDS](https://github.com/hmaverickadams/autoNTDS): autoNTDS is an automation script designed to simplify the process of dumping and cracking NTDS hashes using secretsdump.py and hashcat
+- [redshell](https://github.com/Verizon/redshell): An interactive command prompt for red teaming and pentesting. Automatically pushes commands through SOCKS4/5 proxies via proxychains. Optional Cobalt Strike integration pulls beacon SOCKS4/5 proxies from the team server. Automatically logs activities to a local CSV file and a Cobalt Strike team server (if configured).
+- [websec-answers](https://github.com/x1trap/websec-answers): Websec interview questions by tib3rius answered
+- [DayBird](https://github.com/xforcered/DayBird): Extension functionality for the NightHawk operator client
+- [LdrLockLiberator](https://github.com/ElliotKillick/LdrLockLiberator): For when DLLMain is the only way
+- [arsenal-rs](https://github.com/memN0ps/arsenal-rs): Rusty Arsenal - A collection of experimental Process Injection and Post-Exploitation Techniques in Rust
+- [venom-rs](https://github.com/memN0ps/venom-rs): Rusty Injection - Shellcode Reflective DLL Injection (sRDI) in Rust (Codename: Venom)
+- [RemoteManagementMonitoringTools](https://github.com/jischell-msft/RemoteManagementMonitoringTools): Collection of Remote Management Monitoring tool artifacts, for assisting forensics and investigations
+- [nopowershell](https://github.com/bitsadmin/nopowershell): PowerShell rebuilt in C# for Red Teaming purposes
+- [Sharp-SMBExec](https://github.com/checkymander/Sharp-SMBExec): SMBExec C# module 
+- [ADCSync](https://github.com/JPG0mez/ADCSync): Use ESC1 to perform a makeshift DCSync and dump hashes 
+- [Sliver-PortBender](https://github.com/MrAle98/Sliver-PortBender): Sliver extension performing TCP redirection tasks without performing cross-process injection.
+- [UnmanagedPowerShell](https://github.com/mmnoureldin/UnmanagedPowerShell): None
+- [SharpKatz](https://github.com/b4rtik/SharpKatz): Porting of mimikatz sekurlsa::logonpasswords,  sekurlsa::ekeys and lsadump::dcsync commands
+- [tacticalrmm](https://github.com/amidaware/tacticalrmm): A remote monitoring & management tool, built with Django, Vue and Go.
+- [SharpMapExec](https://github.com/cube0x0/SharpMapExec): None
+- [SharpExShell](https://github.com/grayhatkiller/SharpExShell): SharpExShell automates the DCOM lateral movment technique which abuses ActivateMicrosoftApp method of Excel application.
+- [goWMIExec](https://github.com/C-Sto/goWMIExec): Really stupid re-implementation of invoke-wmiexec
+- [KQL-threat-hunting-queries](https://github.com/cyb3rmik3/KQL-threat-hunting-queries): A repository of KQL queries focused on threat hunting and threat detecting for Microsoft Sentinel & Microsoft XDR (Former Microsoft 365 Defender).
+- [EvilginxPhishletCreator](https://github.com/Simpler-Hacking/EvilginxPhishletCreator): None
+- [LDAPMon](https://github.com/jsecurity101/LDAPMon): None
+- [ADRecon](https://github.com/adrecon/ADRecon): ADRecon is a tool which gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment. 
+- [Whisker](https://github.com/eladshamir/Whisker): Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+- [GhostTask](https://github.com/netero1010/GhostTask): A tool employs direct registry manipulation to create scheduled tasks without triggering the usual event logs.
+- [incident-response-playbooks](https://github.com/LetsDefend/incident-response-playbooks): None
+- [PyHmmm](https://github.com/CodeXTF2/PyHmmm): Simple PoC Python agent to showcase Havoc C2's custom agent interface. Not operationally safe or stable. Released with accompanying blog post as a tutorial sample
+- [HavocNotion](https://github.com/CodeXTF2/HavocNotion): A simple ExternalC2 POC for Havoc C2. Communicates over Notion using a custom python agent, handler and extc2 channel. Not operationally safe or stable, built as a PoC to showcase Havoc C2's modular C2 channel interface.
+- [OffensiveLua](https://github.com/hackerhouse-opensource/OffensiveLua): Offensive Lua.
+- [Delegate](https://github.com/lutzenfried/Delegate): Tool to perform GCP Domain Wide Delegation abuse and access Gmail and Drive data
+- [WolfPack](https://github.com/RoseSecurity/WolfPack): WolfPack combines the capabilities of Terraform and Packer to streamline the deployment of red team redirectors on a large scale.
+- [CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp): CVE-2013-4786 Go exploitation tool
+- [havoc_profile_generator](https://github.com/Ghost53574/havoc_profile_generator): Havoc C2 profile generator
+- [Proxy-DLL-Loads](https://github.com/kleiton0x00/Proxy-DLL-Loads): A proof of concept demonstrating the DLL-load proxying using undocumented Syscalls.
+- [sshimpanzee](https://github.com/lexfo/sshimpanzee): SSHD Based implant supporting tunneling mecanisms to reach the C2 (DNS, ICMP, HTTP Encapsulation, HTTP/Socks Proxies, UDP...)
+- [DeHashed-API-Tool](https://github.com/hmaverickadams/DeHashed-API-Tool): A command-line tool to query the DeHashed API. Easily search for various parameters like usernames, emails, hashed passwords, IP addresses, and more.
+- [SharpAgent](https://github.com/susMdT/SharpAgent): C# havoc implant
+- [CobaltStrike-BOF](https://github.com/Yaxser/CobaltStrike-BOF): Collection of beacon BOF written to learn windows and cobaltstrike
+- [ScheduleRunner](https://github.com/netero1010/ScheduleRunner): A C# tool with more flexibility to customize scheduled task for both persistence and lateral movement in red team operation
+- [icmpsh](https://github.com/bdamele/icmpsh): Simple reverse ICMP shell
+- [MoreImpacketExamples](https://github.com/icyguider/MoreImpacketExamples): More examples using the Impacket library designed for learning purposes.
+- [PastDSE](https://github.com/utoni/PastDSE): DSE bypass using a leaked cert and adjusting the current clock.
+- [FalconHound](https://github.com/FalconForceTeam/FalconHound): FalconHound is a blue team multi-tool. It allows you to utilize and enhance the power of BloodHound in a more automated fashion. It is designed to be used in conjunction with a SIEM or other log aggregation tool. 
+- [OdinEye](https://github.com/BlackSnufkin/OdinEye): Create a private Discord CTI "Dashboard" using various Discord bots It,'s a simple and effective way to stay informed and up-to-date on the latest developments and news in Offensive Security World
+- [NovaLdr](https://github.com/BlackSnufkin/NovaLdr): Threadless Module Stomping In Rust with some features (In memory of those murdered in the Nova party massacre)
+- [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo): A tiny tool built to find and fix common misconfigurations in Active Directory-integrated DNS
+- [PsMapExec](https://github.com/The-Viper-One/PsMapExec): A PowerShell tool that takes strong inspiration from CrackMapExec / NetExec
+- [LinikatzV2](https://github.com/Orange-Cyberdefense/LinikatzV2): linikatz is a tool to attack AD on UNIX
+- [GraphRunner](https://github.com/dafthack/GraphRunner): A Post-exploitation Toolset for Interacting with the Microsoft Graph API
+- [DefenderHarvester](https://github.com/olafhartong/DefenderHarvester): Expose a lot of MDE telemetry that is not easily accessible in any searchable form
+- [misc](https://github.com/hlldz/misc): miscellaneous codes
+- [ThreadlessInject-rs](https://github.com/mfdooom/ThreadlessInject-rs): Threadless Process Injection using remote function hooking.
+- [threadless_loader_rs](https://github.com/mfdooom/threadless_loader_rs): Threadless Injection Payload Toolkit
+- [herpaderply_hollowing](https://github.com/Hagrid29/herpaderply_hollowing): Herpaderply Hollowing - a PE injection technique, hybrid between Process Hollowing and Process Herpaderping
+- [nysm](https://github.com/eeriedusk/nysm): nysm is a stealth post-exploitation container.
+- [RustHound](https://github.com/NH-RED-TEAM/RustHound): Active Directory data ingestor for BloodHound Legacy written in Rust. 🦀
+- [FuncoPop](https://github.com/NetSPI/FuncoPop): Tools for attacking Azure Function Apps
+- [maliciousCodeMatchingMFA](https://github.com/scriptchildie/maliciousCodeMatchingMFA): A small executable to trick a user to authenticate using code matching MFA
+- [Stompy](https://github.com/ZephrFish/Stompy): Timestomp Tool to flatten MAC times with a specific timestamp
+- [deviceCode2WinHello](https://github.com/kiwids0220/deviceCode2WinHello): A small script that automates Entra ID persistence with Windows Hello For Business key
+- [PrivFu](https://github.com/daem0nc0re/PrivFu): Kernel mode WinDbg extension and PoCs for token privilege investigation.
+- [offensive_c](https://github.com/Reijaff/offensive_c): None
+- [elastic-container](https://github.com/peasead/elastic-container): Stand up a simple Elastic container with Kibana, Fleet, and the Detection Engine
+- [mssqlrelay](https://github.com/CompassSecurity/mssqlrelay): Tool for MSSQL relay audit and abuse
+- [BOFRyptor](https://github.com/securifybv/BOFRyptor): None
+- [cs-token-vault](https://github.com/Henkru/cs-token-vault): In-memory token vault BOF for Cobalt Strike
+- [CoercedPotato](https://github.com/hackvens/CoercedPotato): None
+- [PersistenceSniper](https://github.com/last-byte/PersistenceSniper): Powershell module that can be used by Blue Teams, Incident Responders and System Administrators to hunt persistences implanted in Windows machines. Official Twitter/X account @PersistSniper. Made with ❤️ by @last0x00 and @dottor_morte
+- [CobaltBus](https://github.com/Flangvik/CobaltBus): Cobalt Strike External C2 Integration With Azure Servicebus, C2 traffic via Azure Servicebus
+- [RedTips](https://github.com/vysecurity/RedTips): Red Team Tips as posted by @vysecurity on Twitter
+- [perfect-loader](https://github.com/EvanMcBroom/perfect-loader): Load a dynamic library from memory by modifying the native Windows loader
+- [RedTeamOps-Havoc-101](https://github.com/WesleyWong420/RedTeamOps-Havoc-101): Materials for the workshop "Red Team Ops: Havoc 101"
+- [pi-pwnbox-rogueap](https://github.com/koutto/pi-pwnbox-rogueap): Homemade Pwnbox :rocket: / Rogue AP :satellite: based on Raspberry Pi — WiFi Hacking Cheatsheets + MindMap :bulb: 
+- [WMIExec](https://github.com/WKL-Sec/WMIExec): Set of python scripts which perform different ways of command execution via WMI protocol.
+- [Amsi-Killer](https://github.com/ZeroMemoryEx/Amsi-Killer): Lifetime AMSI bypass
+- [donut](https://github.com/TheWover/donut): Generates x86, x64, or AMD64+x86 position-independent shellcode that loads .NET Assemblies, PE files, and other Windows payloads from memory and runs them with parameters
+- [LOOBins](https://github.com/infosecB/LOOBins): Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes. 
+- [noseyparker](https://github.com/praetorian-inc/noseyparker): Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.
+- [MDE-PowerBI-Templates](https://github.com/microsoft/MDE-PowerBI-Templates): A respository for MDATP PowerBI Templates
+- [Elevate-System-Trusted-BOF](https://github.com/Mr-Un1k0d3r/Elevate-System-Trusted-BOF): None
+- [Boomerang](https://github.com/paranoidninja/Boomerang): Boomerang is a tool to expose multiple internal servers to web/cloud. Agent & Server are pretty stable and can be used in Red Team for Multiple levels of Pivoting and exposing multiple internal services to external/other networks
+- [evilginx2](https://github.com/kgretzky/evilginx2): Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
+- [adidnsdump](https://github.com/dirkjanm/adidnsdump): Active Directory Integrated DNS dumping by any authenticated user
+- [Egress-Assess](https://github.com/RedSiege/Egress-Assess): Egress-Assess is a tool used to test egress data detection capabilities
+- [TokenMan](https://github.com/secureworks/TokenMan): None
+- [Spartacus](https://github.com/Cyb3r-Monk/Spartacus): Spartacus DLL Hijacking Discovery Tool
+- [OffensiveVBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA): This repo covers some code execution and AV Evasion methods for Macros in Office documents
+- [Freeze](https://github.com/optiv/Freeze): Freeze is a payload toolkit for bypassing EDRs using suspended processes, direct syscalls, and alternative execution methods
+- [RedEye](https://github.com/cisagov/RedEye): RedEye is a visual analytic tool supporting Red & Blue Team operations
+- [follina.py](https://github.com/chvancooten/follina.py): POC to replicate the full 'Follina' Office RCE vulnerability for testing purposes
+- [PrimaryTokenTheft](https://github.com/slyd0g/PrimaryTokenTheft): Steal a primary token and spawn cmd.exe using the stolen token
+- [subTee-gits-backups](https://github.com/tuian/subTee-gits-backups): subTee gists code backups
+- [MDE-Jupyter](https://github.com/0xrob/MDE-Jupyter): None
+- [Azure_Workshop](https://github.com/mandiant/Azure_Workshop): None
+- [Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team): Azure Security Resources and Notes
+- [arsenal](https://github.com/Orange-Cyberdefense/arsenal): Arsenal is just a quick inventory and launcher for hacking programs
+- [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet): A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
+- [SharpCollectionTemplate](https://github.com/RedSiege/SharpCollectionTemplate): None
+- [PersistentJXA](https://github.com/D00MFist/PersistentJXA): Collection of macOS persistence methods and miscellaneous tools in JXA
+- [LatLoader](https://github.com/icyguider/LatLoader): PoC module to demonstrate automated lateral movement with the Havoc C2 framework.
+- [aced](https://github.com/garrettfoster13/aced): None
+- [CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan): Scanner for CVE-2023-22515 - Broken Access Control Vulnerability in Atlassian Confluence
+- [cmloot](https://github.com/shelltrail/cmloot): None
+- [Crassus](https://github.com/vu-ls/Crassus): None
+- [nord-stream](https://github.com/synacktiv/nord-stream): Nord Stream is a tool that allows you to extract secrets stored inside CI/CD environments by deploying malicious pipelines. It currently supports Azure DevOps, GitHub and GitLab.
+- [GCP-Pentest-Checklist](https://github.com/CyberSecurityUP/GCP-Pentest-Checklist): None
+- [SharpLdapWhoami](https://github.com/bugch3ck/SharpLdapWhoami): WhoAmI by asking the LDAP service on a domain controller.
+- [Van1338](https://github.com/kkent030315/Van1338): A journal for $6,000 Riot Vanguard bounty.
+- [KubeHound](https://github.com/DataDog/KubeHound): Tool for building Kubernetes attack paths
+- [ArminC-AutoExec](https://github.com/armync/ArminC-AutoExec): ⚙️ ArminC's autoexec for CS2 - well documented, analysed and no misconfigurations
+- [TCS_InjectionTechniques](https://github.com/trustedsec/TCS_InjectionTechniques): None
+- [SharpCalendar](https://github.com/OG-Sadpanda/SharpCalendar): .NET Assembly to Retrieve Outlook Calendar Details
+- [SharpCat](https://github.com/OG-Sadpanda/SharpCat): C# alternative to the linux "cat" command... Prints file contents to console. For use with Cobalt Strike's Execute-Assembly
+- [SharpZippo](https://github.com/OG-Sadpanda/SharpZippo): List/Read contents of Zip files (in memory and without extraction) using CobaltStrike's Execute-Assembly
+- [SharpSword](https://github.com/OG-Sadpanda/SharpSword): Read the contents of MS Word Documents using Cobalt Strike's Execute-Assembly
+- [SharpExcelibur](https://github.com/OG-Sadpanda/SharpExcelibur): Read Excel Spreadsheets (XLS/XLSX) using Cobalt Strike's Execute-Assembly
+- [RedTeam_Tools_n_Stuff](https://github.com/RCStep/RedTeam_Tools_n_Stuff): Collection of self-made Red Team tools that have come in handy
+- [RedTeam_Tools_n_Stuff](https://github.com/OG-Sadpanda/RedTeam_Tools_n_Stuff): Collection of self-made Red Team tools that have come in handy
+- [HeaderLessPE](https://github.com/M01N-Team/HeaderLessPE): None
+- [BadZure](https://github.com/mvelazc0/BadZure): BadZure orchestrates the setup of Azure AD tenants, populating them with diverse entities while also introducing common security misconfigurations to create vulnerable tenants with multiple attack paths.
+- [msi-shenanigans](https://github.com/mgeeky/msi-shenanigans): Proof of Concept code and samples presenting emerging threat of MSI installer files.
+- [Slackhound](https://github.com/BojackThePillager/Slackhound): Slackhound allows red and blue teams to perform fast reconnaissance on Slack workspaces/organizations to quickly search user profiles, locations, files, and other objects. 
+- [AD_Miner](https://github.com/AD-Security/AD_Miner): AD Miner is an Active Directory audit tool that leverages cypher queries to crunch data from the #Bloodhound graph database to uncover security weaknesses
+- [1PasswordSuite](https://github.com/djhohnstein/1PasswordSuite): Utilities to extract secrets from 1Password
+- [cookienapper](https://github.com/greycatsec/cookienapper): Python tool for kidnapping Chrome cookies from a MacOS target 
+- [GhostNap](https://github.com/itaymigdal/GhostNap): Sleep obfuscation for shellcode implants and their reflective shit
+- [SetProcessInjection](https://github.com/OtterHacker/SetProcessInjection): None
+- [reconerator](https://github.com/stufus/reconerator): C# Targeted Attack Reconnissance Tools
+- [LdapRelayScan](https://github.com/zyn3rgy/LdapRelayScan): Check for LDAP protections regarding the relay of NTLM authentication
+- [CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357): None
+- [Windows-Internals](https://github.com/Faran-17/Windows-Internals): Important notes and topics on my journey towards mastering Windows Internals
+- [SharpAzbelt](https://github.com/redskal/SharpAzbelt): .NET port of Leron Gray's azbelt tool.
+- [RedELK-workshop](https://github.com/outflanknl/RedELK-workshop): Items related to the RedELK workshop given at security conferences
+- [Hooka](https://github.com/D3Ext/Hooka): Shellcode loader generator with multiples features
+- [MaldevAcademyLdr.1](https://github.com/Maldev-Academy/MaldevAcademyLdr.1): None
+- [mad-hyperv](https://github.com/Marmeus/mad-hyperv): Ansible + Vagrant + Hyper-V + Vulnerable AD 😎
+- [ntdissector](https://github.com/synacktiv/ntdissector): None
+- [CredGuess](https://github.com/eversinc33/CredGuess): Generate password spraying lists based on the pwdLastSet-attribute of users.
+- [JonMon](https://github.com/jsecurity101/JonMon): None
+- [pyLDAPWordlistHarvester](https://github.com/p0dalirius/pyLDAPWordlistHarvester): A tool to generate a wordlist from the information present in LDAP, in order to crack passwords of domain accounts.
+- [RedPersist](https://github.com/mertdas/RedPersist): None
+- [GPOddity](https://github.com/synacktiv/GPOddity): The GPOddity project, aiming at automating GPO attack vectors through NTLM relaying (and more).
+- [CVE-2022-33679](https://github.com/Bdenneu/CVE-2022-33679): One day based on https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html
+- [WTSImpersonator](https://github.com/OmriBaso/WTSImpersonator): WTSImpersonator utilizes WTSQueryUserToken to steal user tokens by abusing the RPC Named Pipe "\\pipe\LSM_API_service"
+- [ThreatHunting](https://github.com/GossiTheDog/ThreatHunting): Tools for hunting for threats.
+- [SliverExtensionSample](https://github.com/thelikes/SliverExtensionSample): Sample Sliver Extension
+- [BlueHound](https://github.com/zeronetworks/BlueHound): BlueHound - pinpoint the security issues that actually matter
+- [known_hosts-hashcat](https://github.com/chris408/known_hosts-hashcat): A guide and tool for cracking ssh known_hosts files with hashcat
+- [donut-decryptor](https://github.com/volexity/donut-decryptor): Retrieve inner payloads from Donut samples
+- [Periscope](https://github.com/malcomvetter/Periscope): Fully Integrated Adversarial Operations Toolkit (C2, stagers, agents, ephemeral infrastructure, phishing engine, and automation)
+- [v4](https://github.com/bchiang7/v4): Fourth iteration of my personal website built with Gatsby
+- [WS_RaceCondition_PoC](https://github.com/redrays-io/WS_RaceCondition_PoC): Simple PoC for demonstrating Race Conditions on Websockets
+- [SspiUacBypass](https://github.com/antonioCoco/SspiUacBypass): Bypassing UAC with SSPI Datagram Contexts 
+- [CSSHide](https://github.com/inb1ts/CSSHide): Encodes a payload within a generated mock-CSS file
+- [split-bloodhound](https://github.com/Syslifters/split-bloodhound): None
+- [MTKPI](https://github.com/r0binak/MTKPI): 🧰 Multi Tool Kubernetes Pentest Image 
+- [NTLMRecon](https://github.com/pwnfoo/NTLMRecon): Enumerate information from NTLM authentication enabled web endpoints 🔎
+- [ZipExec](https://github.com/Tylous/ZipExec): A unique technique to execute binaries from a password protected zip
+- [covermyass](https://github.com/sundowndev/covermyass): Post-exploitation tool to cover your tracks on a compromised machine (beta)
+- [moonwalk](https://github.com/mufeedvh/moonwalk): Cover your tracks during Linux Exploitation by leaving zero traces on system logs and filesystem timestamps.
+- [jecretz](https://github.com/sahadnk72/jecretz): Jira Secret Hunter - Helps you find credentials and sensitive contents in Jira tickets
+- [Caro-Kann](https://github.com/S3cur3Th1sSh1t/Caro-Kann): Encrypted shellcode Injection to avoid Kernel triggered memory scans 
+- [LdrpKernel32DllName](https://github.com/rbmm/LdrpKernel32DllName): None
+- [SharpLeftOvers](https://github.com/ceramicskate0/SharpLeftOvers): A C# Tool to find left over pentest data for use in your  pentest  or redteam op. Blue could maybe use to find files to cleanup
+- [macOSTools](https://github.com/xorrior/macOSTools): macOS Offensive Tools
+- [seclab](https://github.com/mttaggart/seclab): Automated security lab provisioning
+- [CSSG](https://github.com/RCStep/CSSG): Cobalt Strike Shellcode Generator
+- [psgetsystem](https://github.com/decoder-it/psgetsystem): getsystem via parent process using ps1 & embeded c#
+- [Sparrow](https://github.com/cisagov/Sparrow): Sparrow.ps1 was created by CISA's Cloud Forensics team to help detect possible compromised accounts and applications in the Azure/m365 environment.
+- [AzSentinelQueries](https://github.com/f-bader/AzSentinelQueries): Repository with Sentinel Analytics Rules, Hunting Queries and helpful external data sources.
+- [Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists): Version 2 is live! Wordlists sorted by probability originally created for password generation and testing - make sure your passwords aren't popular!
+- [CVE-2023-27470_Exercise](https://github.com/3lp4tr0n/CVE-2023-27470_Exercise): None
+- [DirCreate2System](https://github.com/binderlabs/DirCreate2System): Weaponizing to get NT SYSTEM for Privileged Directory Creation Bugs with Windows Error Reporting
+- [PersistBOF](https://github.com/N4kedTurtle/PersistBOF): A BOF to automate common persistence tasks for red teamers
+- [BofAllTheThings](https://github.com/N7WEra/BofAllTheThings): Creating a repository with all public Beacon Object Files (BoFs)
+- [ServiceMove-BOF](https://github.com/netero1010/ServiceMove-BOF): New lateral movement technique by abusing Windows Perception Simulation Service to achieve DLL hijacking code execution.
+- [maldev](https://github.com/cr-0w/maldev): ⚠️ malware development
+- [LsaParser](https://github.com/RobinFassinaMoschiniForks/LsaParser): A shitty (and old) lsass parser. 
+- [Responder-Parser](https://github.com/nickvourd/Responder-Parser): Most Responder's configuration power in your hand.
+- [sswws](https://github.com/faustinoaq/sswws): Super Simple Windows Web Server
+- [DEFCON-31-Syscalls-Workshop](https://github.com/VirtualAlllocEx/DEFCON-31-Syscalls-Workshop): Contains all the material from the DEF CON 31 workshop "(In)direct Syscalls: A Journey from High to Low". 
+- [SimpleEDR](https://github.com/Helixo32/SimpleEDR): Simple EDR that injects a DLL into a process to place a hook on specific Windows API
+- [DeepSleep](https://github.com/thefLink/DeepSleep): A variant of Gargoyle for x64 to hide memory artifacts using ROP only and PIC
+- [Amsi_Bypass_In_2023](https://github.com/senzee1984/Amsi_Bypass_In_2023): Amsi Bypass payload that works on Windwos 11
+- [PMP-Decrypter](https://github.com/LuemmelSec/PMP-Decrypter): None
+- [BlueHatIL-2020](https://github.com/FuzzySecurity/BlueHatIL-2020): BlueHatIL 2020 - Staying # and Bringing Covert Injection Tradecraft to .NET
+- [Sharp-Suite](https://github.com/FuzzySecurity/Sharp-Suite): Also known by Microsoft as Knifecoat :hot_pepper:
+- [icmpdoor](https://github.com/krabelize/icmpdoor): ICMP Reverse Shell written in Python 3 and with Scapy (backdoor/rev shell)
+- [awesome-soc-analyst](https://github.com/LetsDefend/awesome-soc-analyst): Useful resources for SOC Analyst and SOC Analyst candidates.
+- [fake-ransomware](https://github.com/malcomvetter/fake-ransomware): A non-destructive, but ANNOYING ransomware lookalike for use with red team exercises.
+- [Invoke-PrintDemon](https://github.com/BC-SECURITY/Invoke-PrintDemon): This is a PowerShell Empire launcher PoC using PrintDemon and Faxhell.
+- [PySQLRecon](https://github.com/Tw1sm/PySQLRecon): Offensive MSSQL toolkit written in Python, based off SQLRecon
+- [w32time](https://github.com/scottlundgren/w32time): None
+- [PurpleOps](https://github.com/CyberCX-STA/PurpleOps): An open-source self-hosted purple team management web application.
+- [ACCD](https://github.com/Cyb3r-Monk/ACCD): Active C&C Detector
+- [AutoSmuggle](https://github.com/surajpkhetani/AutoSmuggle): Utility to craft HTML or SVG smuggled files for Red Team engagements
+- [HackSysExtremeVulnerableDriver](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver): HackSys Extreme Vulnerable Driver (HEVD) - Windows & Linux
+- [FollowBack](https://github.com/bboymega/FollowBack): Checking Accounts that are not following back on Instagram with account dumped file HTML
+- [Conferences](https://github.com/OtterHacker/Conferences): None
+- [Crypto-Census](https://github.com/sou-predictable/Crypto-Census): Crypto Census - A One-Stop-Shop for Crypto Domain Aggregation
+- [symboliclink-testing-tools](https://github.com/googleprojectzero/symboliclink-testing-tools): None
+- [WWHF-WayWest-2022](https://github.com/FuzzySecurity/WWHF-WayWest-2022): None
+- [windows-logical-eop-workshop](https://github.com/tyranid/windows-logical-eop-workshop): None
+- [awesome_windows_logical_bugs](https://github.com/sailay1996/awesome_windows_logical_bugs): collect for learning cases
+- [wordsmith](https://github.com/skahwah/wordsmith): The aim of Wordsmith is to assist with creating tailored wordlists. This is mostly based on geolocation.
+- [CloudRecon](https://github.com/g0ldencybersec/CloudRecon): None
+- [Talks](https://github.com/moohax/Talks): Central repo for talks and presentations
+- [EDRSandblast-GodFault](https://github.com/gabriellandau/EDRSandblast-GodFault): EDRSandblast-GodFault
+- [Supernova](https://github.com/nickvourd/Supernova): Real fucking shellcode encryptor & obfuscator tool
+- [sysreptor](https://github.com/Syslifters/sysreptor): A customizable and powerful penetration testing reporting platform for offensive security professionals. Simplify, customize, and automate your pentest reports with ease.
+- [NimDllSideload](https://github.com/byt3bl33d3r/NimDllSideload): DLL sideloading/proxying with Nim!
+- [Atlas](https://github.com/airzero24/Atlas): Lightweight C# windows agent for Apfell
+- [Ensemble](https://github.com/DotNetRussell/Ensemble): A Bug Bounty Platform that allows hunters to issue commands over a geo-distributed cluster. The ideal user is someone who is attempting to scan multiple bug bounty programs simultaneously, on a recurring basis.
+- [Mockingjay_BOF](https://github.com/ewby/Mockingjay_BOF): Cobalt Strike + Brute Ratel C4 Beacon Object File (BOF) Conversion of the Mockingjay Process Injection Technique
+- [NtRemoteLoad](https://github.com/florylsk/NtRemoteLoad): Remote Shellcode Injector
+- [GhostLoader](https://github.com/TheWover/GhostLoader): GhostLoader - AppDomainManager - Injection - 攻壳机动队
+- [GhostLoader](https://github.com/netbiosX/GhostLoader): GhostLoader - AppDomainManager - Injection - 攻壳机动队
+- [jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console): A jekyll theme inspired by linux consoles for hackers, developers and script kiddies.
+- [compare](https://github.com/tehstoni/compare): python script to parse the output of the hashcat potfile and the dump of the ntds.dit file to match usernames and hashes to the cracked password.
+- [linikatz](https://github.com/CiscoCXSecurity/linikatz): linikatz is a tool to attack AD on UNIX
+- [MSSqlPwner](https://github.com/ScorpionesLabs/MSSqlPwner): None
+- [CVE-2023-36874_BOF](https://github.com/Octoberfest7/CVE-2023-36874_BOF): Weaponized CobaltStrike BOF for CVE-2023-36874 Windows Error Reporting LPE
+- [AzTokenFinder](https://github.com/HackmichNet/AzTokenFinder): None
+- [msprobe](https://github.com/puzzlepeaches/msprobe): Finding all things on-prem Microsoft for password spraying and enumeration.
+- [aws_url_signer](https://github.com/stephenbradshaw/aws_url_signer): POC tool to create signed AWS API GET requests to bypass Guard Duty alerting of off-instance credential use via SSRF
+- [ShadowRDP](https://github.com/c3r3br4t3/ShadowRDP): None
+- [micr0_shell](https://github.com/senzee1984/micr0_shell): micr0shell is a Python script that dynamically generates Windows X64 PIC Null-Free reverse shell shellcode.
+- [PXEThief](https://github.com/MWR-CyberSec/PXEThief): PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager
+- [sccmhunter](https://github.com/garrettfoster13/sccmhunter): None
+- [Reg-Restore-Persistence-Mole](https://github.com/tccontre/Reg-Restore-Persistence-Mole): a short C code POC to gain persistence and evade sysmon event code registry (creation, update and deletion) REG_NOTIFY_CLASS Registry Callback of sysmon driver filter. RegSaveKeyExW() and RegRestoreKeyW() API which is not included in  monitoring. This POC will use
+- [ScubaGear](https://github.com/cisagov/ScubaGear): Automation to assess the state of your M365 tenant against CISA's baselines
+- [TokenTactics](https://github.com/rvrsh3ll/TokenTactics): Azure JWT Token Manipulation Toolset
+- [Abusing_Weak_ACL_on_Certificate_Templates](https://github.com/daem0nc0re/Abusing_Weak_ACL_on_Certificate_Templates): Investigation about ACL abusing for Active Directory Certificate Services (AD CS)
+- [Percino](https://github.com/TunnelGRE/Percino): Evasive Golang Loader
+- [SharpSC](https://github.com/djhohnstein/SharpSC): Simple .NET assembly to interact with services.
+- [SharpSvc](https://github.com/jnqpblc/SharpSvc): SharpSvc is a simple code set to interact with the SC Manager API and is compatible with Cobalt Strike.
+- [boopkit](https://github.com/krisnova/boopkit): Linux eBPF backdoor over TCP. Spawn reverse shells, RCE, on prior privileged access. Less Honkin, More Tonkin.
+- [acid](https://github.com/QueenSquishy/acid): None
+- [Burp-Suite-Certified-Practitioner-Exam-Study](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study): Burp Suite Certified Practitioner Exam Study
+- [WerTrigger](https://github.com/sailay1996/WerTrigger): Weaponizing for privileged file writes bugs with windows problem reporting
+- [faxhell](https://github.com/ionescu007/faxhell): A Bind Shell Using the Fax Service and a DLL Hijack
+- [DumpBTM](https://github.com/objective-see/DumpBTM): And open-source version of % sfltool dumpbtm
+- [gssapi-abuse](https://github.com/CCob/gssapi-abuse): A tool for enumerating potential hosts that are open to GSSAPI abuse within Active Directory networks
+- [DllNotificationInjection](https://github.com/Dec0ne/DllNotificationInjection): A POC of a new “threadless” process injection technique that works by utilizing the concept of DLL Notification Callbacks in local and remote processes.
+- [NoFilter](https://github.com/deepinstinct/NoFilter): None
+- [electroniz3r](https://github.com/r3ggi/electroniz3r): Take over macOS Electron apps' TCC permissions
+- [DoubleDrive](https://github.com/SafeBreach-Labs/DoubleDrive): A fully-undetectable ransomware that utilizes OneDrive & Google Drive to encrypt target local files
+- [Obligato](https://github.com/BeetleChunks/Obligato): This project is an implant framework designed for long term persistent access to Windows machines.
+- [SWAT](https://github.com/elastic/SWAT): Simple Workspace Attack Tool (SWAT) is a tool for simulating malicious behavior against Google Workspace in reference to the MITRE ATT&CK framework.
+- [power-pwn](https://github.com/mbrg/power-pwn): An offensive security toolset for Microsoft 365 focused on Microsoft Copilot, Copilot Studio and Power Platform
+- [NTLMRecon](https://github.com/puzzlepeaches/NTLMRecon): Enumerate information from NTLM authentication enabled web endpoints 🔎
+- [OffensiveCloud](https://github.com/lutzenfried/OffensiveCloud): Offensive security and Penetration Testing TTP for Cloud based environment (AWS / Azure / GCP)
+- [smsadmin](https://github.com/garrettfoster13/smsadmin): None
+- [TTPForge](https://github.com/facebookincubator/TTPForge): The TTPForge is a Cybersecurity Framework for developing, automating, and executing attacker Tactics, Techniques, and Procedures (TTPs).
+- [ForgeArmory](https://github.com/facebookincubator/ForgeArmory): ForgeArmory provides TTPs that can be used with the TTPForge (https://github.com/facebookincubator/ttpforge).
+- [Nemesis](https://github.com/SpecterOps/Nemesis): An offensive data enrichment pipeline
+- [Nimperiments](https://github.com/RePRGM/Nimperiments): Various one-off pentesting projects written in Nim. Updates happen on a whim.
+- [Invoke-TheHash](https://github.com/Kevin-Robertson/Invoke-TheHash): PowerShell Pass The Hash Utils
+- [RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools): Tools and Techniques for Red Team / Penetration Testing
+- [AzureAD-incident-response](https://github.com/WillOram/AzureAD-incident-response): Notes on responding to security breaches relating to Azure AD
+- [Detecting-Process-Injection-Techniques](https://github.com/jsecurity101/Detecting-Process-Injection-Techniques): This is a repository that is meant to hold detections for various process injection techniques.
+- [br-notifier](https://github.com/elephacking/br-notifier): BruteRatel webhook integration with Slack and Email
+- [check_mdi](https://github.com/expl0itabl3/check_mdi): Python script to enumerate valid Microsoft 365 domains, retrieve tenant name, and check for an MDI instance.
+- [ppmap](https://github.com/kleiton0x00/ppmap): A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets.
+- [S4UTomato](https://github.com/wh0amitz/S4UTomato): Escalate Service Account To LocalSystem via Kerberos
+- [ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection): This program is designed to demonstrate various process injection techniques
+- [Threat-Hunting-and-Detection](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection): Repository for threat hunting and detection queries, etc. for Defender for Endpoint and Microsoft Sentinel in KQL(Kusto Query Language).
+- [DarkWidow](https://github.com/reveng007/DarkWidow): Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing + Api resolving from TIB +  API hashing
+- [TelemetrySource](https://github.com/jsecurity101/TelemetrySource): None
+- [SealighterTI](https://github.com/pathtofile/SealighterTI): Combining Sealighter with unpatched exploits to run the Threat-Intelligence ETW Provider
+- [ipc-research](https://github.com/SpecterOps/ipc-research): Inter-Process Communication Mechanisms
+- [MSRPC-to-ATTACK](https://github.com/jsecurity101/MSRPC-to-ATTACK): A repository that maps commonly used attacks using MSRPC protocols to ATT&CK
+- [Awesome-macOS-Red-Teaming](https://github.com/tonghuaroot/Awesome-macOS-Red-Teaming): List of Awesome macOS Red Teaming Resources.
+- [MicroBackdoor](https://github.com/Cr4sh/MicroBackdoor): Small and convenient C2 tool for Windows targets. [ Русский -- значит нахуй! ]
+- [indicators](https://github.com/p-ranav/indicators): Activity Indicators for Modern C++
+- [FOLIAGE](https://github.com/y11en/FOLIAGE): Experiment on reproducing Obfuscate & Sleep
+- [talks](https://github.com/naksyn/talks): Repo containing my public talks
+- [SweetDreams](https://github.com/CognisysGroup/SweetDreams): Implementation of Advanced Module Stomping and Heap/Stack Encryption
+- [Alcatraz](https://github.com/weak1337/Alcatraz): x64 binary obfuscator
+- [CosMapper](https://github.com/armvirus/CosMapper): Loads a signed kernel driver which allows you to map any driver to kernel mode without any traces of the signed / mapped driver.
+- [SinMapper](https://github.com/armvirus/SinMapper): usermode driver mapper that forcefully loads any signed kernel driver (legit cert) with a big enough section (example: .data, .rdata) to map your driver over. the main focus of this project is to prevent modern anti-cheats (BattlEye, EAC) from finding your driver and having the power to hook anything due to being inside of legit memory (signed legit driver).
+- [FreshyCalls](https://github.com/crummie5/FreshyCalls): FreshyCalls tries to make the use of syscalls comfortable and simple, without generating too much boilerplate and in modern C++17!
+- [pe-sieve](https://github.com/hasherezade/pe-sieve): Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).
+- [GPUSleep](https://github.com/oXis/GPUSleep): Move CS beacon to GPU memory when sleeping
+- [MalMemDetect](https://github.com/waldo-irc/MalMemDetect): Detect strange memory regions and DLLs
+- [Havoc](https://github.com/HavocFramework/Havoc): The Havoc Framework
+- [warhorse](https://github.com/warhorse/warhorse): Infrastructure Automation
+- [PowerLessShell](https://github.com/Mr-Un1k0d3r/PowerLessShell): Run PowerShell command without invoking powershell.exe
+- [PCredz](https://github.com/lgandx/PCredz): This tool extracts Credit card numbers, NTLM(DCE-RPC, HTTP, SQL, LDAP, etc), Kerberos (AS-REQ Pre-Auth etype 23), HTTP Basic, SNMP, POP, SMTP, FTP, IMAP, etc from a pcap file or from a live interface.
+- [Certipy](https://github.com/ly4k/Certipy): Tool for Active Directory Certificate Services enumeration and abuse
+- [TCC-ClickJacking](https://github.com/breakpointHQ/TCC-ClickJacking): A proof of concept for a clickjacking attack on macOS.
+- [inject-assembly](https://github.com/kyleavery/inject-assembly): Inject .NET assemblies into an existing process
+- [pywhisker](https://github.com/ShutdownRepo/pywhisker): Python version of the C# tool for "Shadow Credentials" attacks
+- [TitanLdr](https://github.com/kyleavery/TitanLdr): Cobalt Strike User Defined Reflective Loader (UDRL). Check branches for different functionality.
+- [Malleable-CS-Profiles](https://github.com/WKL-Sec/Malleable-CS-Profiles): A list of python tools to help create an OPSEC-safe Cobalt Strike profile.
+- [WSPCoerce](https://github.com/slemire/WSPCoerce): PoC to coerce authentication from Windows hosts using MS-WSP
+- [windows-exploitation](https://github.com/ayoubfaouzi/windows-exploitation): My notes while studying Windows exploitation
+- [SwiftBelt-JXA](https://github.com/cedowens/SwiftBelt-JXA): JXA implementation of some SwiftBelt functions. Author: Cedric Owens
+- [AzureHunter](https://github.com/darkquasar/AzureHunter): A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365
+- [SlackPirate](https://github.com/emtunc/SlackPirate): Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace
+- [CodeCave](https://github.com/Cracked5pider/CodeCave): A bunch of scripts and code i wrote. 
+- [SecurityResearcher-Note](https://github.com/LearningKijo/SecurityResearcher-Note): Cover various security approaches to attack techniques and also provides new discoveries about security breaches.
+- [KQL](https://github.com/LearningKijo/KQL): Threat Hunting query in Microsoft 365 Defender, XDR. Provide out-of-the-box KQL hunting queries - App, Email, Identity and Endpoint.
+- [Test004](https://github.com/aahmad097/Test004): Persistence via Shell Extensions
+- [detections](https://github.com/cybergoatpsyops/detections): Placeholder for my detection repo and misc detection engineering content
+- [dcomhijack](https://github.com/WKL-Sec/dcomhijack): Lateral Movement Using DCOM and DLL Hijacking
+- [Pentest-Mapper](https://github.com/Anof-cyber/Pentest-Mapper): A Burp Suite Extension for pentester and bug bounty hunters an to maintain checklist, map flows, write test cases and track vulnerabilities 
+- [RandomTSScripts](https://github.com/xpn/RandomTSScripts): Collection of random RedTeam scripts.
+- [msi-search](https://github.com/mandiant/msi-search): None
+- [detection-and-response-pipeline](https://github.com/0x4D31/detection-and-response-pipeline): ✨ A compilation of suggested tools/services for each component in a detection and response pipeline, along with real-world examples. The purpose is to create a reference hub for designing effective threat detection and response pipelines. 👷 🏗
+- [Azure-Sentinel-Syslog-Workbook](https://github.com/scautomation/Azure-Sentinel-Syslog-Workbook): community version of azure sentinel workbook
+- [awesome-kql-sentinel](https://github.com/reprise99/awesome-kql-sentinel): A curated list of blogs, videos, tutorials, queries and anything else valuable to help you learn and master KQL and Microsoft Sentinel
+- [Microsoft-Sentinel-SecOps](https://github.com/eshlomo1/Microsoft-Sentinel-SecOps): Microsoft Sentinel SOC Operations
+- [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel): Cloud-native SIEM for intelligent security analytics for your entire enterprise.
+- [awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection): ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️
+- [awesome-detection-engineering](https://github.com/infosecB/awesome-detection-engineering): Detection Engineering is a tactical function of a cybersecurity defense program that involves the design, implementation, and operation of detective controls with the goal of proactively identifying malicious or unauthorized activity before it negatively impacts an individual or an organization.
+- [slack-web-scraper](https://github.com/iulspop/slack-web-scraper): Puppeteer configured to scrape the posts and threads of any channel on Slack.
+- [go-secdump](https://github.com/jfjallid/go-secdump): Tool to remotely dump secrets from the Windows registry
+- [sysplant](https://github.com/x42en/sysplant): Your syscall factory
+- [virtualmachine](https://github.com/XutaxKamay/virtualmachine): Experiments on doing virtual machine template for obfuscation. 
+- [MeterPwrShell](https://github.com/GetRektBoy724/MeterPwrShell): Automated Tool That Generates The Perfect Meterpreter Powershell Payload
+- [stager_libpeconv](https://github.com/tothi/stager_libpeconv): A basic meterpreter protocol stager using the libpeconv library by hasherezade for reflective loading
+- [Group3r](https://github.com/Group3r/Group3r): Find vulnerabilities in AD Group Policy, but do it better than Grouper2 did.
+- [CRTE-Notes](https://github.com/0xStarlight/CRTE-Notes): Study materials for the Certified Red Team Expert (CRTE) exam, covering essential concepts in red teaming and penetration testing.
+- [wfp-reader](https://github.com/X-C3LL/wfp-reader): Proof of concept - Covert Channel using Windows Filtering Platform (C#)
+- [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket): SpoolSample -> Responder w/NetNTLM Downgrade -> NetNTLMv1 -> NTLM -> Kerberos Silver Ticket
+- [GIUDA](https://github.com/foxlox/GIUDA): Ask a TGS on behalf of another user without password
+- [BounceBack](https://github.com/D00Movenok/BounceBack): ↕️🤫 Stealth redirector for your red team operation security
+- [SnoopyOwl](https://github.com/Adepts-Of-0xCC/SnoopyOwl): None
+- [CACTUSTORCH](https://github.com/vysecurity/CACTUSTORCH): CACTUSTORCH: Payload Generation for Adversary Simulations
+- [IAMActionHunter](https://github.com/RhinoSecurityLabs/IAMActionHunter): An AWS IAM policy statement parser and query tool.
+- [GmailEnum](https://github.com/Raindayzz/GmailEnum): Google Suite Account Enumeration Tool using magic 
+- [cowitness](https://github.com/stolenusername/cowitness): CoWitness is a powerful web application testing tool that enhances the accuracy and efficiency of your testing efforts. It allows you to mimic an HTTP server and a DNS server, providing complete responses and valuable insights during your testing process.
+- [PolyHook_2_0](https://github.com/stevemk14ebr/PolyHook_2_0): C++20, x86/x64 Hooking Libary v2.0
+- [MaldevEDR](https://github.com/redt1de/MaldevEDR): EDR/AV Simulation for Malware Development
+- [cxxopts](https://github.com/jarro2783/cxxopts): Lightweight C++ command line option parser
+- [getoptpp](https://github.com/timstaley/getoptpp): Yet Another getopt C++ version, STL-streaming like
+- [PerfExec](https://github.com/0xthirteen/PerfExec): None
+- [PE-library](https://github.com/mgeeky/PE-library): Lightweight Portable Executable parsing library and a demo peParser application.
+- [ShuckNT](https://github.com/yanncam/ShuckNT): ShuckNT is the script of Shuck.sh online service for on-premise use. It is design to dowgrade, convert, dissect and shuck authentication token based on Data Encryption Standard (DES).
+- [ldapfw](https://github.com/zeronetworks/ldapfw): Protect your Domain Controllers by auditing and restricting LDAP requests
+- [Ghost-In-The-Logs](https://github.com/bats3c/Ghost-In-The-Logs): Evade sysmon and windows event logging
+- [EnterprisePurpleTeaming](https://github.com/ch33r10/EnterprisePurpleTeaming): Purple Team Resources for Enterprise Purple Teaming: An Exploratory Qualitative Study by Xena Olsen.
+- [BOF_Development_Docker](https://github.com/EspressoCake/BOF_Development_Docker): A VSCode devcontainer for development of COFF files with batteries included.
+- [concealed_code_execution](https://github.com/huntandhackett/concealed_code_execution): Tools and technical write-ups describing attacking techniques that rely on concealing code execution on Windows
+- [Codecepticon](https://github.com/Accenture/Codecepticon): .NET/PowerShell/VBA Offensive Security Obfuscator
+- [PowerShx](https://github.com/iomoath/PowerShx): Run Powershell without software restrictions.
+- [BOF-RunPE](https://github.com/MrAle98/BOF-RunPE): None
+- [ShellGhost](https://github.com/lem0nSec/ShellGhost): A memory-based evasion technique which makes shellcode invisible from process start to end.
+- [PS](https://github.com/MrAle98/PS): None
+- [Invisi-Shell](https://github.com/OmerYa/Invisi-Shell): Hide your Powershell script in plain sight. Bypass all Powershell security features
+- [ModuleShifting](https://github.com/naksyn/ModuleShifting): Stealthier variation of Module Stomping and Module Overloading injection techniques that reduces memory IoCs. Implemented in Python ctypes
+- [Proxy-Function-Calls-For-ETwTI](https://github.com/paranoidninja/Proxy-Function-Calls-For-ETwTI): The code is a pingback to the Dark Vortex blog: https://0xdarkvortex.dev/hiding-memory-allocations-from-mdatp-etwti-stack-tracing/
+- [pinjectra](https://github.com/SafeBreach-Labs/pinjectra): Pinjectra is a C/C++ OOP-like library that implements Process Injection techniques (with focus on Windows 10 64-bit)
+- [Invoke-Pre2kSpray](https://github.com/eversinc33/Invoke-Pre2kSpray): Enumerate domain machine accounts and perform pre2k password spraying.
+- [dll-hijack-by-proxying](https://github.com/tothi/dll-hijack-by-proxying): Exploiting DLL Hijacking by DLL Proxying Super Easily
+- [bw-dump](https://github.com/markuta/bw-dump): A proof-of-concept for (CVE-2023-38840) that extracts plaintext master passwords from a locked Bitwarden vault.
+- [ATP-PowerShell-Scripts](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts): Microsoft Signed PowerShell scripts
+- [Ninja_UUID_Runner](https://github.com/boku7/Ninja_UUID_Runner): Module Stomping, No New Thread, HellsGate syscaller, UUID Shellcode Runner for x64 Windows 10!
+- [JayFinder](https://github.com/oldboy21/JayFinder): Find DLLs with RWX section
+- [TeamsPhisher](https://github.com/Octoberfest7/TeamsPhisher): Send phishing messages and attachments to Microsoft Teams users
+- [DeathSleep](https://github.com/janoglezcampos/DeathSleep): A PoC implementation for an evasion technique to terminate the current thread and restore it before resuming execution, while implementing page protection changes during no execution.
+- [nanorobeus](https://github.com/wavvs/nanorobeus): COFF file (BOF) for managing Kerberos tickets.
+- [Malware-Analysis](https://github.com/dodo-sec/Malware-Analysis): None
+- [ntdlll-unhooking-collection](https://github.com/SaadAhla/ntdlll-unhooking-collection): different ntdll unhooking techniques : unhooking ntdll from disk, from KnownDlls, from suspended process, from remote server (fileless)
+- [VX-API](https://github.com/vxunderground/VX-API): Collection of various malicious functionality to aid in malware development
+- [UltimateWDACBypassList](https://github.com/bohops/UltimateWDACBypassList): A centralized resource for previously documented WDAC bypass techniques
+- [NoMoreCookies](https://github.com/AdvDebug/NoMoreCookies): Browser Protector against various stealers, written in C# & C/C++.
+- [DirectSysCall](https://github.com/rbmm/DirectSysCall): None
+- [iat_unhook_sample](https://github.com/Signal-Labs/iat_unhook_sample): (First Public?) Sample of unhooking ntdll (All Exports & IAT imports) hooks in Rust using in-memory disassembly, avoiding direct syscalls and all hooked functions (incl. hooked NtProtectVirtualMemory)
+- [BOFMask](https://github.com/xforcered/BOFMask): None
+- [TierZeroTable](https://github.com/BloodHoundAD/TierZeroTable): Table of AD and Azure assets and whether they belong to Tier Zero
+- [AtlasReaper](https://github.com/werdhaihai/AtlasReaper): A command-line tool for reconnaissance and targeted write operations on Confluence and Jira instances. 
+- [Ultimate-Hacker-Roadmap](https://github.com/Kennyslaboratory/Ultimate-Hacker-Roadmap): Don't know what to focus on to become a Penetration Tester..? This is the BEST roadmap for becoming a modern penetration tester.  Everything you need to know to land a paying job, categorized in 5 skill levels.
+- [TokenUniverse](https://github.com/diversenok/TokenUniverse): An advanced tool for working with access tokens and Windows security policy.
+- [GhostFart](https://github.com/mansk1es/GhostFart): None
+- [PageSplit](https://github.com/x0reaxeax/PageSplit): Splitting and executing shellcode across multiple pages
+- [SharpToken](https://github.com/BeichenDream/SharpToken): Windows Token Stealing Expert
+- [bof-launcher](https://github.com/The-Z-Labs/bof-launcher): Beacon Object File (BOF) launcher - library for executing BOF files in C/C++/Zig applications
+- [KnockKnock](https://github.com/optiv/KnockKnock):  Enumerate valid users within Microsoft Teams and OneDrive with clean output. 
+- [Manual-DLL-Loader](https://github.com/adamhlt/Manual-DLL-Loader): Custom LoadLibrary / GetProcAddress (x86 / x64) - Load DLL and retrieve functions manually
+- [BloatedHammer](https://github.com/rad9800/BloatedHammer): API Hammering with C++20
+- [RefleXXion](https://github.com/hlldz/RefleXXion): RefleXXion is a utility designed to aid in bypassing user-mode hooks utilised by AV/EPP/EDR etc. In order to bypass the user-mode hooks, it first collects the syscall numbers of the NtOpenFile, NtCreateSection, NtOpenSection and NtMapViewOfSection found in the LdrpThunkSignature array. 
+- [Lastenzug](https://github.com/codewhitesec/Lastenzug): Socks4a proxy leveraging PIC, Websockets and static obfuscation on assembly level
+- [PELoader](https://github.com/Hagrid29/PELoader): PE loader with various shellcode injection techniques
+- [DumpAADUserRPT](https://github.com/Hagrid29/DumpAADUserRPT): DumpAADUserRPT is C# implementation of Get-AADIntUserPRTToken from AADInternals which obtain Primary Refresh Token
+- [AbuseAzureAPIPermissions](https://github.com/Hagrid29/AbuseAzureAPIPermissions): Abuse Azure API permissions for red teaming
+- [TransactedSharpMiniDump](https://github.com/PorLaCola25/TransactedSharpMiniDump): Implementation of b4rtiks's SharpMiniDump using NTFS transactions to avoid writting the minidump to disk and exfiltrating it via HTTPS using sockets.
+- [instrumentation_callbacks](https://github.com/Deputation/instrumentation_callbacks): A proof of concept demonstrating instrumentation callbacks on Windows 10 21h1 with a TLS variable to ensure all syscalls are caught.
+- [Process-Instrumentation-Syscall-Hook](https://github.com/paranoidninja/Process-Instrumentation-Syscall-Hook): A simple program to hook the current process to identify the manual syscall executions on windows
+- [NimExec](https://github.com/frkngksl/NimExec): Fileless Command Execution for Lateral Movement in Nim
+- [payloadGenerator](https://github.com/smokeme/payloadGenerator): Generate obfuscated meterpreter shells
+- [LSA-Reaper](https://github.com/spextat0r/LSA-Reaper): Remote command line LSASS extractor
+- [memoryfs](https://github.com/liamg/memoryfs): :brain: :file_cabinet: In-memory filesystem implementation of io/fs.FS
+- [hermes-the-messenger](https://github.com/persistent-security/hermes-the-messenger): A PoC for achieving persistence via push notifications on Windows
+- [NTLMRawUnHide](https://github.com/mlgualtieri/NTLMRawUnHide): NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+- [SharpNTLMRawUnHide](https://github.com/X-C3LL/SharpNTLMRawUnHide): C# version of NTLMRawUnHide
+- [KernelCallbackTable-Injection](https://github.com/capt-meelo/KernelCallbackTable-Injection): Code used in this post https://captmeelo.com/redteam/maldev/2022/04/21/kernelcallbacktable-injection.html
+- [CVE-2023-29343](https://github.com/Wh04m1001/CVE-2023-29343): None
+- [xyrella](https://github.com/zimnyaa/xyrella): PoC XLL builder in Python/Nim
+- [LoudSunRun](https://github.com/susMdT/LoudSunRun): Stack Spoofing with Synthetic frames based on the work of namazso, SilentMoonWalk, and VulcanRaven
+- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet): One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password 🛡️
+- [Banshee](https://github.com/eversinc33/Banshee): Experimental Windows x64 Kernel Rootkit with anti-rootkit evasion features.
+- [AzRedTeamEnumScript](https://github.com/n3t1nv4d3/AzRedTeamEnumScript): Azure AD RedTeam Full Enumeration Script used to query all aspects of your target Azure tenant.
+- [ASRenum-BOF](https://github.com/mlcsec/ASRenum-BOF): Cobalt Strike BOF that identifies Attack Surface Reduction (ASR) rules, actions, and exclusion locations
+- [cloudfoxable](https://github.com/BishopFox/cloudfoxable): Create your own vulnerable by design AWS penetration testing playground
+- [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security): Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | Read The Rationale https://github.com/HotCakeX/Harden-Windows-Security/blob/main/Rationale.md
+- [sliver-py](https://github.com/moloch--/sliver-py): A Python gRPC Client Library for Sliver
+- [SliverC2-Forensics](https://github.com/Immersive-Labs-Sec/SliverC2-Forensics): A collection of tools and detections for the Sliver C2 Frameworj
+- [RITM](https://github.com/Tw1sm/RITM): Roast in the Middle
+- [SylantStrike](https://github.com/CCob/SylantStrike): Simple EDR implementation to demonstrate bypass
+- [WordSteal](https://github.com/0x09AL/WordSteal): This script will create a POC that will steal NTML hashes from a remote computer. Do not use this for illegal purposes.The author does not keep responsibility for any illegal action you do. 
+- [herpaderping](https://github.com/jxy-s/herpaderping): Process Herpaderping proof of concept, tool, and technical deep dive. Process Herpaderping bypasses security products by obscuring the intentions of a process.
+- [elevationstation](https://github.com/g3tsyst3m/elevationstation): elevate to SYSTEM any way we can!  Metasploit and PSEXEC getsystem alternative
+- [merlin-agent](https://github.com/Ne0nd0g/merlin-agent): Post-exploitation agent for Merlin
+- [freyja](https://github.com/MythicAgents/freyja): Freyja is a Golang, Purple Team agent that compiles into Windows, Linux and macOS x64 executables.
+- [Cerberus](https://github.com/ThePurpleTux/Cerberus): Home of the 3 headed mythic agent
+- [Ghostwriter](https://github.com/GhostManager/Ghostwriter): The SpecterOps project management and reporting engine
+- [stratus-red-team](https://github.com/DataDog/stratus-red-team): :cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud
+- [gh-workflow-auditor](https://github.com/TinderSec/gh-workflow-auditor): Script to audit GitHub Action Workflow files for potential vulnerabilities. 
+- [MagicSigner](https://github.com/namazso/MagicSigner): Signtool for expired certificates
+- [AQUARMOURY](https://github.com/Red-infosec/AQUARMOURY): My musings in C and offensive tooling
+- [WKPExercises](https://github.com/sunnyneo/WKPExercises): Exercises from Windows Kernel Programming(2019) by Pavel Yosifovich
+- [NimPlant](https://github.com/chvancooten/NimPlant): A light-weight first-stage C2 implant written in Nim (and Rust).
+- [spraycharles](https://github.com/Tw1sm/spraycharles): Low and slow password spraying tool, designed to spray on an interval over a long period of time
+- [ROADtools](https://github.com/dirkjanm/ROADtools): A collection of Azure AD/Entra tools for offensive and defensive security purposes
+- [onedrive_user_enum](https://github.com/nyxgeek/onedrive_user_enum): onedrive user enumeration - pentest tool to enumerate valid o365 users
+- [Red-Team-Guide](https://github.com/dmcxblue/Red-Team-Guide): A small red team course
+- [SignatureGate](https://github.com/florylsk/SignatureGate): Weaponized HellsGate/SigFlip
+- [DavRelayUp](https://github.com/Dec0ne/DavRelayUp): DavRelayUp - a universal no-fix local privilege escalation in domain-joined windows workstations where LDAP signing is not enforced (the default settings).
+- [ClickonceHunter](https://github.com/zyn3rgy/ClickonceHunter): Golang search engine scraper intended for identification of published ClickOnce deployments
+- [DropSpawn_BOF](https://github.com/Octoberfest7/DropSpawn_BOF): CobaltStrike BOF to spawn Beacons using DLL Application Directory Hijacking
+- [CTFd-Docker-Challenges](https://github.com/offsecginger/CTFd-Docker-Challenges): Docker Challenge creation for CTFd. Allows per team/user containers!
+- [Terminator](https://github.com/ZeroMemoryEx/Terminator): Reproducing Spyboy technique to terminate all EDR/XDR/AVs processes
+- [PGHooker](https://github.com/nelfo/PGHooker): PAGE_GUARD based hooking library
+- [CrackMapExec-Modules](https://github.com/Cyb3rC3lt/CrackMapExec-Modules): Some CME modules I created to help with AD enumeration & exploitation
+- [Custom-BloodHound-Queries](https://github.com/LuemmelSec/Custom-BloodHound-Queries): None
+- [KittyStager](https://github.com/Enelg52/KittyStager): KittyStager is a simple stage 0 C2. It is made of a web server to host the shellcode and an implant, called kitten. The purpose of this project is to be able to have a web server and some kitten and be able to use the with any shellcode.
+- [mfa-bombing](https://github.com/authomize/mfa-bombing): None
+- [LightsOut](https://github.com/icyguider/LightsOut): Generate an obfuscated DLL that will disable AMSI & ETW
+- [Purpleteam](https://github.com/mthcht/Purpleteam): Purpleteam scripts simulation & Detection - trigger events for SOC detections
+- [padre](https://github.com/glebarez/padre): Blazing fast, advanced Padding Oracle exploit
+- [RemoteApp](https://github.com/Sh3lldon/RemoteApp): I have created these custom servers for preparing EXP-301 course (aka WUMED) exam and hope it will help to take OSED certification. Feel free to DM me in discord, if you have any questions about solving this tasks :) (P.S The fourth expliot will be later on)
+- [RubeusToCcache](https://github.com/SolomonSklash/RubeusToCcache): A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
+- [notes](https://github.com/MHaggis/notes): Full of public notes and Utilities
+- [Invoke-DLLClone](https://github.com/jfmaes/Invoke-DLLClone): Koppeling x Metatwin x LazySign
+- [HiddenDesktop](https://github.com/WKL-Sec/HiddenDesktop): HVNC for Cobalt Strike
+- [nsec2023-ctf-aws](https://github.com/simondotsh/nsec2023-ctf-aws): None
+- [injection-1](https://github.com/sbousseaden/injection-1): Windows process injection methods
+- [FalconFriday](https://github.com/FalconForceTeam/FalconFriday): Hunting queries and detections
+- [injection](https://github.com/theevilbit/injection): None
+- [pyThreadlessInject](https://github.com/rkbennett/pyThreadlessInject): A python port of CCob's ThreadlessInject
+- [NixImports](https://github.com/dr4k0nia/NixImports): A .NET malware loader, using API-Hashing to evade static analysis
+- [UltimateAppLockerByPassList](https://github.com/api0cradle/UltimateAppLockerByPassList): The goal of this repository is to document the most common techniques to bypass AppLocker. 
+- [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit): This repository contains cutting-edge open-source security tools (OST) for a red teamer and threat hunter.
+- [chromecookiestealer](https://github.com/magisterquis/chromecookiestealer): Steal/Inject Chrome cookies over the DevTools (--remote-debugging-port) protocol.
+- [OperatorsKit](https://github.com/REDMED-X/OperatorsKit): Collection of Beacon Object Files (BOF) for Cobalt Strike
+- [temp](https://github.com/jonaslyk/temp): None
+- [ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation): An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents
+- [KeeThief](https://github.com/GhostPack/KeeThief): Methods for attacking KeePass 2.X databases, including extracting of encryption key material from memory.
+- [KeeFarce](https://github.com/denandz/KeeFarce): Extracts passwords from a KeePass 2.x database, directly from memory.
+- [scarecrow_wrapper](https://github.com/kyleavery/scarecrow_wrapper): None
+- [thanatos](https://github.com/MythicAgents/thanatos): Mythic C2 agent targeting Linux and Windows hosts written in Rust
+- [Apollo](https://github.com/MythicAgents/Apollo): A .NET Framework 4.0 Windows Agent
+- [building-c2-implants-in-cpp](https://github.com/shogunlab/building-c2-implants-in-cpp): The source code files that accompany the short book "Building C2 Implants in C++: A Primer" by Steven Patterson (@shogun_lab).
+- [hercules](https://github.com/MythicAgents/hercules): Mythic Developer Series: Workshop Golang Agent
+- [offensive_macos](https://github.com/its-a-feature/offensive_macos): Tracking of offensive macOS tooling, blogs, and related helpful information
+- [insomnia](https://github.com/zimnyaa/insomnia): a stage1 DLL loader with sleep obfuscation
+- [COFFLoader](https://github.com/trustedsec/COFFLoader): None
+- [nim-noload-dll-hollowing](https://github.com/zimnyaa/nim-noload-dll-hollowing): Unused DLL hollowing PoC in Nim
+- [rustlings](https://github.com/rust-lang/rustlings): :crab: Small exercises to get you used to reading and writing Rust code!
+- [Mapping-Injection](https://github.com/antonioCoco/Mapping-Injection): Just another Windows Process Injection
+- [AlternativeShellcodeExec](https://github.com/aahmad097/AlternativeShellcodeExec): Alternative Shellcode Execution Via Callbacks
+- [WFH](https://github.com/ConsciousHacker/WFH): None
+- [acCOMplice](https://github.com/nccgroup/acCOMplice): Tools for discovery and abuse of COM hijacks
+- [SimuLand](https://github.com/Azure/SimuLand): Understand adversary tradecraft and improve detection strategies
+- [COM-Hunter](https://github.com/nickvourd/COM-Hunter): COM Hijacking VOODOO
+- [Windows-Local-Privilege-Escalation-Cookbook](https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook): Windows Local Privilege Escalation Cookbook
+- [C-To-Shellcode-Examples](https://github.com/thefLink/C-To-Shellcode-Examples): None
+- [CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad): CVE-2023-0297: The Story of Finding Pre-auth RCE in pyLoad
+- [RedWizard](https://github.com/SecuraBV/RedWizard): None
+- [gato](https://github.com/praetorian-inc/gato): GitHub Actions Pipeline Enumeration and Attack Tool
+- [INTRACTABLEGIRAFFE](https://github.com/praetorian-inc/INTRACTABLEGIRAFFE): A Proof of Concept Rootkit Demonstrating Keylogging and Virtual File System (VFS) Capabilities
+- [Mhyprot2DrvControl](https://github.com/kagurazakasanae/Mhyprot2DrvControl): A lib that allows using mhyprot2 driver for enum process modules, r/w process memory and kill process.
+- [kali-clean](https://github.com/xct/kali-clean): my kali desktop setup
+- [security-labs-pocs](https://github.com/DataDog/security-labs-pocs): Proof of concept code for Datadog Security Labs referenced exploits.
+- [Chimera](https://github.com/georgesotiriadis/Chimera): Automated DLL Sideloading Tool With EDR Evasion Capabilities
+- [frostbyte](https://github.com/pwn1sher/frostbyte): FrostByte is a POC project that combines different defense evasion techniques to build better redteam payloads
+- [awesome-edr-bypass](https://github.com/tkmru/awesome-edr-bypass): Awesome EDR Bypass Resources For Ethical Hacking
+- [keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper): Original PoC for CVE-2023-32784
+- [SysmonCommunityGuide](https://github.com/trustedsec/SysmonCommunityGuide): TrustedSec Sysinternals Sysmon Community Guide
+- [KeePwn](https://github.com/Orange-Cyberdefense/KeePwn): A python tool to automate KeePass discovery and secret extraction.
+- [DetectWindowsCopyOnWriteForAPI](https://github.com/nccgroup/DetectWindowsCopyOnWriteForAPI): Enumerate  various traits from Windows processes as an aid to threat hunting
+- [OfficePurge](https://github.com/mgeeky/OfficePurge): None
+- [Hunting-Queries-Detection-Rules](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules): KQL Queries. Defender For Endpoint and Azure Sentinel Hunting and Detection Queries in KQL. Out of the box KQL queries for: Advanced Hunting, Custom Detection, Analytics Rules & Hunting Rules. 
+- [Red_Team_Code_Snippets](https://github.com/0xTriboulet/Red_Team_Code_Snippets): random code snippets, useful for getting started
+- [Havoc-ProfileGenerator](https://github.com/0xv1n/Havoc-ProfileGenerator): malleable profile generator GUI for Havoc
+- [CompMgmtLauncher_DLL_UACBypass](https://github.com/hackerhouse-opensource/CompMgmtLauncher_DLL_UACBypass): CompMgmtLauncher & Sharepoint DLL Search Order hijacking UAC/persist via OneDrive
+- [ObfuscatedSharpCollection](https://github.com/Flangvik/ObfuscatedSharpCollection): Attempt at Obfuscated version of SharpCollection
+- [effective-waffle](https://github.com/susMdT/effective-waffle): yet another sleep encryption thing. also used the default github repo name for this one.
+- [Invoke-ADEnum](https://github.com/Leo4j/Invoke-ADEnum): Automated Active Directory Enumeration
+- [HPHardwareDiagnostics-PoC](https://github.com/alfarom256/HPHardwareDiagnostics-PoC): PoC exploit for HP Hardware Diagnostic's EtdSupp driver
+- [ThreadlessInject-BOF](https://github.com/iilegacyyii/ThreadlessInject-BOF): BOF implementation of @_EthicalChaos_'s ThreadlessInject project. A novel process injection technique with no thread creation, released at BSides Cymru 2023.
+- [ThreadlessInject](https://github.com/CCob/ThreadlessInject): Threadless Process Injection using remote function hooking. 
+- [DCMB](https://github.com/GetRektBoy724/DCMB): Dont Call Me Back - Dynamic kernel callback resolver. Scan kernel callbacks in your system in a matter of seconds!
+- [PPLFault](https://github.com/gabriellandau/PPLFault): None
+- [Red-Team-Infrastructure-Wiki](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki): Wiki to collect Red Team infrastructure hardening resources
+- [RedTeamCCode](https://github.com/Mr-Un1k0d3r/RedTeamCCode): Red Team C code repo
+- [macro_pack](https://github.com/sevagas/macro_pack): macro_pack is a tool by @EmericNasi used to automatize obfuscation and generation of Office documents, VB scripts, shortcuts, and other formats for pentest, demo, and social engineering assessments. The goal of macro_pack is to simplify exploitation, antimalware bypass, and automatize the process from malicious macro and script generation to final document generation. It also provides a lot of helpful features useful for redteam or security research. 
+- [IntroLabs](https://github.com/strandjs/IntroLabs): These are the labs for my Intro class.  Yes, this is public.  Yes, this is intentional. 
+- [red-team-scripts](https://github.com/infosecn1nja/red-team-scripts): A collection of red teaming and adversary emulation related tools, scripts, techniques, notes, etc
+- [PECheck](https://github.com/Wh1t3Rh1n0/PECheck): A tool to verify and create PE Checksums for Portable Executable (PE) files.
+- [archive](https://github.com/zerosum0x0-archive/archive): None
+- [MoveKit](https://github.com/0xthirteen/MoveKit): Cobalt Strike kit for Lateral Movement
+- [SharpMove](https://github.com/0xthirteen/SharpMove): .NET Project for performing Authenticated Remote Execution
+- [winsmsd](https://github.com/0xcpu/winsmsd): Windows (ShadowMove) Socket Duplication
+- [mkhtaccess_red](https://github.com/violentlydave/mkhtaccess_red): Auto-generate an HTaccess for payload delivery -- automatically pulls ips/nets/etc from known sandbox companies/sources that have been seen before, and redirects them to a benign payload.
+- [monkey365](https://github.com/silverhack/monkey365): Monkey365 provides a tool for security consultants to easily conduct not only Microsoft 365, but also Azure subscriptions and Microsoft Entra ID security configuration reviews.
+- [BruteX](https://github.com/1N3/BruteX): Automatically brute force all services running on a target.
+- [brutespray](https://github.com/x90skysn3k/brutespray): Bruteforcing from various scanner output - Automatically attempts default creds on found services.
+- [ThreatCheck](https://github.com/rasta-mouse/ThreatCheck): Identifies the bytes that Microsoft Defender  / AMSI Consumer flags on.
+- [Nidhogg](https://github.com/Idov31/Nidhogg): Nidhogg is an all-in-one simple to use windows kernel rootkit.
+- [unhook-bof](https://github.com/rsmudge/unhook-bof): Remove API hooks from a Beacon process.
+- [GregsBestFriend](https://github.com/WKL-Sec/GregsBestFriend): GregsBestFriend process injection code created from the White Knight Labs Offensive Development course
+- [StackMask](https://github.com/WKL-Sec/StackMask): A PoC of Stack encryption prior to custom sleeping by leveraging CPU cycles.
+- [MalSCCM](https://github.com/nettitude/MalSCCM): None
+- [RandomPOCs](https://github.com/jsecurity101/RandomPOCs): Repo that holds random POCs
+- [remoteInjector](https://github.com/JohnWoodman/remoteInjector): Inject remote template link into word document for remote template injection
+- [sRDI](https://github.com/monoxgas/sRDI): Shellcode implementation of Reflective DLL Injection. Convert DLLs to position independent shellcode
+- [JustBreakIn](https://github.com/sinfulz/JustBreakIn): JustBreakIn, a cheat sheet which will aid you through external network engagements.
+- [JustEvadeBro](https://github.com/sinfulz/JustEvadeBro): JustEvadeBro, a cheat sheet which will aid you through AMSI/AV evasion & bypasses.
+- [MaldevJourney](https://github.com/kyle41111/MaldevJourney): Learning Offensive cpp/# for rtl/threat emulation. 
+- [RedTeamHelp](https://github.com/kyle41111/RedTeamHelp): Tools I use on red team engagements and more
+- [kalisoc](https://github.com/ZoccoCss/kalisoc): Cloudformation Template to Launch the SOC from Kali Purple
+- [SharpToolsAggressor](https://github.com/uknowsec/SharpToolsAggressor): 内网渗透中常用的c#程序整合成cs脚本，直接内存加载。持续更新~
+- [RedTeaming_CheatSheet](https://github.com/0xJs/RedTeaming_CheatSheet): Pentesting cheatsheet with all the commands I learned during my learning journey. Will try to to keep it up-to-date.
+- [hashcat-mask-generator](https://github.com/danielyc/hashcat-mask-generator): Hashcat mask generator based on word input
+- [pipal](https://github.com/digininja/pipal): Pipal, THE password analyser
+- [Killer](https://github.com/0xHossam/Killer): Killer is a simple tool designed to bypass AV/EDR security tools using various evasive techniques.
+- [CRTO](https://github.com/chr0n1k/CRTO): Certified Red Team Operator
+- [exploit-writing-for-oswe](https://github.com/rizemon/exploit-writing-for-oswe): Tips on how to write exploit scripts (faster!)
+- [physmem_drivers](https://github.com/namazso/physmem_drivers): A collection of various vulnerable (mostly physical memory exposing) drivers.
+- [infosec-resources](https://github.com/stong/infosec-resources): A list of helpful cybersecurity / infosec resources
+- [pen300](https://github.com/volcanohatred/pen300): Repository for doing pen300 exercises
+- [autoresponder](https://github.com/sensepost/autoresponder): Quick python script to automatically load NTLM hashes from Responder logs and fires up Hashcat to crack them 
+- [lsassy](https://github.com/login-securite/lsassy): Extract credentials from lsass remotely
+- [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike): Cobalt Strike script for ScareCrow payloads intergration (EDR/AV evasion)
+- [Hunt-Weird-Syscalls](https://github.com/thefLink/Hunt-Weird-Syscalls): ETW based POC to identify direct and indirect syscalls
+- [smartbrute](https://github.com/ShutdownRepo/smartbrute): Password spraying and bruteforcing tool for Active Directory Domain Services 
+- [protections-artifacts](https://github.com/elastic/protections-artifacts): Elastic Security detection content for Endpoint
+- [DripLoader](https://github.com/xuanxuan0/DripLoader): Evasive shellcode loader for bypassing event-based injection detection (PoC)
+- [KaynLdr](https://github.com/Cracked5pider/KaynLdr): KaynLdr is a Reflective Loader written in C/ASM
+- [sleepmask_PatchlessHook](https://github.com/ScriptIdiot/sleepmask_PatchlessHook): Code snippets to add on top of cobalt strike sleep mask to achieve patchless hook on AMSI and ETW
+- [PowerShell-Obfuscation-Bible](https://github.com/t3l3machus/PowerShell-Obfuscation-Bible): A collection of techniques, examples and a little bit of theory for manually obfuscating PowerShell scripts to achieve AV evasion, compiled for educational purposes. The contents of this repository are the result of personal research, including reading materials online and conducting trial-and-error attempts in labs and pentests.
+- [php_filter_chain_generator](https://github.com/synacktiv/php_filter_chain_generator): None
+- [PatchlessCLRLoader](https://github.com/VoldeSec/PatchlessCLRLoader): .NET assembly loader with patchless AMSI and ETW bypass
+- [unicorn](https://github.com/trustedsec/unicorn): Unicorn is a simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory. Based on Matthew Graeber's powershell attacks and the powershell bypass technique presented by David Kennedy (TrustedSec) and Josh Kelly at Defcon 18.
+- [maldev-links](https://github.com/CodeXTF2/maldev-links): My collection of malware dev links
+- [Yumekage](https://github.com/Xyrem/Yumekage): Demo proof of concept for shadow regions, and implementation of HyperDeceit.
+- [PatchlessInlineExecute-Assembly](https://github.com/VoldeSec/PatchlessInlineExecute-Assembly): Porting of BOF InlineExecute-Assembly to load .NET assembly in process but with patchless AMSI and ETW bypass using hardware breakpoint.
+- [bls-bible](https://github.com/blacklanternsecurity/bls-bible): BLS-Bible is a knowledge-base application that houses a collection of guides and write-ups that BLS uses for our various operations.
+- [AtomLdr](https://github.com/NUL0x4C/AtomLdr): A DLL loader with advanced evasive features
+- [TartarusGate](https://github.com/trickster0/TartarusGate): TartarusGate, Bypassing EDRs
+- [Shhhloader](https://github.com/icyguider/Shhhloader): Syscall Shellcode Loader (Work in Progress)
+- [AutoFunkt](https://github.com/RedSiege/AutoFunkt): Python script for automating the creation of serverless cloud redirectors from Cobalt Strike malleable C2 profiles
+- [3snake](https://github.com/blendin/3snake): Tool for extracting information from newly spawned processes
+- [malleable-c2](https://github.com/threatexpress/malleable-c2): Cobalt Strike Malleable C2 Design and Reference Guide
+- [OffensiveRust](https://github.com/trickster0/OffensiveRust): Rust Weaponization for Red Team Engagements.
+- [SysWhispers3](https://github.com/klezVirus/SysWhispers3): SysWhispers on Steroids - AV/EDR evasion via direct system calls. 
+- [detection-rules](https://github.com/elastic/detection-rules): None
+- [phrack_archives](https://github.com/plutoid/phrack_archives): http://phrack.org/archives
+- [ATPMiniDump](https://github.com/b4rtik/ATPMiniDump): Evading WinDefender ATP credential-theft
+- [EntropyReducer](https://github.com/Maldev-Academy/EntropyReducer): Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
+- [inline-syscall](https://github.com/nbs32k/inline-syscall): Inline syscalls made for MSVC supporting x64 and WOW64
+- [vba2clr](https://github.com/med0x2e/vba2clr): Running .NET from VBA
+- [OPSEC-Tradecraft](https://github.com/WesleyWong420/OPSEC-Tradecraft): Collection of OPSEC Tradecraft and TTPs for Red Team Operations
+- [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump): .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
+- [OSEP-Code-Snippets](https://github.com/chvancooten/OSEP-Code-Snippets): A repository with my notable code snippets for Offensive Security's PEN-300 (OSEP) course.
+- [redteam](https://github.com/precurse/redteam): Some tools for PEN-300 and CTFs
+- [OSEP](https://github.com/In3x0rabl3/OSEP): PEN-300 collection to help you on your exam.
+- [SQLRecon](https://github.com/skahwah/SQLRecon): A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation. 
+- [GodPotato](https://github.com/BeichenDream/GodPotato): None
+- [gosecretsdump](https://github.com/C-Sto/gosecretsdump): Dump ntds.dit really fast
+- [pyForgeCert](https://github.com/Ridter/pyForgeCert): pyForgeCert is a Python equivalent of the ForgeCert.
+- [OffensiveCpp](https://github.com/lsecqt/OffensiveCpp): This repo contains C/C++ snippets that can be handy in specific offensive scenarios.
+- [Revenant](https://github.com/0xTriboulet/Revenant): Revenant - A 3rd party agent for Havoc that demonstrates evasion techniques in the context of a C2 framework
+- [nfsclient](https://github.com/mubix/nfsclient): NFS client written in Go
+- [DPAPISnoop](https://github.com/leftp/DPAPISnoop): A C# tool to output crackable DPAPI hashes from user MasterKeys
+- [TeamsEnum](https://github.com/sse-secure-systems/TeamsEnum): User Enumeration of Microsoft Teams users via API
+- [nmapsilent](https://github.com/joswr1ght/nmapsilent): Convert Nmap output for integration with other Project Discovery tools
+- [PatchGuardBypass](https://github.com/AdamOron/PatchGuardBypass): Bypassing PatchGuard on modern x64 systems
+- [freeMetsrvLoader](https://github.com/attl4s/freeMetsrvLoader): freeBokuLoader fork which targets and frees Metsrv's initial reflective DLL package
+- [HeapCrypt](https://github.com/SaadAhla/HeapCrypt): Encypting the Heap while sleeping by hooking and modifying Sleep with our own sleep that encrypts the heap
+- [badsecrets](https://github.com/blacklanternsecurity/badsecrets): A library for detecting known secrets across many web frameworks
+- [CSExec](https://github.com/malcomvetter/CSExec): An implementation of PSExec in C#
+- [Tokenizer](https://github.com/ZeroMemoryEx/Tokenizer): Kernel Mode Driver for Elevating Process Privileges
+- [MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF): MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD).
+- [HardHatC2](https://github.com/DragoQCC/HardHatC2): A C# Command & Control framework 
+- [PyHunter](https://github.com/VonStruddle/PyHunter): A Python wrapper for the Hunter.io v2 API
+- [Infosec_Reference](https://github.com/rmusser01/Infosec_Reference): An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.
+- [msdat](https://github.com/quentinhardy/msdat): MSDAT: Microsoft SQL Database Attacking Tool
+- [RedELK](https://github.com/outflanknl/RedELK): Red Team's SIEM - tool for Red Teams used for tracking and alarming about Blue Team activities as well as better usability in long term operations.
+- [inceptor](https://github.com/klezVirus/inceptor): Template-Driven AV/EDR Evasion Framework
+- [chameleon](https://github.com/klezVirus/chameleon): PowerShell Script Obfuscator
+- [BackupOperatorToDA](https://github.com/mpgn/BackupOperatorToDA): From an account member of the group Backup Operators to Domain Admin without RDP or WinRM on the Domain Controller
+- [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet): A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
+- [ADCheatgen](https://github.com/ksecurity45/ADCheatgen): None
+- [Creds](https://github.com/S3cur3Th1sSh1t/Creds): Some usefull Scripts and Executables for Pentest & Forensics
+- [pdtm](https://github.com/projectdiscovery/pdtm): ProjectDiscovery's Open Source Tool Manager
+- [VXUG-Papers](https://github.com/vxunderground/VXUG-Papers): Research code & papers from members of vx-underground.
+- [encrypt](https://github.com/skahwah/encrypt): Pseudorandom AES-256 encryption designed to protect shellcode and arbitrary strings. C# and C/C++ compatible.
+- [Xenov_Blog](https://github.com/Xenov-X/Xenov_Blog): The github hosted version of https://www.xenov.co.uk
+- [Experienced-Pentester-OSEP](https://github.com/nullg0re/Experienced-Pentester-OSEP): None
+- [DAFT](https://github.com/NetSPI/DAFT): DAFT: Database Audit Framework & Toolkit
+- [ESC](https://github.com/NetSPI/ESC): Evil SQL Client (ESC) is an interactive .NET SQL console client with enhanced SQL Server discovery, access, and data exfiltration features. While ESC can be a handy SQL Client for daily tasks, it was originally designed for targeting SQL Servers during penetration tests and red team engagements. The intent of the project is to provide an .exe, but also sample files for execution through mediums like msbuild and PowerShell.
+- [mssql-spider](https://github.com/dadevel/mssql-spider): Automated exploitation of MSSQL servers at scale
+- [SQLinks2Move](https://github.com/V0lk3n/SQLinks2Move): SQLinks2Move is a tool created during OSEP PEN-300 lab. This tool is used to perform Lateral Movement against linked SQL servers.
+- [dploot](https://github.com/zblurx/dploot): DPAPI looting remotely and locally in Python
+- [certsync](https://github.com/zblurx/certsync): Dump NTDS with golden certificates and UnPAC the hash
+- [impersonate-rs](https://github.com/zblurx/impersonate-rs): Rusty Impersonate
+- [BackupOperatorToolkit](https://github.com/improsec/BackupOperatorToolkit): The BackupOperatorToolkit contains different techniques allowing you to escalate from Backup Operator to Domain Admin
+- [backup_dc_registry](https://github.com/horizon3ai/backup_dc_registry): A simple POC that abuses Backup Operator privileges to remote dump SAM, SYSTEM, and SECURITY
+- [PassTheCert](https://github.com/AlmondOffSec/PassTheCert): Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel
+- [yetAnotherObfuscator](https://github.com/0xb11a1/yetAnotherObfuscator): C# obfuscator that bypass windows defender
+- [living_off_the_land](https://github.com/myexploit/living_off_the_land): None
+- [windows-operating-system-archaeology](https://github.com/enigma0x3/windows-operating-system-archaeology): windows-operating-system-archaeology @Enigma0x3 @subTee
+- [serviceDetector](https://github.com/tothi/serviceDetector): Detect whether a service is installed (blindly) and/or running (if exposing named pipes) on a remote machine without using local admin privileges.
+- [DeimosC2](https://github.com/DeimosC2/DeimosC2): DeimosC2 is a Golang command and control framework for post-exploitation.
+- [Interceptor](https://github.com/NVISOsecurity/Interceptor): Interceptor is a kernel driver focused on tampering with EDR/AV solutions in kernel space
+- [Solana-Programming-Resources](https://github.com/SolanaNatives/Solana-Programming-Resources): A complete collection of all the Solana programming resources available for developers.
+- [bloop](https://github.com/BloopAI/bloop): bloop is a fast code search engine written in Rust.
+- [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor): PyInstaller Extractor
+- [NodeGoat](https://github.com/OWASP/NodeGoat): The OWASP NodeGoat project provides an environment to learn how OWASP Top 10 security risks apply to web applications developed using Node.js and how to effectively address them.
+- [fictional-invention](https://github.com/susMdT/fictional-invention): idk man this was the default github name
+- [ai-readme](https://github.com/jongan69/ai-readme): Use AI to generate a readme for your code
+- [Awesome-RedTeam-Cheatsheet](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet): Red Team Cheatsheet in constant expansion.
+- [Win32_Offensive_Cheatsheet](https://github.com/matthieu-hackwitharts/Win32_Offensive_Cheatsheet): Win32 and Kernel abusing techniques for pentesters
+- [LDAPPER](https://github.com/shellster/LDAPPER): LDAP Querying without the Suck
+- [Nessusploitable](https://github.com/sdcampbell/Nessusploitable): Parses Nessus .nessus files for exploitable vulnerabilities and outputs a report file in format MM-DD-YYYY-nessus.csv
+- [msLDAPDump](https://github.com/dievus/msLDAPDump): LDAP enumeration tool implemented in Python3
+- [ropci](https://github.com/wunderwuzzi23/ropci): So, you think you have MFA? AAD/ROPC/MFA bypass testing tool
+- [EDRSandblast](https://github.com/wavestone-cdt/EDRSandblast): None
+- [waf-bypass](https://github.com/nemesida-waf/waf-bypass): Check your WAF before an attacker does
+- [pyFindUncommonShares](https://github.com/p0dalirius/pyFindUncommonShares): FindUncommonShares is a Python script allowing to quickly find uncommon shares in vast Windows Domains, and filter by READ or WRITE accesses.
+- [SNMP-Brute](https://github.com/SECFORCE/SNMP-Brute): Fast SNMP brute force, enumeration, CISCO config downloader and password cracking script.
+- [EyeWitness](https://github.com/RedSiege/EyeWitness): EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- [Aladdin](https://github.com/nettitude/Aladdin): None
+- [SCSVS](https://github.com/ComposableSecurity/SCSVS): Smart Contract Security Verification Standard
+- [Locksmith](https://github.com/jakehildreth/Locksmith): A small tool built to find and fix common misconfigurations in Active Directory Certificate Services.
+- [IPFuscator](https://github.com/vysecurity/IPFuscator): IPFuscator - A tool to automatically generate alternative IP representations
+- [plague](https://github.com/QueenSquishy/plague): Default Detections for EDR
+- [offsec-tools](https://github.com/Syslifters/offsec-tools): Compiled tools for internal assessments
+- [ldapper](https://github.com/Synzack/ldapper): None
+- [heap_detective](https://github.com/CoolerVoid/heap_detective): The simple way to detect heap memory pitfalls in C++ and C. Beta.
+- [awesome-nmap-grep](https://github.com/leonjza/awesome-nmap-grep): Awesome Nmap Grep 
+- [WeakestLink](https://github.com/shellfarmer/WeakestLink): Browser extension that extracts users from LinkedIn company pages
+- [lexmark](https://github.com/blasty/lexmark): None
+- [D1rkLdr](https://github.com/SaadAhla/D1rkLdr): Shellcode Loader with Indirect Dynamic syscall Implementation , shellcode in MAC format, API resolving from PEB, Syscall calll and syscall instruction address resolving at run time
+- [AMSI-patches-learned-till-now](https://github.com/reveng007/AMSI-patches-learned-till-now): I have documented all of the AMSI patches that I learned till now
+- [BypassAV](https://github.com/matro7sh/BypassAV): This map lists the essential techniques to bypass anti-virus and EDR
+- [ReflectiveDLLInjection](https://github.com/stephenfewer/ReflectiveDLLInjection): Reflective DLL injection is a library injection technique in which the concept of reflective programming is employed to perform the loading of a library from memory into a host process.
+- [Posts](https://github.com/sneakerhax/Posts): Posts about different topics
+- [TTPs](https://github.com/sneakerhax/TTPs): Red Team Tactics, Techniques, and Procedures
+- [dnsscope](https://github.com/WhiteOakSecurity/dnsscope): Automates DNS recon process
+- [pre2k](https://github.com/garrettfoster13/pre2k): None
+- [SecSmash](https://github.com/tevora-threat/SecSmash): None
+- [notes](https://github.com/Cerbersec/notes): Resources and articles I need to take a look at. Mostly about malware/exploit development and analysis.
+- [HardeningKitty](https://github.com/scipag/HardeningKitty): HardeningKitty - Checks and hardens your Windows configuration
+- [WTSRM2](https://github.com/rad9800/WTSRM2): None
+- [what-happens-when](https://github.com/alex/what-happens-when): An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
+- [npk](https://github.com/c6fc/npk): A mostly-serverless distributed hash cracking platform
+- [npk](https://github.com/Coalfire-Research/npk): A mostly-serverless distributed hash cracking platform
+- [trickest-cli](https://github.com/trickest/trickest-cli): Execute Trickest workflows right from your terminal
+- [eyeballer](https://github.com/BishopFox/eyeballer): Convolutional neural network for analyzing pentest screenshots
+- [PassTheChallenge](https://github.com/ly4k/PassTheChallenge): Recovering NTLM hashes from Credential Guard
+- [cloudflare-origin-ip](https://github.com/gwen001/cloudflare-origin-ip): Try to find the origin IP of a webapp protected by Cloudflare.
+- [OSED](https://github.com/nop-tech/OSED): Containing my notes, practice binaries + solutions, blog posts, etc. for the Offensive Security Exploit Developer (OSED/EXP-301)
+- [ETBD-OSEP](https://github.com/ApexPredator-InfoSec/ETBD-OSEP): Notes Template/Checklist for PEN-300 OSEP
+- [osep-code-dump-2022](https://github.com/rootshooter/osep-code-dump-2022): Code dump from PEN-300/OSEP updated 2022
+- [oswe-prep-2022](https://github.com/rootshooter/oswe-prep-2022): Offensive Security OSWE Prep 2022
+- [AWAE-OSWE](https://github.com/ApexPredator-InfoSec/AWAE-OSWE): Review of AWAE.OSWE
+- [OSCE3-Complete-Guide](https://github.com/CyberSecurityUP/OSCE3-Complete-Guide): OSWE, OSEP, OSED, OSEE
+- [Max](https://github.com/knavesec/Max): Maximizing BloodHound. Max is a good boy.
+- [o365fedenum](https://github.com/knavesec/o365fedenum): Federated Office365 user enumeration based on correlated response trend analysis
+- [overlord](https://github.com/qsecure-labs/overlord): Overlord - Red Teaming Infrastructure Automation
+- [wanderer](https://github.com/gh0x0st/wanderer): An open-source process injection enumeration tool written in C#
+- [InfinityHook](https://github.com/everdox/InfinityHook): Hook system calls, context switches, page faults and more.
+- [callout-poc](https://github.com/thesecretclub/callout-poc): None
+- [minidump](https://github.com/w1u0u1/minidump): Custom implementation of DbgHelp's MiniDumpWriteDump function. Uses static syscalls to replace low-level functions like NtReadVirtualMemory.
+- [llvm-string-obfuscator](https://github.com/tsarpaul/llvm-string-obfuscator): LLVM String Obfuscator
+- [unredacter](https://github.com/BishopFox/unredacter): Never ever ever use pixelation as a redaction technique
+- [DarkLoadLibrary](https://github.com/bats3c/DarkLoadLibrary): LoadLibrary for offensive operations
+- [Snaffler](https://github.com/SnaffCon/Snaffler): a tool for pentesters to help find delicious candy, by @l0ss and @Sh3r4 ( Twitter: @/mikeloss and @/sh3r4_hax )
+- [Farmer](https://github.com/mdsecactivebreach/Farmer): None
+- [OSCE3-Notes](https://github.com/senzee1984/OSCE3-Notes): None
+- [openai-python](https://github.com/openai/openai-python): The official Python library for the OpenAI API
+- [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn): Automation for internal Windows Penetrationtest / AD-Security
+- [impersonate](https://github.com/sensepost/impersonate): A windows token impersonation tool
+- [Koh](https://github.com/GhostPack/Koh): The Token Stealer
+- [SCShell](https://github.com/Mr-Un1k0d3r/SCShell): Fileless lateral movement tool that relies on ChangeServiceConfigA to run command
+- [syllabi](https://github.com/zodiacon/syllabi): None
+- [HackLikeALegend](https://github.com/sparcflow/HackLikeALegend): Scripts featured in the book How to Hack Like a Legend
+- [mimiDbg](https://github.com/giMini/mimiDbg): PowerShell oneliner to retrieve wdigest passwords from the memory
+- [BrowserGather](https://github.com/sekirkity/BrowserGather): Fileless web browser information extraction
+- [cloudfox](https://github.com/BishopFox/cloudfox): Automating situational awareness for cloud penetration tests.
+- [MurkyStrings](https://github.com/dr4k0nia/MurkyStrings): A string obfuscator for .NET apps, built to evade static string analysis.
+- [CVE-2022-28672](https://github.com/hacksysteam/CVE-2022-28672): Foxit PDF Reader Remote Code Execution Exploit
+- [impacket](https://github.com/ThePorgs/impacket): Impacket is a collection of Python classes for working with network protocols.
+- [traitor](https://github.com/liamg/traitor): :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock
+- [unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware): Flipper Zero Unleashed Firmware
+- [Home-Grown-Red-Team](https://github.com/assume-breach/Home-Grown-Red-Team): None
+- [OffensivePipeline](https://github.com/Aetsu/OffensivePipeline): OfensivePipeline allows you to download and build C# tools, applying certain modifications in order to improve their evasion for Red Team exercises.
+- [WeaponizeKali.sh](https://github.com/snovvcrash/WeaponizeKali.sh): Collection of extra pentest tools for Kali Linux
+- [TitanLdr](https://github.com/benheise/TitanLdr): Titan: A crappy Reflective Loader written in C and assembly for Cobalt Strike. Redirects DNS Beacon over DoH
+- [RedGuard](https://github.com/wikiZ/RedGuard): RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.
+- [SourcePoint](https://github.com/Tylous/SourcePoint): SourcePoint is a C2 profile generator for Cobalt Strike command and control servers designed to ensure evasion. 
+- [SeeYouCM-Thief](https://github.com/trustedsec/SeeYouCM-Thief): None
+- [iCULeak.py](https://github.com/llt4l/iCULeak.py): Tool to find and extract credentials from phone configuration files hosted on CUCM
+- [BloodHound.py-Kerberos](https://github.com/jazzpizazz/BloodHound.py-Kerberos): A Python based ingestor for BloodHound
+- [LaZagne](https://github.com/AlessandroZ/LaZagne): Credentials recovery project
+- [Dirty-Vanity](https://github.com/deepinstinct/Dirty-Vanity): A POC for the new injection technique, abusing windows fork API to evade EDRs. https://www.blackhat.com/eu-22/briefings/schedule/index.html#dirty-vanity-a-new-approach-to-code-injection--edr-bypass-28417
+- [awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero): 🐬 A collection of awesome resources for the Flipper Zero device.
+- [Silent_Pass](https://github.com/SilentVoid13/Silent_Pass): A cross-platform password harvester for known softwares (Chrome / Chromium, Firefox, Internet Explorer / MS Edge, FileZilla)
+- [SessionGopher](https://github.com/Arvanaghi/SessionGopher): SessionGopher is a PowerShell tool that uses WMI to extract saved session information for remote access tools such as WinSCP, PuTTY, SuperPuTTY, FileZilla, and Microsoft Remote Desktop. It can be run remotely or locally.
+- [YouMayPasser](https://github.com/waldo-irc/YouMayPasser): You shall pass
+- [CallStackSpoofer](https://github.com/WithSecureLabs/CallStackSpoofer): A PoC implementation for spoofing arbitrary call stacks when making sys calls (e.g. grabbing a handle via NtOpenProcess)
+- [physmem2profit](https://github.com/WithSecureLabs/physmem2profit): Physmem2profit can be used to create a minidump of a target hosts' LSASS process by analysing physical memory remotely
+- [Invoke-LoginPrompt](https://github.com/enigma0x3/Invoke-LoginPrompt): Invokes a Windows Security Login Prompt and outputs the clear text password.
+- [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp): KrbRelayUp - a universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced (the default settings).
+- [BumbleCrypt](https://github.com/knight0x07/BumbleCrypt): A Bumblebee-inspired Crypter
+- [pwnagotchi](https://github.com/evilsocket/pwnagotchi): (⌐■_■) - Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
+- [fireproxng](https://github.com/Sprocket-Security/fireproxng): Next generation fireprox AWS API endpoint creation utility.
+- [BloodHound.py](https://github.com/dirkjanm/BloodHound.py): A Python based ingestor for BloodHound
+- [BlueMap](https://github.com/SikretaLabs/BlueMap): A Azure Exploitation Toolkit for Red Team & Pentesters
+- [exploitation-course](https://github.com/ashemery/exploitation-course): Offensive Software Exploitation Course
+- [TeamFiltration](https://github.com/Flangvik/TeamFiltration): TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts
+- [PSPKIAudit](https://github.com/GhostPack/PSPKIAudit): PowerShell toolkit for AD CS auditing based on the PSPKI toolkit.
+- [CrossLinked](https://github.com/m8sec/CrossLinked): LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping
+- [CSharp-Alt-Shellcode-Callbacks](https://github.com/wsummerhill/CSharp-Alt-Shellcode-Callbacks): A collection of (even more) alternative shellcode callback methods in CSharp
+- [MindAPI](https://github.com/dsopas/MindAPI): Organize your API security assessment by using MindAPI. It's free and open for community collaboration.
+- [random_c2_profile](https://github.com/threatexpress/random_c2_profile): Cobalt Strike random C2 Profile generator
+- [DragonCastle](https://github.com/mdsecactivebreach/DragonCastle): A PoC that combines AutodialDLL lateral movement technique and SSP to scrape NTLM hashes from LSASS process.
+- [goPassGen](https://github.com/bigb0sss/goPassGen): Easily-guessable Password Generator for Password Spray Attack
+- [PKINITtools](https://github.com/dirkjanm/PKINITtools): Tools for Kerberos PKINIT and relaying to AD CS
+- [Go365](https://github.com/optiv/Go365): An Office365 User Attack Tool
+- [OffensiveCSharp](https://github.com/matterpreter/OffensiveCSharp): Collection of Offensive C# Tooling
+- [ChatGPT-Google](https://github.com/ZohaibAhmed/ChatGPT-Google): Chrome Extension that Integrates ChatGPT (Unofficial) into Google Search
+- [PSBits](https://github.com/gtworek/PSBits): Simple (relatively) things allowing you to dig a bit deeper than usual.
+- [Spoofy](https://github.com/MattKeeley/Spoofy): Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records.
+- [sideloadr](https://github.com/Pascal-0x90/sideloadr): Small Python tool to do DLL Sideloading (and consequently, other DLL attacks).
+- [SilentMoonwalk](https://github.com/klezVirus/SilentMoonwalk): PoC Implementation of a fully dynamic call stack spoofer
+- [Gepetto](https://github.com/JusticeRage/Gepetto): IDA plugin which queries language models to speed up reverse-engineering
+- [InMemoryNET](https://github.com/mez-0/InMemoryNET): Exploring in-memory execution of .NET
+- [VEH-PoC](https://github.com/RedTeamOperations/VEH-PoC): None
+- [offensive-chatgpt](https://github.com/payloadartist/offensive-chatgpt): Offensive security use cases of ChatGPT
+- [CallObfuscator](https://github.com/d35ha/CallObfuscator): Obfuscate specific windows apis with different apis
+- [certi](https://github.com/zer1t0/certi): ADCS abuser
+- [CMLoot](https://github.com/1njected/CMLoot): Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) SMB shares
+- [Damn-Vulnerable-GraphQL-Application](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application): Damn Vulnerable GraphQL Application is an intentionally vulnerable GraphQL service implementation designed for learning about and practising GraphQL Security.
+- [DLLirant](https://github.com/redteamsocietegenerale/DLLirant): DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary.
+- [Spartacus](https://github.com/Accenture/Spartacus): Spartacus DLL/COM Hijacking Toolkit
+- [ShadowSpray](https://github.com/Dec0ne/ShadowSpray): A tool to spray Shadow Credentials across an entire domain in hopes of abusing long forgotten GenericWrite/GenericAll DACLs over other objects in the domain.
+- [Villain](https://github.com/t3l3machus/Villain): Villain is a high level stage 0/1 C2 framework that can handle multiple reverse TCP & HoaxShell-based shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).
+- [Collect-MemoryDump](https://github.com/LETHAL-FORENSICS/Collect-MemoryDump): Collect-MemoryDump - Automated Creation of Windows Memory Snapshots for DFIR
+- [avcleaner](https://github.com/scrt/avcleaner): C/C++ source obfuscator for antivirus bypass
+- [NetLoader](https://github.com/Flangvik/NetLoader): Loads any C# binary in mem, patching AMSI + ETW. 
+- [Advanced-Process-Injection-Workshop](https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop): None
+- [NTLMRelay2Self](https://github.com/med0x2e/NTLMRelay2Self): An other No-Fix LPE, NTLMRelay2Self over HTTP (Webdav).
+- [Coercer](https://github.com/p0dalirius/Coercer): A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 12 methods.
+- [Dumpert](https://github.com/k4nfr3/Dumpert): LSASS memory dumper using direct system calls and API unhooking.
+- [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz): Fork of SafetyKatz that dynamically fetches the latest pre-compiled release of Mimikatz directly from gentilkiwi GitHub repo, runtime patches signatures and uses SharpSploit DInvoke to PE-Load into memory.
+- [Pandoras-Box](https://github.com/paranoidninja/Pandoras-Box): This repo contains my custom scripts for Penetration Testing and Red Team Assessments. I will keep on updating this repo as and when I get time.
+- [PowerSharpPack](https://github.com/S3cur3Th1sSh1t/PowerSharpPack): None
+- [Internal-Monologue](https://github.com/eladshamir/Internal-Monologue): Internal Monologue Attack: Retrieving NTLM Hashes without Touching LSASS
+- [Lsass-Shtinkering](https://github.com/deepinstinct/Lsass-Shtinkering): None
+- [AMSI-Unchained](https://github.com/deepinstinct/AMSI-Unchained): Unchain AMSI by patching the provider’s unmonitored memory space
+- [MalSeclogon](https://github.com/antonioCoco/MalSeclogon): A little tool to play with the Seclogon service
+- [MicrosoftWontFixList](https://github.com/cfalta/MicrosoftWontFixList): A list of vulnerabilities or design flaws that Microsoft does not intend to fix. Since the number is growing, I decided to make a list. This list covers only vulnerabilities that came up in July 2021 (and SpoolSample ;-))
+- [AutoRDPwn](https://github.com/JoelGMSec/AutoRDPwn): The Shadow Attack Framework
+- [wiresocks](https://github.com/sensepost/wiresocks): A sock, with a wire, so you can tunnel all you desire.
+- [MSSQL-Analysis-Coerce](https://github.com/p0dalirius/MSSQL-Analysis-Coerce): A technique to coerce a Windows SQL Server to authenticate on an arbitrary machine.
+- [laZzzy](https://github.com/capt-meelo/laZzzy): laZzzy is a shellcode loader, developed using different open-source libraries, that demonstrates different execution techniques.
+- [DonPAPI](https://github.com/login-securite/DonPAPI): Dumping DPAPI credz remotely
+- [ldapnomnom](https://github.com/lkarlslund/ldapnomnom): Quietly and anonymously bruteforce Active Directory usernames at insane speeds from Domain Controllers by (ab)using LDAP Ping requests (cLDAP)
+- [ldeep](https://github.com/franc-pentest/ldeep): In-depth ldap enumeration utility
+- [Elevator](https://github.com/Kudaes/Elevator): UAC bypass by abusing RPC and debug objects.
+- [Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation): None
+- [caOptics](https://github.com/jsa2/caOptics): CA Optics - Azure AD Conditional Access Gap Analyzer
+- [chameleon](https://github.com/iustin24/chameleon): None
+- [cobaltstrike-headless](https://github.com/CodeXTF2/cobaltstrike-headless): Aggressorscript that turns the headless aggressor client into a (mostly) functional cobalt strike client.
+- [airstrike](https://github.com/smokeme/airstrike): None
+- [misc](https://github.com/rad9800/misc): miscellaneous scripts and programs
+- [spoonmap](https://github.com/trustedsec/spoonmap): None
+- [passphrase-wordlist](https://github.com/initstring/passphrase-wordlist): Passphrase wordlist and hashcat rules for offline cracking of long, complex passwords
+- [Presentations](https://github.com/Octoberfest7/Presentations): Slide decks and/or materials from conference presentations
+- [RedWarden](https://github.com/mgeeky/RedWarden): Cobalt Strike C2 Reverse proxy that fends off Blue Teams, AVs, EDRs, scanners through packet inspection and malleable profile correlation
+- [XLL_Phishing](https://github.com/Octoberfest7/XLL_Phishing): XLL Phishing Tradecraft
+- [C2-Tool-Collection](https://github.com/outflanknl/C2-Tool-Collection): A collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+- [Aggressor-VYSEC](https://github.com/vysecurity/Aggressor-VYSEC): None
+- [AceLdr](https://github.com/kyleavery/AceLdr): Cobalt Strike UDRL for memory scanner evasion.
+- [TerraLdr](https://github.com/NUL0x4C/TerraLdr): A Payload Loader Designed With Advanced Evasion Features
+- [BokuLoader](https://github.com/boku7/BokuLoader): A proof-of-concept Cobalt Strike Reflective Loader which aims to recreate, integrate, and enhance Cobalt Strike's evasion features!
+- [CS-Remote-OPs-BOF](https://github.com/trustedsec/CS-Remote-OPs-BOF): None
+- [HelpColor](https://github.com/outflanknl/HelpColor): Agressor script that lists available Cobalt Strike beacon commands and colors them based on their type
+- [CS-Situational-Awareness-BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF): Situational Awareness commands implemented using Beacon Object Files
+- [regulator](https://github.com/cramppet/regulator): Automated learning of regexes for DNS discovery
+- [dnsx](https://github.com/projectdiscovery/dnsx): dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
+- [Subenum_deep_subdomain_enumeration](https://github.com/Virdoexhunter/Subenum_deep_subdomain_enumeration): In this repo, I have created a subdomain enumeration function that grab subdomains in deep.
+- [Azure-AccessPermissions](https://github.com/csandker/Azure-AccessPermissions): None
+- [adPEAS](https://github.com/61106960/adPEAS): Powershell tool to automate Active Directory enumeration.
+- [linWinPwn](https://github.com/lefayjey/linWinPwn): linWinPwn is a bash script that streamlines the use of a number of Active Directory tools
+- [trufflehog](https://github.com/trufflesecurity/trufflehog): Find, verify, and analyze leaked credentials
+- [powerview.py](https://github.com/aniqfakhrul/powerview.py): Just another Powerview alternative
+- [5head](https://github.com/r3s-ost/5head): Network penetration testing toolset wrapper
+- [password_cracking_rules](https://github.com/NotSoSecure/password_cracking_rules): One rule to crack all passwords. or atleast we hope so.
+- [hashcat-rule](https://github.com/clem9669/hashcat-rule): Rule for hashcat or john. Aiming to crack how people generate their password
+- [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi): Wordlist, rules and masks from Kaonashi project (RootedCON 2019)
+- [WMImplant](https://github.com/RedSiege/WMImplant): This is a PowerShell based tool that is designed to act like a RAT. Its interface is that of a shell where any command that is supported is translated into a WMI-equivalent for use on a network/remote machine. WMImplant is WMI based.
+- [bloodhound-quickwin](https://github.com/kaluche/bloodhound-quickwin): Simple script to extract useful informations from the combo BloodHound + Neo4j
+- [pentestgod](https://github.com/ohmigod/pentestgod): A collection of everything I learn while working as a pentester, doing certifications, bug bounty hunting or playing CTFs.
+- [Covenant](https://github.com/cobbr/Covenant): Covenant is a collaborative .NET C2 framework for red teamers.
+- [RockYou2021.txt](https://github.com/ohmybahgosh/RockYou2021.txt): RockYou2021.txt is a MASSIVE WORDLIST compiled of various other wordlists.  RockYou2021.txt DOES NOT CONTAIN USER:PASS logins!  
+- [ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling): Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.
+- [AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense): This publication is a collection of various common attack scenarios on Microsoft Entra ID (formerly known as Azure Active Directory) and how they can be mitigated or detected.
+- [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec): A swiss army knife for pentesting networks
+- [maldev-for-dummies](https://github.com/chvancooten/maldev-for-dummies): A workshop about Malware Development
+- [splunk_local_privesc](https://github.com/tevora-threat/splunk_local_privesc): Splunk forwarder ez-pz local privesc tool.
+- [jwt_tool](https://github.com/ticarpi/jwt_tool): :snake: A toolkit for testing, tweaking and cracking JSON Web Tokens
+- [TangledWinExec](https://github.com/daem0nc0re/TangledWinExec): PoCs and tools for investigation of Windows process execution techniques
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings): A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+- [PowerHuntShares](https://github.com/NetSPI/PowerHuntShares): PowerHuntShares is an audit script designed in inventory, analyze, and report excessive privileges configured on Active Directory domains.
+- [Masky](https://github.com/Z4kSec/Masky): Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
+
+---
 
 - [PowerChell](https://github.com/scrt/PowerChell): A PowerShell console in C/C++ with all the security features disabled
 - [WebcamBOF](https://github.com/CodeXTF2/WebcamBOF): Webcam capture capability for Cobalt Strike as a BOF, with in-memory download options
